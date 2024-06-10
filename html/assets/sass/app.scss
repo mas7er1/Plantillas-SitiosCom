@@ -1,0 +1,106 @@
+/*---------------------------------------------"
+// Template Name: Audio Beats
+// Template URL: https://techpedia.co.uk/template/audiobeats
+// Description: Audio Beats Innovative Audio Music Theme
+// Version: 1.0.0
+
+===============================================   
+STYLE SHEET INDEXING
+|
+|___ Fonts
+|___ Variables
+|___ Reset Styles
+|___ Responsive
+|___ Spacing
+|___ Helper Classes
+|___ Buttons
+|___ Headings
+|___ Layout Styles
+|___ END STYLE SHEET INDEXING
+
+--------------------------------------------*/
+
+/*-------------------------
+    Fonts
+-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/*-------------------------
+    Variables
+-------------------------*/
+$font-primary: 'Inter', sans-serif;
+$font-sec: 'Orbitron', sans-serif;
+$font-awesome: "Font Awesome 5 Pro";
+$transition: all 0.5s ease;
+$accent-1: #FF6B00;
+$white: #FAFAFA;
+$light-black: #2C2D2F;
+$black: #1B1C1E;
+$dark-black: #0D0D0D;
+$lightest-gray: #F0F2F4;
+$light-gray: #D6D8DB;
+$medium-gray: #AFB1B6;
+$dark-gray: #797D86;
+$gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.00) 100%);
+$gradient-2: linear-gradient(180deg, rgba(27, 28, 30, 0.80) 0%, rgba(27, 28, 30, 0.48) 100%);
+$shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), -2px -2px 6px 0px rgba(0, 0, 0, 0.10), -7px -8px 11px 0px rgba(0, 0, 0, 0.09), -16px -18px 14px 0px rgba(0, 0, 0, 0.05), -28px -32px 17px 0px rgba(0, 0, 0, 0.01), -44px -50px 19px 0px rgba(0, 0, 0, 0.00);
+$shadow-2: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 11px 12px 36px 0px rgba(0, 0, 0, 0.10), 42px 49px 65px 0px rgba(0, 0, 0, 0.09), 95px 111px 88px 0px rgba(0, 0, 0, 0.05), 170px 198px 104px 0px rgba(0, 0, 0, 0.01), 265px 309px 114px 0px rgba(0, 0, 0, 0.00);
+
+/*-------------------------
+    Reset Styles
+-------------------------*/
+@import "basic/basic";
+
+/*-------------------------
+Helpers
+-------------------------*/
+@import "helpers/classes";
+
+@import "helpers/mixin";
+
+@import "helpers/spacing";
+
+/*-------------------------
+Elements
+-------------------------*/
+@import "elements/preloader";
+
+@import "elements/buttons";
+
+@import "elements/form";
+
+@import "elements/heading";
+
+@import "elements/countdown";
+
+@import "elements/search-input";
+
+/*-------------------------
+  layouts
+-------------------------*/
+@import "layout/header";
+
+@import "layout/footer";
+
+@import "layout/hero-banner";
+
+@import "layout/card.scss";
+
+@import "layout/songs-list.scss";
+
+@import "layout/coming-soon-banner";
+
+@import "layout/login";
+
+@import "layout/signup";
+
+@import "layout/release-banner";
+
+@import "layout/artist-banner";
+
+@import "layout/mix";
+
+@import "layout/album-banner";
+
+@import "layout/pagination";

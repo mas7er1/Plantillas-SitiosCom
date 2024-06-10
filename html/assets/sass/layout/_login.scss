@@ -1,0 +1,94 @@
+.login{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: stretch;
+    @include media-query(991px) {
+        margin-top: 72px;
+    }
+    @include media-query(767px) {
+        flex-direction: column;
+    }
+    .form-area{
+        width: 40%;
+        border-radius: 30px;
+        background: $gradient-2;
+        @include media-query(991px) {
+            width: 50%;
+        }
+        @include media-query(767px) {
+            width: 100%;
+        }
+        .content{
+            display: grid;
+            height: 883px;
+            align-content: center;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+            @include media-query(1799px) {
+                height: 750px;
+            }
+            @include media-query(1599px) {
+                height: 700px;
+            }
+            @include media-query(1199px) {
+                height: 700px;
+            }
+            @include media-query(767px) {
+                max-width: 550px;
+                margin: 0 auto;
+                height: 600px;
+            }
+            @include media-query(400px) {
+                padding: 16px;
+            }
+            .link-button{
+                display: flex;
+                align-items: center;
+                border-radius: 12px;
+                padding: 8px 16px;
+                gap: 16px;
+                justify-content: center;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 150%;
+                letter-spacing: 0.32px;
+                &.google{
+                    color: $black;
+                    border: 1px solid $black;
+                    background-color: $white;
+                }
+                &.facebook{
+                    color: $white;
+                    border: 1px solid $dark-gray;
+                    background-color: #405A93;
+                }
+            }
+            hr{
+                margin: 32px 16px;
+                height: 1px;
+                background-color: $medium-gray;
+            }
+            form{
+                button{
+                    border: none;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .side-img{
+        object-fit: cover;
+        width: 60%;
+        border-radius: 30px;
+        @include media-query(991px) {
+            width: 50%;
+        }
+        @include media-query(767px) {
+            width: 100%;
+        }
+    }
+}

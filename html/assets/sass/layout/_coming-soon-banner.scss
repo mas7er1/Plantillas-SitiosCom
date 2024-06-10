@@ -1,0 +1,47 @@
+.coming-soon-banner{
+    background:  url(../media/bg/coming-soon-bg.png) ;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    .content{
+        max-width: 495px;
+        margin: 0 auto;
+        display: grid;
+        align-content: center;
+        height: 716px;
+        @include media-query(1599px) {
+            height: auto;
+            padding: 64px 16px;
+        }
+        @include media-query(992px) {
+            padding: 48px 16px;
+        }
+        @include media-query(767px) {
+            padding: 32px 16px;
+        }
+        @include media-query(575px) {
+            padding: 24px 16px;
+        }
+        .detail{
+            display: flex;
+            gap: 32px;
+            padding: 8px 16px;
+            border-radius: 12px;
+            background: $gradient;
+            width: fit-content;
+            li{
+                &:first-child{
+                    list-style: none;
+                }
+                &::marker{
+                    fill: $medium-gray;     
+                    color: $medium-gray;             
+                }
+            }
+        }
+        .cus-btn{
+            width: fit-content;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    h6{
+        margin-right: 94px;
+        @media(max-width: 575px) {
+          margin-right: 0;
+        } 
+    }
+}

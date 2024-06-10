@@ -1,0 +1,834 @@
+/*================================
+<--  maria light-theme Style Css -->
+==================================*/
+
+/* Dark Lite */
+.dark-light {
+    cursor: pointer;
+}
+
+.dark-light span {
+    color: #fff;
+    font-size: 35px;
+}
+
+body.dark-theme {
+    color: #fff !important;
+}
+
+/* header area css*/
+
+.dark-theme .sticky .dark-light {
+    cursor: pointer;
+    z-index: 998;
+    right: 35px;
+    top: 22px;
+}
+
+.dark-theme .maria_menu>ul>li>a {
+    color: #161617;
+}
+
+.light-theme .sticky {
+    background: #fff !important;
+}
+
+.dark-theme .search-box-btn.search-box-outer {
+    color: #161617;
+}
+
+/* hero section css*/
+.dark-theme .hero-section {
+    background: url(../images/resource/hero-imgdark.jpg) !important;
+}
+
+.dark-theme .maria_nav_manu {
+    background-color:#fff;
+}
+
+.dark-theme .hero-text p {
+    color: rgb(206, 206, 206);
+}
+
+.dark-theme .hero-button a {
+    background-color: rgb(69, 69, 69);
+}
+
+.dark-theme .hero-title h2::before {
+    -webkit-text-fill-color: #fff;
+    color: #fff;
+}
+
+.dark-theme .hero-title h2[data-hover] {
+    -webkit-text-stroke: 1px #fff;
+}
+
+.dark-theme .slider-socail-icon a {
+    color: #fff;
+}
+
+.dark-theme .hero-title h3 {
+    color: #161617;
+    -webkit-text-stroke-color: #161617;
+}
+
+.dark-theme .hero-title h1 {
+    color: #fff;
+}
+
+.dark-theme .about-button a::before {
+    background: #fff;
+}
+
+
+/*feature area css*/
+
+.dark-theme .feature-area {
+    padding: 100px 0 95px 0;
+    background: #161617;
+}
+
+.dark-theme .feature-box-title h2 {
+    color: #fff;
+}
+
+.dark-theme .feature-box-description p {
+    color: #FFFFFFBF;
+}
+
+.dark-theme .feature-box-number:before {
+    background: #fff;
+}
+
+/*about area css*/
+.dark-theme .about-area {
+    background: url(../images/resource/about-bg-dark.jpg) !important;
+}
+
+.dark-theme .maria-section-title h3 {
+    color: #fff;
+}
+
+.dark-theme .maria-section-title h2 {
+    color: #fff;
+}
+
+.dark-theme .about-button a {
+    border: 1px solid#fff;
+    color: #fff;
+}
+
+.dark-theme .about-button a:hover {
+    color: #161617;
+}
+
+.dark-theme .our-case-area {
+    padding: 100px 0 75px;
+    background: #161617;
+}
+
+/*skill area css*/
+.dark-theme .our-skill-area {
+    background: url(../images/resource/skills-bg-dark.jpg) !important;
+}
+
+.dark-theme .prossess-ber-plugin span {
+    color: #ffff;
+}
+
+.dark-theme span.fill {
+    background: #fff !important;
+    border-radius: 5px;
+}
+
+.dark-theme .barfiller {
+    background-color: grey;
+}
+
+.dark-theme .maria-section-title.text-left h1 {
+    color: #161617;
+    -webkit-text-stroke-color: #161617;
+}
+
+.dark-theme .maria-section-title h5 {
+    color: #ffff;
+}
+
+.dark-theme .contact-section .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .contact-section .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .our-case-area .maria-section-title.text-left h1 {
+    color: transparent;
+    -webkit-text-stroke-color: #eceded;
+    opacity: 0.1;
+}
+
+.dark-theme .team-area .maria-section-title.text-left h1 {
+    color: transparent;
+    -webkit-text-stroke-color: #eceded;
+    opacity: 0.1;
+}
+
+.dark-theme .testimonial-area .maria-section-title.text-left h1 {
+    color: transparent;
+    -webkit-text-stroke-color: #eceded;
+    opacity: 0.1;
+}
+
+.dark-theme .blog-area .maria-section-title.text-left h1 {
+    color: transparent;
+    -webkit-text-stroke-color: #eceded;
+    opacity: 0.1;
+}
+
+.dark-theme .team-area {
+    padding: 100px 0 100px;
+    background: #161617;
+}
+
+.dark-theme .testimonial-area {
+    background: #161617;
+}
+
+.dark-theme .testi_text p {
+    color: #fff;
+}
+
+.dark-theme .testimonial-area-two .testi_text p{
+    color:#161617;
+}
+
+.dark-theme .testi_title h2 {
+    color: #fff;
+}
+
+.dark-theme .testimonial-area-two .testi_title h2{
+    color:#161617;
+}
+
+.dark-theme .testi_title span {
+    color: #fff;
+}
+
+.dark-theme .testimonial-area-two .testi_title span{
+    color:#161617;
+} 
+
+.dark-theme .testimonial-area .owl-dot {
+    background: #fff;
+}
+
+.dark-theme .blog-area {
+    background: #161617;
+}
+
+.dark-theme .blog-content {
+    background: #161617;
+}
+
+.dark-theme .blog-page-title h2 {
+    color: #fff;
+}
+
+.dark-theme .maria-blog-meta-left span {
+    color: #999999;
+}
+
+.dark-theme .blog-text p {
+    color: #999999;
+}
+
+.dark-theme .maria-blog-button a {
+    color: #fff;
+}
+
+.dark-theme .maria-blog-button a::before {
+    background: #fff;
+}
+
+.dark-theme .maria-blog-meta-left span:hover {
+    color: #fff;
+}
+
+.dark-theme .contact-btn a::before {
+    background: #fff;
+}
+
+/*counter home one*/
+.dark-theme .counter-area .counter-number h2 {
+    color: #fff;
+}
+
+.dark-theme .counter-area .counter-text span {
+    color: #fff;
+}
+/* home page two*/
+
+.dark-theme .about-us-button-two a {
+    background: #fff;
+}
+
+.dark-theme .about-us-button a {
+    color: #fff;
+    border: 1px solid #787878;
+}
+
+.dark-theme .about-us-thumb img {
+    max-width: 100%;
+    filter: brightness(1)invert(1);
+}
+
+.dark-theme .about-us-thumb2 img {
+    filter: brightness(0.5);
+}
+
+.dark-theme .banner-area {
+    background: #161617;
+}
+
+.dark-theme .banner-sub-title h2 {
+    color: #fff;
+}
+
+.dark-theme .banner-main-title h1 {
+    color: #fff;
+}
+
+.dark-theme .banner-button a {
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+.dark-theme .banner-button a:hover{
+    background: #fff;
+    color: #161617;
+}
+
+.dark-theme .about-us-area {
+    background-color: #161617;
+
+}
+
+.dark-theme .section-bar:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dark-theme .section-bar:after {
+    background: #fff;
+}
+
+.dark-theme .section-bar-title h2 {
+    color: #fff;
+}
+
+.dark-theme .section-bar-title h3 {
+    color: #fff;
+}
+
+.dark-theme .section-bar-title p {
+    color: #999999;
+}
+
+.dark-theme .about-box-icon i {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.dark-theme .about-box-title h2 {
+    color: #fff;
+}
+
+.dark-theme .portfolio-area {
+    background-color: #161617;
+}
+
+.dark-theme .section-bar-two:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dark-theme .section-bar-two:after {
+    background: #fff;
+}
+
+.dark-theme .about-us-area-two {
+    background: #161617;
+}
+
+.dark-theme .section-bar-there:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dark-theme .section-bar-there::after {
+    background: #fff;
+}
+
+.dark-theme .best-work-tab {
+    border: 1.5px solid #fff;
+}
+
+.dark-theme .best-work-tab-btn button {
+    background-color: #fff;
+}
+
+.dark-theme .best-work-tab-btn button img, .best-work-tab-btn button img {
+    filter: brightness(4) invert(1);
+}
+
+.dark-theme .testimonial-area-two {
+    background: #161617;
+}
+
+.dark-theme .best-work-tab-content {
+    border: 20px solid #fff;
+}
+
+.dark-theme .testimonial-area-two .owl-dot.active {
+    background: #161617;
+    width: 35px;
+}
+
+.dark-theme .brand-area {
+    background: #161617;
+}
+
+.dark-theme .pricing-area {
+    background-color: #0E0E11;
+}
+
+.dark-theme .pricing_title h3 {
+    color: #fff;
+}
+
+.dark-theme span.tk {
+    color: #fff;
+}
+
+.dark-theme .priching .order_now a {
+    background: #161617;
+    border-color: #161617;
+}
+
+.dark-theme .best-work-tab-btn button:hover img, .best-work-tab-btn button.active img {
+    filter: brightness(0);
+}
+
+.dark-theme .best-work-tab-btn button:hover img, .best-work-tab-btn button.active img {
+    filter: brightness(0);
+}
+
+.dark-theme .portfolio-area .owl-dot {
+    background: #ddd;
+}
+
+.dark-theme .portfolio-area .owl-dot.active {
+    background: #fff;
+}
+
+/*light theme*/
+
+/*light theme about inner page*/
+
+.dark-theme .about-us-area.style-two {
+    background: #fff;
+    border-top: 1px solid #161617;
+    border-bottom: 1px solid #161617;
+}
+
+.dark-theme .about-us-area.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .about-us-area.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .about-us-area.style-two .maria-section-title h2 {
+    color: #161617;
+}
+
+.dark-theme .about-us-area.style-two .section-bar:before {
+    background: #161617;
+}
+
+.dark-theme .about-us-area.style-two .section-bar:after {
+    background: #ddd;
+}
+
+.dark-theme .about-us-area.style-two .section-bar-title h2 {
+    color: #161617;
+}
+
+.dark-theme .about-us-area.style-two .section-bar-title h3 {
+    color: #161617;
+}
+
+.dark-theme .about-us-area.style-two .about-box-icon i {
+    color: #161617;
+    border: 1px solid #161617;
+}
+
+.dark-theme .about-us-area.style-two .about-box-title h2 {
+    color: #161617;
+}
+
+.dark-theme .counter-area.style-two {
+    background: #fff;
+}
+
+.dark-theme .counter-area.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .counter-area.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .counter-area.style-two .section-bar-two:before {
+    background: #161617;
+}
+
+.dark-theme .counter-area.style-two .section-bar-two:after {
+    background: #ddd;
+}
+
+.dark-theme .counter-area.style-two .counter-number h2 {
+    color: #161617;
+}
+
+.dark-theme .counter-area.style-two .counter-text span {
+    color: #161617;
+}
+
+.dark-theme .work-area {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+    border-bottom: 1px solid #161617;
+    background-image: none;
+}
+
+.dark-theme .work-area .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .work-area .maria-section-title p {
+    color: #161617;
+}
+
+.dark-theme .work-button a {
+    background: #fff;
+    color: #161617;
+    border: 1px solid #161617;
+}
+
+.dark-theme .work-button a::before {
+    background: #161617;
+}
+
+/*all hover*/
+.dark-theme .work-button a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.dark-theme .work-button a:hover{
+    color: #fff;
+}
+
+.dark-theme .team-area.style-two {
+    background-color: #fff;
+}
+
+.dark-theme .team-area.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-two .section-bar-two:before {
+    background: #161617;
+}
+
+.dark-theme .team-area.style-two .section-bar-two:after {
+    background: #ddd;
+}
+
+.dark-theme .team-area.style-two .maria-section-title.text-center p {
+    color: #161617;
+}
+
+.dark-theme .testimonial-area-there {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .testimonial-area-there {
+    background-color: #fff;
+}
+
+.dark-theme .testimonial-area-there .row.testi-bg.align-items-center {
+    background: #f8f8f8;
+}
+
+.dark-theme .testimonial-area-there .testi_text p {
+    color: #161617;
+}
+
+.dark-theme .testimonial-area-there .testi_title h2 {
+    color: #161617;
+}
+
+.dark-theme .testimonial-area-there .owl-dot.active {
+    background: #161617;
+    width: 35px;
+}
+
+.dark-theme .brand-area.style-two {
+    background-color: #fff;
+}
+
+/*light theme service inner*/
+.dark-theme .feature-area.style-two {
+    background-color: #fff;
+}
+
+.dark-theme .service-box-desc p {
+    color: #161617;
+}
+
+.dark-theme .feature-area.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .feature-area.style-two  .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .feature-area.style-two .feature-box-title h2 {
+    color: #161617;
+}
+
+.dark-theme .feature-area.style-two .feature-box-description p {
+    color: #161617;
+}
+
+.dark-theme .feature-area.style-two .feature-box-number:before {
+    background: #161617;
+}
+
+.dark-theme .feature-area.style-two span.number {
+    color: #161617;
+}
+
+.dark-theme .service-area .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .service-area .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .service-area.style-two {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .pricing-area.style-two {
+    background-color: #fff;
+}
+
+.dark-theme .pricing-area.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .pricing-area.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .pricing-area.style-two span.tk {
+    color: #161617;
+}
+
+.dark-theme .pricing-area.style-two .pricing_title h3 {
+    color: #161617;
+}
+
+.dark-theme .brand-area.style-there {
+    background-color: #fff;
+}
+
+/*portfolio inner*/
+.dark-theme .our-case-area.style-portfolio {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme section.potfolio-details-section {
+    background: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .portfolio-related-desc p {
+    color: #161617;
+}
+
+.dark-theme .portfolio-strategy-desc p {
+    color: #161617;
+}
+
+/*our team inner there*/
+.dark-theme .team-area.style-there {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .team-area.style-there .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-there .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-four {
+    background: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .team-area.style-four .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-four .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-five {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .team-area.style-five .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .team-area.style-five .maria-section-title h3 {
+    color: #161617;
+}
+
+/*pricing inner*/
+.dark-theme .pricing-area.style-there {
+    background-color: #fff;
+}
+
+.dark-theme .pricing-area.style-there span.tk {
+    color: #161617;
+}
+
+.dark-theme .pricing-area.style-there .pricing_title h3 {
+    color: #161617;
+}
+
+/*contact inner*/
+.dark-theme .contact-section {
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .feature-are.style-two {
+    background-color: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .feature-are.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .feature-are.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+.dark-theme .feature-are.style-two .feature-box-title h2 {
+    color: #161617;
+}
+
+.dark-theme .feature-are.style-two .feature-desc {
+    color: #161617;
+}
+
+.dark-theme .feature-are.style-two .maria-section-title h5 {
+    color: #161617;
+}
+
+.dark-theme .feature-are.style-two .maria-section-title h3 {
+    color: #161617;
+}
+
+/*blog grid inner*/
+.dark-theme .blog-area.style-two {
+    background: #fff;
+    border-top: 1px solid #161617;
+}
+
+.dark-theme .blog-area.style-two .blog-content {
+    background: #fff;
+}
+
+.dark-theme .blog-area.style-two .blog-page-title h2 {
+    color: #161617;
+}
+
+.dark-theme .blog-area.style-two .maria-blog-meta-left span:hover {
+    color: #0c5adb;
+}
+
+.dark-theme .blog-area.style-two .maria-blog-button a {
+    color: #161617;
+}
+
+.dark-theme .blog-area.style-two .maria-blog-button a::before {
+    background: #161617;
+}
+
+.dark-theme .blog-area.style-two .single-blog {
+    border: 1px solid #161617;
+}
+
+.dark-theme #calendar #calendar-grid time.disabled, #calendar #calendar-grid time.disabled:focus {
+    color: #161617;
+}
+
+.dark-theme #calendar #calendar-grid > time {
+    color: #161617;
+}
+
+/*blog details*/
+.dark-theme .blog-details-content-text p, .blog-details-content-text-inner p {
+    margin-bottom: 21px;
+    color: #161617;
+}
+
+.dark-theme .blog-details-content-text-inner2 p {
+    color: #161617;
+}
+
+.dark-theme .single-blog-content ul {
+    color: #161617;
+}
+
+.dark-theme .single-blog-content p {
+    color: #161617;
+}
+
+.dark-theme .contact_from .form_box textarea {
+    border: 1px solid #161617;
+}
+
+.dark-theme .form_box input {
+    border: 1px solid #161617;
+}

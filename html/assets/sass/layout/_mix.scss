@@ -1,0 +1,35 @@
+.filter-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    @include media-query(767px) {
+        justify-content: center;
+    }
+    .tabs-bar{
+        padding: 8px;
+        background: $black;
+        border-radius: 15px;
+        .nav-tabs{
+            border-bottom: none;
+            .nav-item{
+                .nav-link{
+                    border: none;
+                    background-color: $black;
+                    color: $white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 150%;
+                    letter-spacing: 0.32px;
+                    border-radius: 10px;
+                    margin-bottom: 0;
+                    &.active{
+                        background-color: $accent-1;
+                    }
+                }
+            }
+        }
+    }
+  }

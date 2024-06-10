@@ -1,0 +1,392 @@
+// Song card
+.song-card{
+  box-shadow: $shadow-2;
+  &.st-1{
+    border-radius: 30px;
+    overflow: hidden;
+    .img-block{
+      position: relative;
+      img{
+        border-radius: 30px;
+        max-height: 350px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .wishlist-icon{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        cursor: pointer;
+        @include media-query(575px) {
+          top: 12px;
+          right: 12px;
+        }
+        i{
+          padding: 8px;
+          color: $white;
+          font-size: 24px;
+          border-radius: 8px;
+          background: $gradient;
+          backdrop-filter: blur(10px);
+          @include media-query(575px) {
+            padding: 4px;
+            font-size: 18px;
+          }
+          &.fas{
+            color: red;
+          }
+        }
+      }
+      .box-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        transform: translate(-300px, -50%);
+        transition: $transition;
+        a{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .play-icon{
+            position: relative;
+            margin: 0 auto;
+            border: 2px solid $white;
+            border-radius: 48px;
+            width: 48px;
+            height: 48px;
+            background: $gradient;
+            margin-bottom: 8px;
+            i{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 20px;
+              color: $white;
+            }
+          }
+          &:hover{
+            .play-icon{
+              border: 2px solid $accent-1;
+              i{
+                color: $accent-1;
+              }
+            }
+            h5{
+              color: $accent-1;
+            }
+          }
+        }
+      }
+      .content{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 16px 16px;
+        .top-row{
+          display: flex;
+          align-items: flex-start;
+          gap: 4px;
+          justify-content: space-between;
+          p{
+            overflow: visible;
+          }
+        }
+        p{
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+                  line-clamp: 1; 
+          -webkit-box-orient: vertical;      
+        }
+      }
+    }
+    &:hover{
+      .img-block{
+        .box-content{
+          transform: translate(-50%, -50%);
+          transition: $transition;
+        }
+      }
+    }
+  }
+  &.st-2{
+    overflow: hidden;
+    border-radius: 30px;
+    .img-block{
+      position: relative;
+      img{
+        border-radius: 30px 30px 0px 0px;
+      }
+      .wishlist-icon{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        cursor: pointer;
+        i{
+          padding: 8px;
+          color: $white;
+          font-size: 24px;
+          border-radius: 8px;
+          background: $gradient;
+          backdrop-filter: blur(10px);
+          &.fas{
+            color: red;
+          }
+        }
+      }
+      .box-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        transform: translate(-300px, -50%);
+        transition: $transition;
+        a{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .play-icon{
+            position: relative;
+            margin: 0 auto;
+            border: 2px solid $white;
+            border-radius: 48px;
+            width: 48px;
+            height: 48px;
+            background: $gradient;
+            margin-bottom: 8px;
+            i{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 20px;
+              color: $white;
+            }
+          }
+          &:hover{
+            .play-icon{
+              border: 2px solid $accent-1;
+              i{
+                color: $accent-1;
+              }
+            }
+            h5{
+              color: $accent-1;
+            }
+          }
+        }
+      }
+    }
+    .content{
+      padding: 24px 16px;
+      border-radius: 0 0 30px 30px;
+      background: $gradient-2;
+      backdrop-filter: blur(10px);
+      @include media-query(575px) {
+        padding: 16px 12px;
+      }
+      .top-row{
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        justify-content: space-between;
+        p{
+          overflow: visible;
+        }
+      }
+      p{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+                line-clamp: 1; 
+        -webkit-box-orient: vertical;      
+      }
+    }
+    &:hover{
+      .img-block{
+        .box-content{
+          transform: translate(-50%, -50%);
+          transition: $transition;
+        }
+      }
+    }
+  }
+}
+.slider-1{
+  .song-card{
+    margin: 0 24px 0 0;
+    box-shadow: none;
+    @include media-query(520px) {
+      margin: 0px 4px;
+    }
+  }
+}
+.slider-2{
+  .song-card{
+    margin: 0 24px 0 0;
+    box-shadow: none;
+    @include media-query(520px) {
+      margin: 0px 4px;
+    }
+  }
+}
+
+// Trending Album
+.trending-side-block{
+    border-radius: 30px;
+    background: $gradient-2;
+    backdrop-filter: blur(10px);
+    padding-bottom: 32px;
+    &.st-2{
+      padding: 16px 0 32px;
+    }
+    .playing{
+      display: flex;
+      padding: clamp(16px, 1.66vw, 42px);
+      gap: clamp(16px, 1.25vw, 32px);
+      .img-block{
+        position: relative;
+        @include short-query(992px , 1199px) {
+          width: 40%;
+        }
+        @include media-query(400px) {
+          width: 40%;
+        }
+        img{
+          border-radius: 30px;
+        }
+        .wishlist-icon{
+          position: absolute;
+          top: clamp(12px, 0.833vw, 22px);
+          right: clamp(12px, 0.833vw, 22px);
+          cursor: pointer;
+          i{
+            padding: clamp(6px, 0.5vw, 12px);
+            color: $white;
+            font-size: clamp(16px, 1.25vw, 32px);
+            border-radius: clamp(6px, 0.5vw, 12px);
+            background: $gradient;
+            backdrop-filter: blur(10px);
+            &.fas{
+              color: red;
+            }
+          }
+        }
+      }
+      .detail{
+        flex-shrink: 0;
+        
+        .info{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: clamp(12px, 0.833vw, 22px);
+        }
+        .btn-row{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: clamp(12px, 0.833vw, 22px);
+        }
+      }
+    }
+}
+
+// Genres Card
+.genres-card{
+  border-radius: 20px;
+  background: $gradient-2;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  .content{
+    padding-left: 24px;
+  }
+  img{
+   border-radius: 20px;
+  }
+}
+
+// Artist Card
+.artist-card{
+  text-align: center;
+  img{
+    border-radius: 500px;
+  }
+}
+.artist-slider{
+  .artist-card{
+    margin: 0 24px 0 0;
+    @include media-query(575px) {
+      margin: 0 12px 0 0;
+    }
+    @include media-query(370px) {
+      margin: 0 4px;
+    }
+  }
+}
+
+// Playlist Card 
+.play-list-card{
+  border-radius: 20px;
+  box-shadow: $shadow-2;
+  .img-block{
+    position: relative;
+    img{
+      border-radius: 20px;
+    }
+    .add-icon{
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      cursor: pointer;
+      padding: 8px;
+      padding-top: 5px;
+      border-radius: 8px;
+      background: rgba(185, 191, 202, 0.40);
+      backdrop-filter: blur(10px);
+      @include media-query(575px) {
+        padding: 4px;
+      }
+      @include media-query(575px) {
+        top: 12px;
+        right: 12px;
+      }
+    }
+    .add-icon-2{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h6{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 16px;
+    }
+  }
+}
+
+.playlist_tracks{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  .add-icon{
+    cursor: pointer;
+    padding: 8px;
+    padding-top: 5px;
+    border-radius: 8px;
+    background: rgba(185, 191, 202, 0.40);
+    backdrop-filter: blur(10px);
+    @include media-query(575px) {
+      padding: 4px;
+    }
+  }
+}

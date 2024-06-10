@@ -1,0 +1,55 @@
+.album-banner{
+    @include media-query(991px) {
+        margin-top: 72px;
+    }
+    .album-card{
+        border-radius: 20px;
+        .img-block{
+            min-height: 350px;
+            position: relative;
+            img{
+                border-radius: 20px;
+                min-height: 350px;
+                object-fit: cover;
+            }
+            .wishlist-icon{
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                cursor: pointer;
+                @include media-query(575px) {
+                    top: 12px;
+                    right: 12px;
+                }
+                i{
+                    padding: 8px;
+                    color: $white;
+                    font-size: 24px;
+                    border-radius: 8px;
+                    background: $gradient;
+                    backdrop-filter: blur(10px);
+                    @include media-query(575px) {
+                    padding: 4px;
+                    font-size: 18px;
+                    }
+                    &.fas{
+                    color: red;
+                    }
+                }
+            }
+            .content{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 24px;
+                .duration{
+                    width: fit-content;
+                    padding: 4px 16px;
+                    border-radius: 10px;
+                    box-shadow: $shadow-2;
+                    background: $gradient;
+                  }
+            }
+        }
+    }
+}

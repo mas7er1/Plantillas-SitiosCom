@@ -1,0 +1,2572 @@
+
+/* Normal desktop :1300px. */
+@media (min-width: 1300px){
+
+  .home-title h5 {
+    font-size: 15px;
+}
+
+.home-title h1 {
+  font-size: 50px;
+}
+
+.about-content h3 {
+  font-size: 44px;
+}
+
+/*===============blog-grid==================*/
+
+p.mission-description {
+  width: 100%;
+}
+
+.skill-content h3 {
+  font-size: 44px;
+}
+
+.mission-two-content h3 {
+  font-size: 41px;
+}
+
+
+.team-titles h2::before {
+  left: 515px;
+}
+
+.team-titles h2::after {
+  left: 515px;
+}
+
+
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px){
+
+.home-title h5 {
+    font-size: 15px;
+}
+
+.home-title h1 {
+  font-size: 50px;
+}
+
+.about-content h3 {
+  font-size: 44px;
+}
+  
+p.mission-description {
+  width: 100%;
+}
+
+.skill-content h3 {
+  font-size: 44px;
+}
+
+.mission-two-content h3 {
+  font-size: 41px;
+}
+
+
+/*===============blog-grid==================*/
+
+
+
+.team-titles h2::before {
+  left: 515px;
+}
+
+.team-titles h2::after {
+  left: 515px;
+}
+
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .sticky {
+    position: absolute !important;
+}
+
+  .Technice_menu>ul>li>a {
+    font-size: 16px;
+    padding: 30px 5px;
+}
+
+.home-thumb img {
+  width: 100%;
+}
+
+.home-title h5 {
+  font-size: 12px;
+}
+
+.home-title h1 {
+  font-size: 40px;
+}
+
+.home-title h1 span {
+  font-size: 40px;
+}
+
+.home-title p {
+  font-size: 15px;
+}
+
+.all-shape {
+  display: none;
+}
+
+.home-thumb img {
+  margin-top: 200px;
+}
+
+/*=================about-section=================*/
+.about-content p {
+  font-size: 17px;
+}
+
+.about-content h3 {
+  font-size: 32px;
+}
+
+.about-thumb img {
+  width: 100%;
+}
+
+.about-sub-content p {
+  font-size: 14px;
+}
+
+.about-sub-text h2 {
+  font-size: 13px;
+}
+
+/*============service-section==================*/
+.service-title h2 {
+  font-size: 40px;
+}
+
+.service-title h3 {
+  font-size: 32px;
+}
+
+.service-content h2 {
+  font-size: 20px;
+}
+
+.service-content p {
+  font-size: 12px;
+}
+
+ /*--------------call-do-section-------------------*/  
+
+ .call-do-title h3 {
+  font-size: 32px;
+}
+ 
+.call-do-title p {
+  font-size: 16px;
+}
+
+/*--------------about-two-section-------------------*/  
+.about-two-content h5 {
+  font-size: 16px;
+} 
+
+.about-two-content h3 {
+  font-size: 27px;
+}
+
+.about-two-content h2 {
+  font-size: 27px;
+}
+
+.about-two-disc p {
+  font-size: 15px;
+}
+
+.about-two-title p {
+  font-size: 13px;
+}
+
+/*==========about-three-section===========*/
+.about-three-content h5 {
+  font-size: 16px;
+}
+
+.about-three-content h3 {
+  font-size: 28px;
+}
+
+.about-three-content h2 {
+  font-size: 28px;
+}
+
+.about-three-content p {
+  font-size: 15px;
+}
+
+.about-three-thumb img {
+  width: 100%;
+}
+
+/*==============blog-grid=============*/
+.Grid-content h2 a {
+  font-size: 17px;
+}
+
+.Grid-content p {
+  font-size: 10px;
+}
+
+.blog-list-content p {
+  font-size: 10px;
+}
+
+.blog-info p a {
+  left: 288px;
+}
+
+.blog-title h3 {
+  font-size: 35px;
+}
+
+.blog-title h2 {
+  font-size: 35px;
+}
+
+.blog-person i {
+  font-size: 18px;
+}
+
+.rpost-content h5 a {
+  font-size: 13px;
+}
+
+span.rcomment {
+  font-size: 13px;
+}
+
+.blog-list-thumb a img {
+  width: 100%;
+}
+
+/*--------------portfolio-section-------------------*/          
+
+.our-portfolio-title p {
+  font-size: 15px;
+}
+
+.single_case_study_icon {
+  top: 260px;
+}
+
+.service-two-content h2 {
+  font-size: 22px;
+}
+
+/*--------------faq-section-------------------*/
+.tab_thumb img {
+  width: 100%;
+}
+
+.tab-title h3 {
+  font-size: 30px;
+}
+
+ul.accordion span {
+  font-size: 16px;
+}
+
+
+
+.subscribes-title h2::before {
+  left: 415px;
+}
+
+.subscribes-title h2::after {
+  left: 415px;
+}
+
+.contact-title h3::before {
+  left: 415px;
+}
+
+.contact-title h3::after {
+  left: 415px;
+}
+
+/*--------------contact-section-------------------*/          
+
+.contact-sub-title h3 {
+  font-size: 30px;
+}
+
+.contact-sub-title h2 {
+  font-size: 30px;
+}
+
+.contact-title h3::before {
+  left: 415px;
+}
+
+.contact-title h3::after {
+  left: 415px;
+}
+
+.subscribes-title h2::before {
+  left: 420px;
+}
+
+.subscribes-title h2::after {
+  left: 420px;
+}
+
+/*-----------subscribe-----------*/
+
+.subscribe-title h3 {
+  font-size: 32px;
+}
+
+.subscribe-button a {
+  font-size: 14px;
+}
+
+.newsletter-form button {
+  right: 107px;
+}
+
+.footer-social-icon ul li a {
+ margin: 0;
+}
+
+.footer-text p {
+  font-size: 15px;
+}
+
+.service-detail-title h3 {
+  font-size: 35px;
+}
+
+.service-detail-content h3 {
+  font-size: 25px;
+}
+
+.service-detail-content p {
+  font-size: 15px;
+}
+
+.service-about-content p {
+  font-size: 13px;
+}
+
+.service-detail-list ul li {
+  font-size: 25px;
+}
+
+.service-detail-info p {
+  font-size: 16px;
+}
+
+.service-two-content p {
+  font-size: 15px;
+}
+
+.service-two-title h1::before {
+  left: 410px;
+}
+
+.service-two-title h1::after {
+  left: 410px;
+}
+
+.mission-title h3 {
+  font-size: 38px;
+}
+
+.mission-title h2 {
+  font-size: 38px;
+}
+
+p.mission-description {
+  width: 112%;
+}
+
+.skill-content h3 {
+  font-size: 38px;
+}
+
+.skill-content h2 {
+  font-size: 38px;
+}
+
+.skill-content p {
+  font-size: 13px;
+}
+
+.upper7:before {
+ display: none;
+}
+
+.counter-text p {
+  font-size: 16px;
+}
+
+.testimonial-disc p {
+  font-size: 14px;
+}
+
+.testimonial-two-title h3::before {
+  left: 410px;
+}
+
+.testimonial-two-title h3::after {
+  left: 410px;
+}
+
+.testimonial-sub-title h3 {
+  font-size: 18px;
+}
+
+.testimonial-three-title h3 {
+  font-size: 32px;
+}
+
+.testimonial-three-title h2::before {
+  left: 405px;
+}
+
+.testimonial-three-title h2::after {
+  left: 405px;
+}
+
+.team-title h3 {
+  font-size: 38px;
+}
+
+.mission-two-content h3 {
+  font-size: 34px;
+}
+
+.mission-two-content h2 {
+  font-size: 35px;
+}
+
+.subscribe-disc p {
+  font-size: 15px;
+}
+
+.subscribe-content span {
+  font-size: 14px;
+}
+
+.call-do-content h2 {
+  font-size: 34px;
+}
+
+.blog-info h2 {
+  font-size: 20px;
+}
+
+.blog-disc p {
+  font-size: 13px;
+}
+
+.blog-person span {
+  font-size: 15px;
+}
+
+.blog-button a {
+  font-size: 15px;
+}
+
+.company-info-desc p {
+  font-size: 14px;
+}
+
+.footer-content h2 a {
+  font-size: 17px;
+}
+
+.team-titles h2::before {
+  left: 420px;
+}
+
+.team-titles h2::after {
+  left: 420px;
+}
+
+.team-sub-title h4 {
+  font-size: 18px;
+}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .sticky {
+    position: absolute !important;
+}
+
+  nav.Technice_menu {
+    display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.home-title h1 {
+  font-size: 40px;
+}
+
+.home-title h1 span {
+  font-size: 40px;
+}
+
+.home-button ul li p {
+  top: 720px;
+}
+
+.about-content {
+  margin-top: 50px;
+}
+
+.single-box {
+ margin: 0;
+}
+
+.call-do-content h2 {
+  margin: 0 0 40px;
+}
+
+.call-do-shape {
+  margin-bottom: 40px;
+}
+
+.owl-prev {
+  display: none;
+}
+
+/*-----------------hero-section----------------*/    
+
+.home-thumb img {
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 32px;
+}
+
+
+/*-----------------service-section----------------*/  
+.service-title h3 {
+  font-size: 30px;
+}     
+
+.service-content p {
+  font-size: 15px;
+}
+
+.service-two-title h1::before {
+  left: 290px;
+}
+
+.service-two-title h1::after {
+  left: 290px;
+}
+
+/*-----------------blog-section----------------*/    
+.blog-list-content p {
+  font-size: 12px;
+}
+
+.blog-info p a {
+  font-size: 13px;
+  left: 189px;
+  top: 175px;
+}
+
+.blog-content p {
+  font-size: 14px;
+}
+
+.blog-title h3 {
+  font-size: 30px;
+}
+
+.blog-title h2 {
+  font-size: 30px;
+}
+
+.blog-person i {
+  font-size: 18px;
+}
+
+.blog-list-thumb a img {
+  width: 100%;
+}
+
+/*-----------------about-two-section----------------*/   
+
+.about-two-content h3 {
+  font-size: 32px;
+}
+
+.about-three-content h3 {
+  font-size: 32px;
+}
+
+.about-three-thumb img {
+  width: 100%;
+  margin: 25px 0 0;
+}
+
+.team-button {
+  text-align: left;
+  margin: 0 0 30px;
+}
+/*-----------------call-do-section----------------*/       
+
+.call-do-title h3 {
+  font-size: 30px;
+}
+
+.newsletter-form button {
+  right: 155px;
+}
+
+.footer-bottom-content p {
+  font-size: 13px;
+}
+
+/*------------portfolio-detail---------------*/
+.our-portfolio-content h3 {
+  font-size: 25px;
+}
+
+.our-portfolio-box li {
+  font-size: 14px;
+}
+
+.our-portfolio-box li strong {
+  font-size: 16px;
+}
+  .our-portfolio-title p {
+    font-size: 11px;
+}
+
+.faq-title h2::before {
+  left: 270px;
+}
+
+.faq-title h2::after {
+  left: 270px;
+}
+
+/*------------tap-section---------------*/
+.tab-title h3 {
+  font-size: 25px;
+}
+
+.tab_thumb img {
+  width: 100%;
+}
+
+ul.accordion span {
+  font-size: 16px;
+}
+
+.accordion li p {
+  font-size: 12px;
+}
+
+
+/*=============contact-section=============*/
+
+.contact-sub-title h3 {
+  font-size: 32px;
+}
+
+.contact-sub-title h2 {
+  font-size: 32px;
+}
+
+.contact-title h3::before {
+  left: 290px;
+}
+
+.contact-title h3::after {
+  left: 290px;
+}
+
+.subscribes-title h2::before {
+  left: 310px;
+}
+
+.subscribes-title h2::after {
+  left: 310px;
+}
+
+/*----------pricing-------------*/
+.pricing-title h3 {
+  font-size: 32px;
+}
+
+.subscribe-title h3 {
+  font-size: 28px;
+}
+
+.subscribe-title p {
+  font-size: 16px;
+}
+
+.pricing .tk {
+  font-size: 40px;
+}
+
+.pricing .currency {
+  font-size: 37px;
+}
+
+.subscribe-button a {
+  font-size: 10px;
+  padding: 8px 10px;
+ border-radius: 5px;
+}
+
+.single_case_study_icon {
+  top: 180px;
+}
+
+.service-detail-title h3 {
+  margin: 0 0 40px;
+}
+
+.bd-video {
+  margin: 60px 0 100px;
+}
+
+.footer-bottom-menu.text-right ul li a {
+  font-size: 13px;
+}
+
+.team-titles h2::before {
+  left: 300px;
+}
+
+.team-titles h2::after {
+  left: 300px;
+}
+
+.testimonial-two-title h3 {
+  font-size: 30px;
+}
+
+.testimonial-two-title h3::before {
+  left: 280px;
+}
+
+.testimonial-two-title h3::after {
+  left: 280px;
+}
+
+.testimonial-three-title h3 {
+  font-size: 30px;
+}
+
+.testimonial-three-title h2 {
+  font-size: 30px;
+}
+
+.testimonial-three-title h2::before {
+  left: 310px;
+}
+
+.testimonial-three-title h2::after {
+  left: 310px;
+}
+
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+  .sticky {
+    position: absolute !important;
+}
+
+  nav.Technice_menu {
+    display: none;
+}
+
+.header-top-social {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.home-title h5 {
+  font-size: 14px;
+}
+
+.home-title h1 {
+  font-size: 45px;
+}
+
+.home-title h1 span {
+  font-size: 45px;
+}
+
+.home-title p {
+  font-size: 16px;
+}
+
+.home-button ul li p {
+  top: 730px;
+}
+
+.all-shape {
+  display: none;
+}
+
+.about-content {
+  margin: 50px 0 0;
+}
+
+.mission-title h3 {
+  font-size: 40px;
+}
+
+p.mission-description {
+  width: 100%;
+}
+
+.skill-content h3 {
+  font-size: 40px;
+}
+
+.skill-content p {
+  font-size: 15px;
+}
+
+.skill-thumb img {
+  width: 100%;
+}
+
+.team-title h3 {
+  font-size: 40px;
+}
+
+.team-titles h2::before {
+  left: 205px;
+}
+
+.team-titles h2::after {
+  left: 205px;
+}
+
+.team-sub-title h4 {
+  font-size: 13px;
+}
+
+.team-sub-title p {
+  font-size: 12px;
+}
+
+.team-single-content {
+  left: 20px;
+  bottom: -20px;
+}
+
+.mission-two-content h3 {
+  font-size: 38px;
+}
+
+.single-box {
+  margin: 0;
+}
+
+.call-do-content h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.blog-title h3 {
+  font-size: 38px;
+}
+
+.blog-sub-name a {
+  display: none;
+}
+
+.blog-title h2 {
+  font-size: 38px;
+}
+
+.owl-prev {
+  display: none;
+}
+
+/*-----------------hero-section----------------*/    
+
+.home-thumb img {
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 28px;
+}
+
+/*--------------about-section-------------*/  
+
+.about-content h3 {
+  font-size: 30px;
+}
+
+.about-content h2 {
+  font-size: 28px;
+}
+
+.about-thumb img {
+  width: 100%;
+}
+   
+/*--------------service-section-------------*/    
+
+.service-title h3 {
+  font-size: 28px;
+}
+
+.service-title h2 {
+  font-size: 26px;
+}
+
+/*--------------about-two-section-------------*/  
+
+.about-two-content h5 {
+  font-size: 16px;
+}
+
+.about-two-content h3 {
+  font-size: 30px;
+}
+
+.about-two-content h2 {
+  font-size: 28px;
+}
+
+.about-three-content h5 {
+  font-size: 16px;
+}
+
+.about-three-content h3 {
+  font-size: 30px;
+}
+
+.about-three-content h2 {
+  font-size: 28px;
+}
+
+.about-three-thumb img {
+  width: 100%;
+  margin: 25px 0 0;
+}
+
+/*--------------blog-section-------------*/   
+.blog-info p a {
+  display: none;
+}
+
+.blog-content h2 a {
+  font-size: 18px;
+}
+
+.blog-content p {
+  font-size: 12px;
+}
+
+.blog-person {
+  display: none;
+}
+
+.blog-list-content h2 a {
+  font-size: 25px;
+}
+
+.blog-list-content p {
+  font-size: 13px;
+}
+
+.service-detail-title h3 {
+  margin: 10px 0 25px;
+}
+
+.service-detail-content h3 {
+  font-size: 24px;
+}
+
+.service-detail-content p {
+  font-size: 15px;
+}
+
+.service-about-content p {
+  font-size: 14px;
+}
+
+.service-detail-list ul li {
+  font-size: 25px;
+}
+
+.bd-video {
+  margin: 60px 0 90px;
+}
+
+.service-detail-info p {
+  font-size: 16px;
+}
+
+.service-two-title h1::before {
+  left: 215px;
+}
+
+.service-two-title h1::after {
+  left: 215px;
+}
+
+/*-------------blog-details-section-------------*/
+
+.breadcumb-title h1 {
+  font-size: 60px;
+}
+
+.blog-description h3 a {
+  font-size: 27px;
+}
+
+.blog-description p {
+  font-size: 15px;
+}
+
+.blog-details-inner h3 {
+  font-size: 27px;
+}
+
+/*--------------portfolio-section-------------*/    
+
+.single_case_study_icon {
+  display: none;
+}
+
+.case-study-title h3 a {
+  font-size: 17px;
+}
+
+
+/*------------portfolio-detail---------------*/
+
+.faq-title h2::before {
+  left: 185px;
+}
+
+.faq-title h2::after {
+  left: 185px;
+}
+
+/*------------tap-section---------------*/
+.tab-title h3 {
+  font-size: 25px;
+  margin: 50px 0 10px;
+}
+
+.tab_thumb img {
+  width: 100%;
+}
+
+ul.accordion span {
+  font-size: 16px;
+}
+
+.accordion li p {
+  font-size: 12px;
+}
+
+/*========contact-section============*/
+
+.contact-sub-title h4 {
+  font-size: 18px;
+}
+
+.contact-sub-title h3 {
+  font-size: 32px;
+}
+
+.contact-sub-title h2 {
+  font-size: 30px;
+}
+
+.contact-title h3::before {
+  left: 205px;
+}
+
+.contact-title h3::after {
+  left: 205px;
+}
+
+.subscribes-title h2::before {
+  left: 205px;
+}
+
+.subscribes-title h2::after {
+  left: 205px;
+}
+
+/*-------------pricing-section---------------*/
+.pricing-title h5 {
+  font-size: 16px;
+}
+
+.pricing-title h3 {
+  font-size: 30px;
+}
+
+.pricing-title h2 {
+  font-size: 28px;
+}
+
+.pricing .currency {
+  font-size: 35px;
+}
+
+.pricing .tk {
+  font-size: 40px;
+}
+
+.subscribe-title h3 {
+  font-size: 22px;
+}
+
+.subscribe-title p {
+  font-size: 15px;
+}
+
+.subscribe-button a {
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.testimonial-title h5 {
+  font-size: 16px;
+}
+
+.testimonial-title h3 {
+  font-size: 30px;
+}
+
+.testimonial-three-title h3{
+  font-size: 32px;
+}
+
+.testimonial-two-title h3::before {
+  left: 205px;
+}
+
+.testimonial-two-title h3::after {
+  left: 205px;
+}
+
+.testimonial-three-title h2::before {
+  left: 210px;
+}
+
+.testimonial-three-title h2::after {
+  left: 210px;
+}
+
+.call-do-title h3 {
+  font-size: 30px;
+}
+
+.call-do-title p {
+  font-size: 16px;
+}
+
+.newsletter-form button {
+  right: 130px;
+}
+
+.text-right {
+  display: none;
+}
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+  .sticky {
+    position: absolute !important;
+}
+
+  nav.Technice_menu {
+    display: none;
+}
+
+.header-top-social {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.home-title h5 {
+  font-size: 12px;
+}
+
+.home-title h1 {
+  font-size: 40px;
+}
+
+.home-title h1 span {
+  font-size: 40px;
+}
+
+.home-title p {
+  font-size: 15px;
+}
+
+.all-shape {
+  display: none;
+}
+
+.about-thumb img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-size: 17px;
+}
+
+.about-sub-content p {
+  font-size: 14px;
+}
+
+.about-button {
+  text-align: left;
+}
+
+.about-two-title p {
+  font-size: 13px;
+}
+
+.mission-title h3 {
+  font-size: 35px;
+}
+
+.mission-title h2 {
+  font-size: 35px;
+}
+
+p.mission-description {
+  width: 112%;
+}
+
+.portfolio-title h3 {
+  font-size: 35px;
+}
+
+.portfolio-title p {
+  font-size: 15px;
+}
+
+.skill-content h3 {
+  font-size: 35px;
+}
+
+.skill-content h2 {
+  font-size: 35px;
+}
+
+.skill-content p {
+  font-size: 13px;
+}
+
+.skill-thumb img {
+  width: 100%;
+  margin: 0;
+}
+
+.testimonial-title h2 {
+  font-size: 35px;
+}
+
+.testimonial-disc p {
+  font-size: 14px;
+}
+
+.team-title h3 {
+  font-size: 35px;
+}
+
+.team-button {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.team-titles h3 {
+  font-size: 32px;
+}
+
+.team-titles h2 {
+  font-size: 30px;
+}
+
+.team-titles h2::before {
+  left: 180px;
+}
+
+.team-titles h2::after {
+  left: 180px;
+}
+
+.team-single-content {
+  left: 85px;
+}
+
+.mission-two-content h3 {
+  font-size: 35px;
+}
+
+.mission-two-content h2 {
+   font-size: 35px;
+}
+
+.subscribe-disc p {
+  font-size: 14px;
+}
+
+.single-box {
+  margin: 0;
+}
+
+.call-do-content h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.call-do-info {
+  margin-top: 40px;
+}
+
+.blog-title h3 {
+  font-size: 33px;
+}
+
+.blog-title h2 {
+  font-size: 35px;
+}
+
+.blog-person i {
+  font-size: 18px;
+}
+
+.blog-list-content h2 a {
+  font-size: 22px;
+}
+
+.blog-list-content p {
+  font-size: 11px;
+}
+
+.owl-prev {
+  display: none;
+}
+
+.home-button ul li p {
+  top: 725px;
+}
+
+/*-----------------hero-section----------------*/    
+
+.home-thumb img {
+  width: 100%;
+  margin: 0;
+}
+
+.home-content h1 {
+  font-size: 28px;
+}
+
+.home-content p {
+  font-size: 15px;
+}
+
+.main-button {
+  font-size: 14px;
+}
+
+
+/*--------------service-section-------------*/ 
+.service-title h5 {
+  font-size: 16px;
+}
+
+.service-title h3 {
+  font-size: 26px;
+}
+
+.service-title h2 {
+  font-size: 27px;
+}
+
+.service-content h2 {
+  font-size: 20px;
+}
+
+.service-button a {
+  font-size: 13px;
+}
+
+.service-two-title h1::before {
+  left: 165px;
+}
+
+.service-two-title h1::after {
+  left: 165px;
+}
+
+/*--------------about-section-------------*/    
+
+.about-content h5 {
+  font-size: 16px;
+}
+
+.about-content h3 {
+  font-size: 30px;
+}
+
+.about-content h2 {
+  font-size: 28px;
+}
+
+.faq-title h2::before {
+  left: 160px;
+}
+
+.faq-title h3 {
+  font-size: 30px;
+}
+
+.faq-title h2::after {
+  left: 160px;
+}
+
+/*-------------contact-section-------------*/    
+
+.contact-sub-title h4 {
+  font-size: 16px;
+}
+
+.contact-sub-title h3 {
+  font-size: 30px;
+}
+
+.contact-sub-title h2 {
+  font-size: 28px;
+}
+
+.contact-sub-title p {
+  font-size: 15px;
+}
+
+.contact-title h3 {
+  font-size: 32px;
+}
+
+.contact-title p {
+  font-size: 16px;
+}
+
+.contact-title h3::before {
+  left: 170px;
+}
+
+.contact-title h3::after {
+  left: 170px;
+}
+
+.subscribes-title h2::before {
+  left: 190px;
+}
+
+.subscribes-title h2::after {
+  left: 190px;
+}
+
+/*--------------blog-section-------------*/    
+.blog-info p a {
+  display: none;
+}
+
+.service-detail-title h3 {
+  font-size: 32px;
+  margin: 10px 0 35px;
+}
+
+.service-detail-content h3 {
+  font-size: 19px;
+}
+
+.service-detail-content p {
+  font-size: 11px;
+}
+
+.service-about-content h2 {
+  font-size: 24px;
+}
+
+.service-about-content p {
+  font-size: 13px;
+}
+
+.service-detail-list ul li {
+  font-size: 20px;
+}
+
+.bd-video  {
+  display: none;
+}
+
+.service-detail-info p {
+  font-size: 13px;
+}
+
+/*-------------blog-details-section-------------*/
+
+.breadcumb-title h1 {
+  font-size: 60px;
+}
+
+.blog-description h3 a {
+  font-size: 25px;
+}
+
+.blog-description p {
+  font-size: 14px;
+}
+
+.blog-details-inner h3 {
+  font-size: 25px;
+}
+
+.blog-leave-title h3 {
+  font-size: 25px;
+}
+
+.form-button button {
+  font-size: 15px;
+}
+
+.single-widget-item h2 {
+  font-size: 28px;
+}
+
+.recent-post-title h3 {
+  font-size: 25px;
+}
+
+.rpost-content h4 a {
+  font-size: 15px;
+}
+
+.rpost-content span {
+  font-size: 13px;
+}
+
+.sidebar-title h4 {
+  font-size: 22px;
+}
+
+.tag-item a {
+  font-size: 14px;
+}
+
+/*--------------about-two-section-------------*/    
+.about-two-content h5 {
+  font-size: 16px;
+}
+
+.about-two-content h3 {
+  font-size: 28px;
+}
+
+.about-two-content h2 {
+  font-size: 28px;
+}
+
+.about-two-disc p {
+  font-size: 15px;
+}
+
+.about-two-button a {
+  font-size: 14px;
+}
+
+.about-three-content h5 {
+  font-size: 16px;
+}
+
+.about-three-content h3 {
+  font-size: 28px;
+}
+
+.about-three-content h2 {
+  font-size: 26px;
+}
+
+.about-three-content p {
+  font-size: 15px;
+}
+
+.about-three-button a {
+  font-size: 14px;
+}
+
+.about-three-thumb img {
+  width: 100%;
+  margin: 25px 0 0;
+}
+
+/*--------------portfolio-section-------------*/
+
+.our-portfolio-title p {
+  font-size: 14px;
+}
+
+.single_case_study_icon {
+  top: 260px;
+}
+
+.case_study_menu ul li {
+  padding: 12px 18px;
+  margin: 0;
+}
+
+/*------------portfolio-detail---------------*/
+.footer-content h2 a {
+  font-size: 17px;
+}
+
+
+
+
+
+/*------------tap-section---------------*/
+.tab-title h3 {
+  font-size: 25px;
+  margin: 50px 0 10px;
+}
+
+.tab_thumb img {
+  width: 100%;
+}
+
+ul.accordion span {
+  font-size: 16px;
+}
+
+/*------------pricing-section-------------*/
+.pricing-title h5 {
+  font-size: 16px;
+}
+
+.pricing-title h3 {
+  font-size: 30px;
+}
+
+.pricing-title h2 {
+  font-size: 28px;
+}
+
+.pricing .currency {
+  font-size: 35px;
+}
+
+.pricing .tk {
+  font-size: 40px;
+}
+
+.subscribe-title h3 {
+  font-size: 20px;
+}
+
+.subscribe-title p {
+  font-size: 13px;
+}
+
+.subscribe-button a {
+  font-size: 14px;
+}
+
+.testimonial-title h5 {
+  font-size: 16px;
+}
+
+.testimonial-title h3 {
+  font-size: 30px;
+}
+
+.testimonial-two-title h3 {
+  font-size: 32px;
+}
+
+.testimonial-two-title h3::before {
+  left: 180px;
+}
+
+.testimonial-two-title h3::after {
+  left: 180px;
+}
+
+.testimonial-three-title h3 {
+  font-size: 32px;
+}
+
+.testimonial-three-title h2 {
+  font-size: 32px;
+}
+
+.testimonial-three-title h2::before {
+  left: 170px;
+}
+
+.testimonial-three-title h2::after {
+  left: 170px;
+}
+
+.call-do-title h3 {
+  font-size: 25px;
+}
+
+.call-do-title p {
+  font-size: 15px;
+}
+
+.newsletter-form button {
+  font-size: 14px;
+  right: 90px;
+}
+
+.footer-icon i {
+  font-size: 22px;
+}
+
+.footer-bottom-content p {
+  font-size: 15px;
+}
+
+.footer-bottom-menu.text-right {
+  display: none;
+}
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  .sticky {
+    position: absolute !important;
+}
+
+  nav.Technice_menu {
+    display: none;
+}
+
+.header-top-social {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.home-title h5::before {
+  display: none;
+}
+
+.home-title h5 {
+  font-size: 6px;
+}
+
+.home-title h1 {
+  font-size: 30px;
+}
+
+.home-title h1 span {
+  font-size: 30px;
+}
+
+.home-title p {
+  font-size: 16px;
+}
+
+.all-shape {
+  display: none;
+}
+
+.home-button ul li a {
+  margin-bottom: 30px;
+}
+
+.home-button ul li img {
+  display: none;
+}
+
+.home-button ul li p {
+  display: none;
+}
+
+/*-----------------hero-section----------------*/    
+
+.home-thumb img {
+  width: 100%;
+  margin: 0;
+}
+  
+.home-content h1 {
+  font-size: 22px;
+}
+
+.home-content p {
+  font-size: 15px;
+}
+
+.main-button {
+  font-size: 13px;
+}
+
+.about-content {
+  margin: 40px 0 0;
+}
+
+/*--------------about-section-------------*/    
+
+.about-content h5 {
+  font-size: 16px;
+}
+
+.about-content h3 {
+  font-size: 22px;
+}
+
+.about-content h2 {
+  font-size: 21px;
+}
+
+.about-content p {
+  font-size: 11px;
+}
+
+.about-button a {
+  font-size: 12px;
+  padding: 9px 30px;
+  float: left;
+}
+
+.about-thumb img {
+  width: 100%;
+  margin: 50px 0 0;
+}
+
+.about-two-title h2 {
+  font-size: 20px;
+}
+
+.about-two-title p {
+  font-size: 15px;
+}
+
+.mission-title h3 {
+  font-size: 25px;
+}
+
+.mission-title h2 {
+  font-size: 25px;
+}
+
+li.nav-item {
+  margin-bottom: 30px;
+}
+
+p.mission-description {
+  width: 100%;
+}
+
+.portfolio-title h3 {
+  font-size: 25px;
+}
+
+.portfolio-title p {
+  font-size: 10px;
+}
+
+.skill-content h3 {
+  font-size: 24px;
+}
+
+.skill-content h2 {
+  font-size: 25px;
+}
+
+.prossess-ber-plugin span {
+  font-size: 15px;
+}
+
+.skill-thumb img {
+  margin: 0;
+  width: 100%;
+}
+
+.skill-button a {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.testimonial-title h2 {
+  font-size: 25px;
+}
+
+.testimonial-content h2 {
+  font-size: 20px;
+}
+
+.testimonial-thumb2 img {
+  width: 100%;
+  margin: 45px 0 0;
+}
+
+.testimonial-two-title h5 {
+  font-size: 15px;
+}
+
+.testimonial-two-title h3 {
+  font-size: 27px;
+}
+
+.testimonial-two-title h3::before {
+  left: 100px;
+}
+
+.testimonial-two-title h3::after {
+  left: 100px;
+}
+
+.testimonial-three-title h3 {
+  font-size: 28px;
+}
+
+.testimonial-three-title h2 {
+  font-size: 28px;
+}
+
+.testimonial-sub-title h3 {
+  font-size: 18px;
+}
+
+.testimonial-three-title h2::before {
+  left: 110px;
+}
+
+.testimonial-three-title h2::after {
+  left: 110px;
+}
+
+.team-title h5 {
+  font-size: 15px;
+}
+
+.team-title h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.team-button {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.team-button a {
+  font-size: 14px;
+}
+
+.team-titles h3 {
+  font-size: 25px;
+}
+
+.team-titles h2 {
+  font-size: 22px;
+}
+
+.team-titles h2::before {
+  left: 100px;
+}
+
+.team-titles h2::after {
+  left: 100px;
+}
+
+.team-sub-title h4 {
+  font-size: 18px;
+}
+
+.mission-two-content h5 {
+  font-size: 15px;
+}
+
+.mission-two-content h3 {
+  font-size: 22px;
+}
+
+.mission-two-content h2 {
+  font-size: 25px;
+}
+
+.mission-two-content p {
+  font-size: 16px;
+}
+
+.single-box {
+  margin: 0;
+}
+
+.subscribe-leave-title h3 {
+  font-size: 22px;
+}
+
+.call-do-content h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.call-do-info h2 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.call-do-info p {
+  font-size: 15px;
+}
+
+.blog-title h3 {
+  font-size: 22px;
+}
+
+.blog-title h2 {
+  font-size: 25px;
+}
+
+.blog-sub-name a {
+   display: none;
+}
+
+.owl-prev {
+  display: none;
+}
+
+.blog-person i {
+  font-size: 15px;
+}
+
+.blog-person span {
+  font-size: 15px;
+}
+
+.blog-button a {
+  font-size: 15px;
+}
+
+.footer-content h2 a {
+  font-size: 15px;
+}
+
+.footer-content span {
+  font-size: 13px;
+}
+
+.footer-text h3 a {
+  font-size: 16px;
+}
+
+.footer-text p {
+  font-size: 13px;
+}
+
+/*--------------blog-section-------------*/  
+.Grid-content h2 a {
+  font-size: 16px;
+}
+.Grid-content p {
+  font-size: 10px;
+}
+
+.blog-info p a {
+  display: none;
+}
+
+.blog-content h2 a {
+  font-size: 20px;
+}
+
+.blog-content p {
+  font-size: 12px;
+}
+
+/*---------------blog-details--------------*/
+
+.breadcumb-title h1 {
+  font-size: 48px;
+}
+
+.blog-details-meta {
+  display: none;
+}
+
+.blog-description h3 a {
+  font-size: 16px;
+}
+
+.blog-description p {
+  font-size: 12px;
+}
+
+.blog-details-inner h3 {
+  font-size: 18px;
+}
+
+.blog-details-social-icon ul li a {
+  margin-left: 5px;
+}
+
+.blog-leave-title h3 {
+  font-size: 20px;
+}
+
+.form-button button {
+  padding: 12px 20px;
+  font-size: 15px;
+}
+
+.blog-list-left input[type="email"] {
+  padding: 8px;
+}
+
+.single-widget-item h2 {
+  font-size: 25px;
+}
+
+.recent-post-title h3 {
+  font-size: 25px;
+}
+
+.rpost-content h4 a {
+  font-size: 13px;
+}
+
+.rpost-content span {
+  font-size: 12px;
+}
+
+.sidebar-title h4 {
+  font-size: 22px;
+}
+
+.tag-item a {
+  font-size: 14px;
+}
+
+/*------------portfolio-detail---------------*/
+.breadcumbs-title h1 {
+  font-size: 40px;
+}
+
+.breadcumb-content-menu ul li span {
+  font-size: 16px;
+}
+
+.our-portfolio-content h3 {
+  font-size: 18px;
+}
+
+.our-portfolio-box li strong {
+  font-size: 10px;
+}
+
+.our-portfolio-box li {
+  font-size: 10px;
+}
+
+.port_dtl_social i {
+  height: 22px;
+  width: 20px;
+  line-height: 22px;
+}
+
+.our-portfolio-title h2 {
+  font-size: 22px;
+}
+
+.our-portfolio-title p {
+  font-size: 13px;
+}
+
+/*--------------about-two-section-------------*/    
+.about-two-content h5 {
+  font-size: 15px;
+}
+
+.about-two-content h3 {
+  font-size: 27px;
+}
+
+.about-two-content h2 {
+  font-size: 25px;
+}
+
+.about-two-disc p {
+  font-size: 16px;
+}
+
+.sec-widget-element ul li {
+  font-size: 12px;
+}
+
+.about-two-button a {
+  font-size: 14px;
+  padding: 9px 30px;
+}
+
+.about-three-content h5 {
+  font-size: 15px;
+}
+
+.about-three-content h3 {
+  font-size: 25px;
+}
+
+.about-three-content h2 {
+  font-size: 21px;
+}
+
+.about-three-content p {
+  font-size: 10px;
+}
+
+.about-three-button a  { 
+  font-size: 14px;
+  padding: 9px 30px;
+}
+
+.about-three-thumb img {
+  width: 100%;
+  margin: 40px 0 0;
+}
+
+.testimonial-disc p {
+  font-size: 13px;
+}
+
+/*--------------service-section-------------*/    
+
+.service-title h5 {
+  font-size: 15px;
+}
+
+.service-title h3 {
+  font-size: 24px;
+}
+
+.service-title h2 {
+  font-size: 22px;
+}
+
+.service-content h2 {
+  font-size: 18px;
+}
+
+.service-content p {
+  font-size: 12px;
+}
+
+.service-button a {
+  font-size: 12px;
+}
+
+.counter-title h1 {
+  font-size: 32px;
+}
+
+/*------------------testimonial-section-------------*/
+
+.testimonial-title h5 {
+  font-size: 15px;
+}
+
+.testimonial-title h3 {
+  font-size: 24px;
+}
+
+.call-do-title h3 {
+  font-size: 18px;
+}
+
+.call-do-title p {
+  font-size: 16px;
+}
+
+.call-do-button a {
+  font-size: 14px;
+  padding: 9px 40px;
+}
+
+.newsletter-title h3 {
+  font-size: 20px;
+}
+
+.newsletter-title p {
+  font-size: 14px;
+}
+
+.newsletter-form button {
+  font-size: 12px;
+  right: 15px;
+}
+
+.footer-bottom-content p {
+  font-size: 12px;
+}
+
+.footer-icon i {
+  font-size: 22px;
+}
+
+/*-------------portfolio-section--------------*/
+
+.single_case_study_icon {
+  display: none;
+}
+
+.service-detail-title h3 {
+  font-size: 25px;
+}
+
+.service-detail-content h3 {
+  font-size: 20px;
+}
+
+.service-detail-content p {
+  font-size: 13px;
+}
+
+.service-about-content h2 {
+  font-size: 16px;
+}
+
+.service-about-content p {
+  font-size: 13px;
+}
+
+.service-detail-list ul li {
+  font-size: 20px;
+}
+
+.bd-video {
+  display: none;
+}
+
+.service-detail-info p {
+  font-size: 12px;
+}
+
+.service-two-content h2 {
+  font-size: 20px;
+}
+
+.service-two-content p {
+  font-size: 15px;
+}
+/*-------------blog-section-----------*/
+
+.blog-list-content h2 a {
+  font-size: 15px;
+}
+
+.blog-list-content p {
+  font-size: 7px;
+}
+
+
+/*--------------footer-section-------------*/ 
+
+.company-info-desc p {
+  font-size: 14px;
+}
+
+.widget-title {
+  font-size: 22px;
+}
+
+.menu-quick-link-content ul li a {
+  font-size: 14px;
+}
+
+.footer-sub-disc p {
+  font-size: 14px;
+}
+
+.footer-inner-address p {
+  font-size: 14px;
+}
+
+.footer-inner-social p {
+  font-size: 14px;
+}
+
+.footer-inner-disc p {
+  font-size: 14px;
+}
+
+.footer-bottom-menu.text-right {
+  display: none;
+}
+
+/*============contact-section================*/
+
+.contact-sub-title h4 {
+  font-size: 13px;
+}
+
+.contact-sub-title h3 {
+  font-size: 18px;
+}
+
+.contact-sub-title h2 {
+  font-size: 20px;
+}
+
+.contact-title h3 {
+  font-size: 26px;
+}
+
+.contact-title h3::before {
+  left: 100px;
+}
+
+.contact-title h3::after {
+  left: 100px;
+}
+
+.contact-title p {
+  font-size: 13px;
+}
+
+.subscribes-title h3 {
+  font-size: 30px;
+}
+
+.subscribes-title h2::before {
+  left: 105px;
+}
+
+.subscribes-title h2::after {
+  left: 105px;
+}
+
+/*-----------pricing-section--------------*/
+.pricing-title h5 {
+  font-size: 15px;
+}
+
+.pricing-title h3 {
+  font-size: 23px;
+}
+
+.pricing-title h2 {
+  font-size: 23px;
+}
+
+.pricing .currency {
+  font-size: 35px;
+}
+
+.pricing .tk {
+  font-size: 38px;
+}
+
+.price-btn a {
+  font-size: 14px;
+}
+
+.pricing-boody ul li {
+  font-size: 13px;
+}
+
+.subscribe-title h3 {
+  font-size: 21px;
+}
+
+.subscribe-title p {
+  font-size: 15px;
+}
+
+.form-group input {
+  width: 218%;
+}
+
+.subscribe-button a {
+  display: none;
+}
+
+.rpost-content h5 a {
+  font-size: 13px;
+}
+
+/*------------tap-section---------------*/
+.tab-title h3 {
+  font-size: 25px;
+  margin: 50px 0 10px;
+}
+
+.tab_thumb img {
+  width: 100%;
+}
+
+ul.accordion span {
+  font-size: 13px;
+}
+
+.accordion li p {
+  font-size: 13px;
+}
+
+.faq-title h3 {
+  font-size: 30px;
+}
+
+.faq-title h2::before {
+  left: 105px;
+}
+
+.faq-title h2::after {
+  left: 105px;
+}
+
+}
+

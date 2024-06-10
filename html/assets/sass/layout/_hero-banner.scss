@@ -1,0 +1,191 @@
+.hero-banner{
+  overflow: hidden;
+  height: 100vh;
+  @include media-query(1399px) {
+    height: auto;
+    padding: 32px 0;
+  }
+  @include media-query(991px) {
+    margin-top: 62px;
+  }
+  .img-block{
+    position: relative;
+    @include media-query(1199px) {
+      margin-bottom: 24px;
+    }
+    @include media-query(767px) {
+      margin-bottom: 16px;
+    }
+    img{
+      border-radius: 20px;
+      box-shadow: $shadow;
+    }
+    .wishlist-icon{
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      cursor: pointer;
+      i{
+        padding: 8px;
+        color: $white;
+        font-size: 24px;
+        border-radius: 8px;
+        background: $gradient;
+        backdrop-filter: blur(10px);
+        &.fas{
+          color: red;
+        }
+      }
+    }
+  }
+  .content{
+    .info-blocks{
+      display: flex;
+      flex-wrap: wrap;
+      gap: clamp(16px, 1.25vw, 32px);
+      @include media-query(575px) {
+        gap: 12px;
+      }
+      .block{
+        display: flex;
+        align-items: center;
+        gap: clamp(12px, 0.833vw, 22px);
+        padding: clamp(12px, 0.833vw, 22px);
+        border-radius: 20px;
+        box-shadow: $shadow-2;
+        background: $gradient;
+        @include media-query(575px) {
+          gap: 8px;
+          padding: 12px 16px;
+        }
+        @include media-query(492px) {
+          padding: 8px 12px;
+        }
+        img{
+          @include media-query(575px) {
+            width: 40px;
+          }
+        }
+        .info{
+          ul{
+            display: flex;
+            align-items: center;
+            gap: clamp(16px, 1.66vw, 42px);
+            margin-bottom: 0;
+            padding: 0;
+            @include media-query(440px) {
+              gap: 8px;
+            }
+            li{
+              @include media-query(440px) {
+                list-style: none;
+              }
+              &:first-child{
+                list-style: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .duration{
+      width: fit-content;
+      padding: 4px 16px;
+      border-radius: 10px;
+      box-shadow: $shadow-2;
+      background: $gradient;
+    }
+    .detail{
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      padding: 0;
+      li{
+        &:first-child{
+          list-style: none;
+        }
+      }
+    }
+    .features{
+      margin-bottom: clamp(16px, 2.446vw, 60px);
+    }
+    .buttons-row{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      .more-btn{
+        position: relative;
+        .more-icon{
+          border-radius: 15px;
+          background: $white;
+          padding: 19px 27px;
+          color: $black;
+          font-size: 20px;
+          cursor: pointer;
+          @include media-query(992px) {
+            border-radius: 10px;
+            padding: 14px 18px;
+          }
+          @include media-query(575px) {
+            padding: 12px 16px;
+            font-size: 16px;
+          }
+        }
+        .more-dropdown{
+          position: absolute;
+          top: 61.83px;
+          z-index: 50;
+          padding: 16px;
+          border-radius: 20px;
+          box-shadow: $shadow-2;
+          background: $gradient;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          transform-origin: top;
+          transform: perspective(1000px) rotateX(-90deg);
+          transition: 0.5s;
+          @include media-query(492px) {
+            right: 0;
+          }
+          &.active{
+            transform: perspective(1000px) rotateX(0deg);
+          }
+          li{
+            a{
+              display: flex;
+              gap: 12px;
+              width: max-content;
+              align-items: center;
+              i{
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .items-vertical-slider{
+    @include media-query(1399px) {
+      margin-top: 32px;
+    }
+    .album-block{
+      position: relative;
+      margin: 12px 0;
+
+      @include media-query(1399px) {
+        margin: 0 12px;
+      }
+      img{
+        border-radius: 20px;
+        width: 8.073vw;
+        height: 8.073vw;
+        @include media-query(1399px) {
+          width: 155px;
+          height: 155px;
+        }
+      }
+    }
+  }
+}

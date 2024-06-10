@@ -1,0 +1,1957 @@
+/* Normal desktop :1400px. */
+@media (min-width: 1400px) and (max-width: 1600px){
+nav.maria_menu {
+    text-align: left;
+}
+
+.maria_menu>ul>li>a {
+    margin: 30px 10px;
+}
+
+/*hero area*/
+.hero-content {
+    margin-left: 70px;
+}
+
+.slider-socail-icon {
+    left: 35px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+/*about area*/
+.about-area {
+    padding: 100px 0 100px;
+}
+
+.maria-section-title p {
+    width: 90%;
+}
+
+.our-case-area .maria-section-title.text-left h1 {
+    left: 70px;
+    top: -108px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.our-skill-area {
+
+    padding: 100px 0 50px;
+}
+
+.testimonial-area .maria-section-title.text-left h1 {
+    left: 69px;
+    top: -65px;
+}
+
+.blog-area .blog-text p {
+    width: 90%;
+}
+
+/*home page two*/
+.banner-main-title h1 {
+    letter-spacing: 15px;
+}
+
+.about-us-shape {
+    right: -45px;
+    top: 277px;
+}
+
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 34px;
+}
+
+.portfolio-area .section-bar-two:before {
+    right: 480px;
+}
+
+.portfolio-area .section-bar-two:after {
+    left: 370px;
+}
+
+}
+
+/* Normal desktop :1300px. */
+@media (min-width: 1300px) and (max-width:1399px){
+    nav.maria_menu {
+        text-align: left;
+    }
+
+.maria_menu>ul>li>a {
+    margin: 30px 10px;
+}
+
+.header-main-button {
+    margin-left: 0;
+}
+
+.header-main-button a {
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.about-area {
+    padding: 100px 0 100px;
+}
+
+.feature-box-number:before {
+    width: 350px;
+}
+   
+.testimonial-area {
+    padding: 50px 0 0;
+}
+
+.about-us-shape {
+    right: -40px;
+    top: 274px;
+}
+
+.section-bar-two:before {
+    right: 400px;
+}
+
+.section-bar-two:after {
+    left: 420px;
+}
+
+.order_now a {
+    padding: 13px 75px;
+}
+
+.single_pricing {
+    padding: 0 20px 16px;
+}
+
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 30px;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    left: 310px;
+}
+
+.work-area .maria-section-title p {
+    width: 55%;
+}
+.team-area.style-two .section-bar-two:after {
+    left: 300px;
+}
+
+.banner-main-title h1 {
+    letter-spacing: 12px;
+    font-size: 94px;
+}
+
+.testimonial-area .testi_text p {
+    width: 100%;
+}
+
+.testimonial-area-two .testi_text p {
+    width: 100%;
+}
+
+.blog-area .blog-text p {
+    width: 94%;
+}
+
+.testimonial-area-there .testi_text p {
+    width: 100%;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left !important;
+}
+
+section#calendar-days span {
+    width: 47% !important;
+}
+
+.Calender-details-box {
+    padding: 35px 0px 35px;
+   
+}
+
+section#calendar-days span:nth-child(1) {
+    width: 66% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 59% !important;
+}
+
+section#calendar-days span:nth-child(3) {
+    width: 70% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 62% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 41% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 55% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 60% !important;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left;
+}
+
+section#calendar-days span {
+    overflow: hidden;
+    width: 47%;
+}
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1299px) {
+/*Home page one*/
+nav.maria_menu {
+    text-align: left;
+}
+
+.maria_menu>ul>li>a {
+    font-size: 16px;
+    margin: 30px 5px;
+}
+
+.header-main-button {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.header-main-button a {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.hero-text p {
+    width: 100%;
+}
+
+.slider-socail-icon {
+    left: 30px;
+}
+
+.feature-box-number:before {
+    width: 345px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.about-area {
+    padding: 90px 0 50px;
+}
+
+.maria-section-title p {
+    width: 100%;
+}
+
+.testimonial-area {
+    padding: 50px 0 50px;
+}
+
+/*Home page two*/
+.banner-main-title h1 {
+    letter-spacing: 12px;
+    font-size: 80px;
+}
+
+.about-us-shape {
+    right: -39px;
+    top: 272px;
+}
+
+.section-bar-two:before {
+    right: 410px;
+}
+
+.section-bar-two:after {
+    left: 320px;
+}
+
+.testi_text p {
+    width: 100%;
+}
+
+.order_now a {
+    padding: 13px 50px;
+}
+
+.order_now a:before {
+    right: 20px;
+}
+
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 40px;
+}
+
+.about-us-shape-two {
+    right: -30px;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    left: 295px;
+}
+
+.work-area .maria-section-title p {
+    width: 60%;
+}
+
+.team-area.style-two .section-bar-two:after {
+    left: 265px;
+}
+
+.testimonial-area-there .testi_text p {
+    width: 100%;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+#calendar-wrapper header h4 {
+    text-align: left !important;
+}
+
+section#calendar-days span {
+    width: 47% !important;
+}
+
+.Calender-details-box {
+    padding: 35px 0px 35px;
+   
+}
+
+section#calendar-days span:nth-child(1) {
+    width: 65% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 60% !important;
+}
+
+section#calendar-days span:nth-child(3) {
+    width: 72% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 60% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 41% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 55% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 60% !important;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left;
+}
+
+section#calendar-days span {
+    overflow: hidden;
+    width: 47%;
+}
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+/*Home page one*/
+nav.maria_menu {
+    text-align: left;
+}
+
+.maria_menu>ul>li>a {
+    font-size: 16px;
+    margin: 30px 6px;
+}
+    
+.header-main-button {
+    margin-left: 0;
+}
+    
+.header-main-button a {
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.hero-title h1 {
+    line-height: 70px;
+    font-size: 70px;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.hero-title h3 {
+    font-size: 180px;
+}
+
+.slider-socail-icon {
+    left: 30px;
+}
+
+.hero-text p {
+    width: 100%;
+}
+
+.feature-box-number:before {
+    width: 280px;
+}
+
+.feature-box-description p {
+    width: 100%;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.about-area {
+    padding: 100px 0 50px;
+}
+
+.maria-section-title p {
+    width: 100%;
+}
+
+.maria-section-title.text-left h1 {
+    left: 88px;
+}
+
+.testimonial-area {
+    padding: 50px 0 50px;
+}
+
+.testi_text p {
+    width: 100%;
+    font-size: 22px;
+}
+
+.blog-text p {
+    width: 100%;
+}
+
+/*Home two page*/
+
+.banner-area .hero-content {
+    margin: 0;
+}
+
+.banner-area .container-fluid {
+    padding: 0 0 0 10px;
+}
+
+.banner-main-title h1 {
+    line-height: 80px;
+    font-size: 80px;
+}
+
+.about-us-shape {
+    right: -27px;
+    top: 268px;
+}
+
+.section-bar-two:after {
+    left: 220px;
+}
+
+.section-bar-two:before {
+    right: 330px;
+}
+
+.best-work-tab-content {
+    top: 4rem;
+    left: 4rem;
+}
+
+.best-work-tab {
+    width: 460px;
+    height: 460px;
+}
+
+.single_pricing {
+    padding: 0 10px 10px;
+}
+
+.order_now a {
+    padding: 13px 50px;
+}
+
+.order_now a:before {
+    right: 20px;
+}
+
+/*about inner page*/
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 40px;
+}
+
+.section-bar-title h3 {
+    font-size: 22px;
+}
+
+.about-us-shape-two {
+    right: -20px;
+}
+
+.counter-area.style-two .section-bar-two:before {
+    right: 275px;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    left: 225px;
+}
+
+.work-area .maria-section-title p {
+    width: 65%;
+}
+
+.team-area.style-two .section-bar-two:before {
+    right: 285px;
+}
+
+.team-area.style-two .section-bar-two:after {
+    left: 225px;
+}
+
+.testimonial-area-there .testi_text p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.single-service-box {
+    padding: 40px 15px 34px 15px;
+}
+
+.feature-are.style-two .feature-box {
+    padding: 30px 10px 25px 8px;
+}
+
+.feature-are.style-two  .feature-box-icon {
+    margin-right: 6px;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+
+.rpost-thumb {
+    margin-right: 10px;
+}
+
+.rpost-title h4 a {
+    font-size: 17px;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left !important;
+}
+
+section#calendar-days span {
+    width: 47% !important;
+}
+
+.Calender-details-box {
+    padding: 35px 0px 35px;
+   
+}
+
+section#calendar-days span:nth-child(1) {
+    width: 57% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 45% !important;
+}
+
+section#calendar-days span:nth-child(3) {
+    width: 61% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 46% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 41% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 49% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 48% !important;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left;
+}
+
+section#calendar-days span {
+    overflow: hidden;
+    width: 47%;
+}
+
+}
+    
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.sticky {
+    position: absolute !important;
+    }
+        
+.maria_nav_manu {
+    display: none;
+}
+
+ul.nav_scroll li a i {
+    display: none;
+}
+
+.dark-theme .sticky .dark-light,
+.dark-light {
+    position: absolute !important;
+    z-index: 999;
+    top: 17%;
+    right: 8%;
+}
+
+.hero-title h3 {
+    left: 55px;
+}
+
+.slider-socail-icon {
+    left: 16px;
+}
+
+.feature-box-number:before {
+    width: 330px;
+}
+
+.about-section-content {
+    margin-top: 80px;
+}
+
+.maria-section-title p {
+    width: 100%;
+}
+
+.our-skill-area {
+    padding: 100px 0 50px;
+}
+
+.about-button {
+    margin-bottom: 30px;
+}
+
+.single-team-box {
+    margin-bottom: 30px;
+}
+
+.testi-list {
+    margin-top: 30px;
+}
+
+.contact-title h2 {
+    font-size: 35px;
+}
+
+.newsletter-form button {
+    right: 14%;
+}
+
+.footer-widget-link {
+    text-align: left;
+}
+
+.blog-text p {
+    width: 100%;
+}
+
+/*Home two*/
+.about-us-shape {
+    right: -2rem;
+    top: 18rem;
+}
+
+.about-us-button {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.about-us-right-thumb {
+    float: left;
+}
+
+.section-bar-two:after {
+    left: 8rem;
+}
+
+.section-bar-two:before {
+    right: 17rem;
+}
+
+.best-work-tab {
+    float: left;
+    margin-top: 70px;
+}
+
+.order_now a {
+    padding: 13px 70px;
+   
+}
+
+.single_pricing {
+    padding: 0 10px 16px;
+}
+
+.order_now a:before {
+    right: 42px;
+}
+
+.pricing-area .single_pricing {
+    margin-bottom: 30px;
+}
+
+.pricing-area {
+    padding: 95px 0 50px;
+}
+
+.pricing_body {
+    padding: 0;
+}
+
+/*inner about*/
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 38px;
+}
+
+.about-us-shape-two {
+    right: -2rem;
+    top: 9rem;
+}
+
+.counter-area.style-two .section-bar-two:before {
+    right: 13rem;
+    width: 40%;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    left: 9rem;
+    width: 15%;
+}
+
+.work-area .maria-section-title p {
+    width: 90%;
+}
+
+.team-area.style-two .maria-section-title.text-center p {
+    width: 70%;
+}
+
+.team-area.style-two .section-bar-two:before {
+    right: 11rem;
+    width: 50%;
+}
+
+.team-area.style-two .section-bar-two:after {
+    left: 5rem;
+    width: 15%;
+}
+
+.single-service-box {
+    padding: 40px 20px 34px 20px;
+    text-align: center;
+}
+
+.feature-are.style-two .feature-box {
+    margin-bottom: 30px;
+}
+
+.contact-section .maria-section-title.text-left {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.contact-section .row.form {
+    margin-left: 0;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+
+.brand-area .brand-thumb {
+    margin-left: 40px;
+}
+
+
+section#calendar-days span:nth-child(1) {
+    width: 89% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 89% !important;
+}
+
+section#calendar-days span:nth-child(3) {
+    width: 93% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 73% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 50% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 70% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 60% !important;
+}
+
+#calendar #navigation-wrapper {
+    right: 25rem !important;
+    top: 22rem !important;
+}
+
+.sidebar-search-box {
+    margin-top: 30px;
+}
+
+}
+    
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+.sticky {
+    position: absolute !important;
+ }
+
+.header-top-area {
+    display: none;
+}
+        
+.maria_nav_manu {
+display: none;
+}
+
+ul.nav_scroll li a i {
+display: none;
+}
+
+.dark-theme .sticky .dark-light,
+.dark-light {
+    display: inline-block;
+    position: absolute !important; 
+    top: 13%;
+    right: 10%;
+    z-index: 999;
+}
+
+/*Home one*/
+.hero-title h3 {
+    left: 47px;
+}
+
+.hero-text p {
+    width: 100%;
+}
+
+.slider-socail-icon {
+    left: 16px;
+}
+
+.signal-feature-box {
+    margin-bottom: 30px;
+}
+
+.feature-area {
+    padding: 50px 0 50px 0;
+}
+
+.about-area .about-section-content {
+    margin-top: 75px;
+}
+
+.about-area .maria-section-title p {
+    width: 100%;
+}
+
+.about-button {
+    margin-bottom: 35px;
+}
+
+.our-skill-area .maria-section-title.text-left {
+    margin-top: 75px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.single-team-box {
+    margin-bottom: 30px;
+}
+
+.team-area {
+    padding: 100px 0 50px;
+}
+
+.testimonial-area .maria-section-title.text-left {
+    margin-top: 75px;
+}
+
+.testimonial-area .maria-section-title.text-left h1 {
+    position: absolute;
+    left: 96px;
+}
+
+.testi_text p {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.testimonial-area .single_testimonial {
+    padding: 100px 0 100px 20px;
+}
+
+.contact-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    text-align: left;
+}
+
+.newsletter-form input {
+    width: 60%;
+}
+
+.newsletter-form button {
+    right: 2%;
+    top: 51%;
+}
+
+.footer-widget-list {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-widget-link {
+    text-align: center;
+}
+
+.footer-widget-text p {
+    width: 100%;
+}
+
+/*Home two*/
+.banner-thumb {
+    margin-top: 30px;
+}
+
+.about-us-button {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-us-thumb {
+    float: left;
+}
+
+.about-us-area {
+    padding: 120px 0px 40px 0px;
+}
+
+.section-bar-two:before {
+    right: 7rem;
+    width: 60%;
+}
+
+.section-bar-two:after {
+    left: 4rem;
+    width: 12%;
+}
+
+.about-us-shape {
+    right: 3rem;
+    top: 16rem;
+}
+
+.about-us-button-two {
+    margin-bottom: 65px;
+}
+
+.single_testimonial {
+    padding: 100px 0 100px 15px;
+}
+
+.brand-thumb {
+    margin-left: 110px;
+}
+
+.pricing-area .single_pricing {
+    margin-bottom: 30px;
+}
+
+.pricing-area {
+    padding: 95px 0 50px;
+}
+
+/*about inner*/
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 30px;
+}
+
+.about-us-area.style-two .about-us-shape-two {
+    right: 3rem;
+    top: 9rem;
+}
+
+.counter-area.style-two .section-bar-two:before {
+    background: rgba(255, 255, 255, 0.2);
+    right: 110px;
+    width: 60%;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    left: 20px;
+    width: 20%;
+}
+
+.work-area .maria-section-title p {
+    width: 90%;
+}
+
+.team-area.style-two .section-bar-two:before {
+    right: 102px;
+    width: 60%;
+}
+
+.team-area.style-two .section-bar-two:after {
+    left: 25px;
+    width: 20%;
+}
+
+.team-area.style-two .maria-section-title.text-center p {
+    width: 100%;
+}
+
+.testimonial-area-there .testi_text p {
+    width: 100%;
+}
+
+.single-service-box {
+    text-align: center;
+}
+
+.portfolio-related-thumb {
+    margin-top: 30px;
+}
+
+.feature-are.style-two .maria-section-title.text-center p {
+    width: 100%;
+}
+
+.feature-are.style-two .feature-box {
+    margin-bottom: 30px;
+}
+
+.contact-section .row.form {
+    margin-left: 0;
+}
+
+.contact-section .maria-section-title.text-left {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 90%;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+
+.cloud-tag li a {
+    padding: 10px 14px;
+}
+
+.sidebar-search-box {
+    margin-top: 20px;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left !important;
+}
+
+.Calender-details-box {
+    padding: 35px 0px 35px;
+   
+}
+
+section#calendar-days span:nth-child(1) {
+    width: 89% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 89% !important;
+}
+
+section#calendar-days span:nth-child(3) {
+    width: 85% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 96% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 65% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 94% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 81% !important;
+}
+
+#calendar #navigation-wrapper {
+    right: 19rem !important;
+    top: 22rem !important;
+}
+
+}
+    
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+/*Home page one */
+.sticky {
+position: absolute !important;
+}
+
+.maria_nav_manu {
+    display: none;
+}
+
+ul.nav_scroll li a i {
+    display: none;
+}
+
+.header-top-area {
+    display: none;
+}
+
+.dark-theme .sticky .dark-light,
+.dark-light {
+    position: absolute !important;
+    z-index: 999;
+    top: 17%;
+    right: 10%;
+}
+
+/*Home page one*/
+
+.hero-title h3 {
+    left: 80px;
+}
+
+.slider-socail-icon {
+    display: none;
+}
+
+.hero-text p {
+    width: 100%;
+}
+
+.hero-section {
+    height: 670px;
+}
+
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 40px;
+}
+
+.signal-feature-box {
+    margin-bottom: 30px;
+}
+
+.about-section-content {
+    margin-top: 80px;
+}
+
+.maria-section-title p {
+    width: 100%;
+}
+
+.about-button {
+    margin-bottom: 30px;
+}
+
+.maria-section-title.text-left h1 {
+    left:100px;
+}
+
+.our-skill-area .maria-section-title.text-left {
+    margin-top: 80px;
+}
+
+.team-area .single-team-box {
+    margin-bottom: 30px;
+}
+
+.testi_text p {
+    width: 100%;
+    font-size: 23px;
+}
+
+.single_testimonial {
+    padding: 100px 0 100px 20px;
+}
+
+.newsletter-form input {
+    width: 40%;
+}
+
+.newsletter-form button {
+    right: 0%;
+}
+
+.footer-widget-list {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-widget-text p {
+    width: 100%;
+}
+
+.footer-widget-link {
+    text-align: center;
+}
+
+/*home page two*/
+.banner-button a {
+    letter-spacing: 0px;
+    padding: 19px 20px;
+}
+
+.banner-thumb {
+    margin-top: 30px;
+}
+
+.banner-area .container-fluid {
+    padding: 0 190px 0 10px;
+}
+
+.about-area .about-section-content {
+    padding-left: 20px;
+}
+
+.testimonial-area .maria-section-title.text-left {
+    margin-top: 80px;
+}
+
+.blog-area .blog-text p {
+    width: 90%;
+}
+
+.contact-title h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    text-align: left;
+}
+
+.banner-area .banner-main-title h1 {
+    letter-spacing: 16px;
+    font-size: 70px;
+}
+
+.about-us-area .about-us-shape {
+    right: 0rem;
+    top: 15rem;
+}
+
+.about-us-button {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.best-work-tab {
+    width: 440px;
+    height: 430px;
+    float: left;
+    margin-top: 60px;
+}
+
+.best-work-tab-content {
+    width: 315px;
+    height: 325px;
+    top: 3rem;
+    left: 4rem;
+}
+
+.brand-area .brand-box {
+    margin-left: 90px;
+}
+
+.pricing-area .single_pricing {
+    margin-bottom: 30px;
+}
+
+/*about inner page*/
+.about-us-thumb {
+    float: left;
+}
+
+.about-us-shape-two {
+    right: 0rem;
+    top: 9rem;
+}
+
+.about-us-area.style-two .section-bar-title p {
+    width: 100%;
+}
+
+.about-us-area.style-two .section-bar-title h3 {
+    font-size: 23px;
+}
+
+.counter-area.style-two .section-bar-two:before {
+    right: 88px;
+    width: 65%;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    background: #fff;
+    left: 5px;
+    width: 25%;
+}
+
+.work-area .maria-section-title p {
+    width: 90%;
+}
+
+.team-area.style-two .section-bar-two:before {
+    right: 80px;
+    width: 65%;
+}
+
+.team-area.style-two .section-bar-two:after {
+    left: -2px;
+    width: 20%;
+}
+
+.team-area.style-two .maria-section-title.text-center p {
+    width: 100%;
+}
+
+.testimonial-area-there .testi_text p {
+    font-size: 17px;
+    width: 100%;
+}
+
+.service-area .single-service-box {
+    padding: 40px 30px 34px 42px;
+    text-align: center;
+}
+
+.portfolio-strategy-title h1 {
+    font-size: 32px;
+}
+
+.portfolio-strategy {
+    padding: 50px 25px;
+}
+
+.team-area.style-four {
+    padding: 100px 0 30px;
+}
+
+.feature-are.style-two .maria-section-title.text-center p {
+    width: 100%;
+}
+
+.feature-are.style-two .feature-box {
+    margin-bottom: 30px;
+}
+
+.contact-section .maria-section-title.text-left {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.contact-section .row.form {
+    margin-left: 0;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+
+.portfolio-related-thumb img {
+    margin-top: 20px;
+}
+
+section#calendar-days span:nth-child(1), section#calendar-days span:nth-child(3) {
+    width: 54% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 32% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 42% !important;
+}
+
+section#calendar-days span {
+    overflow: hidden;
+    width: 47% !important;
+}
+
+#calendar #navigation-wrapper {
+    right: 17rem !important;
+    top: 20rem !important;
+}
+
+.blog-details-content {
+    padding: 38px 15px 45px;
+}
+
+.sidebar-search-box {
+    margin-top: 30px;
+}
+
+}
+    
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+.sticky {
+    position: absolute !important;
+    }
+
+ul.nav_scroll li a i {
+    display: none;
+}
+
+.maria_nav_manu {
+    display: none;
+}
+
+.header-top-area {
+    display: none;
+}
+
+.dark-theme .sticky .dark-light,
+.dark-light {
+    position: absolute !important;
+    z-index: 999;
+    top: 17%;
+    right: 17%;
+}
+
+.hero-title h3 {
+    left: 65px;
+    top: -97px;
+    font-size: 160px;
+}
+
+.hero-title h1 {
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.hero-title h2 {
+    font-size: 65px;
+}
+
+.slider-socail-icon {
+    display: none;
+}
+
+.hero-text p {
+    width: 100%;
+}
+
+.feature-area {
+    padding: 50px 0 95px 0;
+}
+
+.feature-box-description p {
+    width: 100%;
+}
+
+.feature-icon {
+    margin-top: 20px;
+}
+
+.about-area .about-section-content {
+    margin-top: 70px;
+}
+
+.about-area .maria-section-title.text-left h1 {
+    left: 68px;
+    top: -104px;
+    font-size: 160px;
+}
+
+.about-section-content {
+    padding-left: 15px;
+}
+
+.maria-section-title h3 {
+    font-size: 36px;
+}
+
+.about-area .maria-section-title p {
+    width: 100%;
+}
+
+.about-button {
+    margin-bottom: 30px;
+}
+
+.our-case-area .maria-section-title.text-left h1 {
+    left: 69px;
+    top: -117px;
+    font-size: 160px;
+}
+
+.our-case-area .maria-section-title h3 {
+    font-size: 33px;
+}
+
+.our-skill-area .maria-section-title.text-left {
+    margin-top: 70px;
+}
+
+.our-skill-area .maria-section-title.text-left h1 {
+    left: 77px;
+    top: -99px;
+    font-size: 160px;
+}
+
+.team-area .maria-section-title.text-left h1 {
+    left: 69px;
+    top: -117px;
+    font-size: 160px;
+}
+
+.team-area .single-team-box {
+    margin-bottom: 30px;
+}
+
+.testimonial-area .maria-section-title.text-left {
+    margin-top: 70px;
+}
+
+.testimonial-area .maria-section-title.text-left h1 {
+    left: 78px;
+    top: -112px;
+    font-size: 160px;
+}
+
+.testimonial-area .single_testimonial {
+    padding: 100px 0 100px 15px;
+}
+
+.testi_text p {
+    width: 100%;
+    font-size: 20px;
+}
+
+.blog-area .maria-section-title.text-left h1 {
+    left: 69px;
+    top: -117px;
+    font-size: 160px;
+}
+
+.blog-area .maria-section-title h3 {
+    font-size: 35px;
+}
+
+.blog-text p {
+    width: 100%;
+}
+
+.contact-title h2 {
+    font-size: 40px;
+}
+
+.contact-btn {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.newsletter-form input {
+    width: 100%;
+}
+
+.newsletter-form button {
+    right: -1%;
+    top: 52%;
+}
+
+.footer-widget-list {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-widget-link {
+    text-align: center;
+}
+
+.coppy-right-text p {
+    text-align: left;
+}
+
+/*Home page two*/
+
+.banner-area .container-fluid {
+    padding: 0 80px 0 15px;
+}
+
+.banner-main-title h1 {
+    line-height: 65px;
+    letter-spacing: 8px;
+    font-size: 60px;
+}
+
+.banner-button {
+    margin-bottom: 30px;
+}
+
+.banner-button a {
+    padding: 19px 10px;
+}
+
+.about-us-area {
+    padding: 60px 0px 95px 0px;
+}
+
+.about-us-area .maria-section-title h2 {
+    font-size: 42px;
+}
+
+.about-us-shape {
+    display: none;
+}
+
+.about-us-area .section-bar-title h2 {
+    font-size: 18px;
+}
+
+.about-us-area .section-bar-title p {
+    width: 100%;
+}
+
+.about-us-button {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.portfolio-area .maria-section-title h3 {
+    font-size: 30px;
+}
+.portfolio-area .maria-section-title h2 {
+    font-size: 30px;
+}
+
+.portfolio-area .owl-dots {
+    display: none;
+}
+
+.portfolio-area {
+    padding: 100px 0 70px;
+}
+
+.about-us-area-two .maria-section-title h2 {
+    font-size: 36px;
+}
+
+.best-work-tab {
+    background: black;
+    width: 305px;
+    height: 305px;
+    float: left;
+}
+
+.best-work-tab-btn button {
+    display: none;
+}
+
+.best-work-tab-content {
+    width: 290px;
+    height: 290px;
+    top: 8px;
+    left: 6px;
+    padding: 3px 0;
+}
+
+.about-us-button-two {
+    margin-bottom: 30px;
+}
+
+.testimonial-area-two .single_testimonial {
+    padding: 100px 0 100px 5px;
+}
+
+.brand-area .brand-box {
+    margin-left: 12px;
+}
+
+.pricing-area .single_pricing {
+    padding: 0 14px 16px;
+    margin-bottom: 30px;
+}
+
+.order_now a {
+    padding: 13px 48px;
+
+}
+
+.order_now a:before {
+    right: 16px;
+}
+
+.best-work-tab-desc p {
+    font-size: 15px;
+}
+
+/*about inner page*/
+.about-us-area.style-two .maria-section-title h5 {
+    margin: 0 0 16px 40px;
+}
+
+.about-us-shape-two {
+    display: none;
+}
+
+.about-us-area.style-two .maria-section-title h3 {
+    font-size: 36px;
+}
+
+.counter-area.style-two .maria-section-title h3 {
+    font-size: 35px;
+}
+
+.work-area .maria-section-title h3 {
+    font-size: 36px;
+}
+
+.work-area .maria-section-title p {
+    width: 90%;
+}
+
+.team-area.style-two .maria-section-title h3 {
+    font-size: 36px;
+}
+
+.team-area.style-two .maria-section-title.text-center p {
+    width: 100%;
+}
+
+.testimonial-area-there .single_testimonial {
+    padding: 100px 0 100px 10px;
+}
+
+.testimonial-area-there .testi_text p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.service-area .single-service-box {
+    padding: 40px 20px 20px 10px;
+    text-align: center;
+}
+
+.portfolio-info {
+    padding: 68px 15px;
+}
+
+.portfolio-info-share ul li {
+    margin: 0 2px;
+}
+.portfolio-strategy {
+    padding: 30px 15px;
+}
+
+.portfolio-related-title h1 {
+    font-size: 33px;
+}
+
+.portfolio-related-thumb {
+    margin-bottom: 30px;
+}
+
+.team-area.style-four {
+    padding: 100px 0 30px;
+}
+
+.feature-are.style-two .maria-section-title h3 {
+    font-size: 30px;
+}
+
+.feature-are.style-two .maria-section-title.text-center p {
+    margin: 10px auto 55px;
+    width: 100%;
+}
+
+.feature-are.style-two .feature-box {
+    padding: 30px 10px 25px 10px;
+    margin-bottom: 30px;
+}
+
+.feature-are.style-two  .feature-box-icon {
+    margin-right: 5px;
+}
+
+.contact-section .row.form {
+    margin-left: 0;
+}
+
+.contact-section .maria-section-title.text-left {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.blog-area.style-two .blog-content {
+    padding: 28px 10px 15px;
+}
+
+.blog-area.style-two .blog-text p {
+    width: 100%;
+}
+
+.rpost-thumb {
+    margin-right: 5px;
+}
+
+#calendar-wrapper header h4 {
+    text-align: left !important;
+}
+
+section#calendar-days span:nth-child(1), section#calendar-days span:nth-child(3) {
+    width: 37% !important;
+}
+
+section#calendar-days span:nth-child(2) {
+    width: 27% !important;
+}
+
+ section#calendar-days span:nth-child(3) {
+    width: 37% !important;
+}
+
+section#calendar-days span:nth-child(4) {
+    width: 27% !important;
+}
+
+section#calendar-days span:nth-child(5) {
+    width: 27% !important;
+}
+
+section#calendar-days span:nth-child(6) {
+    width: 48% !important;
+}
+
+section#calendar-days span:nth-child(7) {
+    width: 28% !important;
+}
+
+.Calender-details-box {
+    padding: 35px 5px 35px;
+}
+
+#calendar #navigation-wrapper {
+    right: 15rem !important;
+    top: 21rem !important;
+}
+
+.blog-details-content {
+    padding: 38px 10px 45px;
+}
+
+.single-blog-content ul {
+    padding-left: 0;
+}
+
+.maria-single-icon ul li a {
+    margin: 0 2px 0 0;
+}
+
+.sidebar-search-box {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+}

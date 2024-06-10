@@ -1,0 +1,32 @@
+.countdown{
+    list-style: none;
+    margin-bottom: 64px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: $gradient;
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    @include media-query(767px) {
+        margin-bottom: 48px;
+    }
+    @include media-query(575px) {
+        margin-bottom: 32px;
+    }
+    @include media-query(400px) {
+        gap: 8px;
+    }
+    li{  
+        text-align: center;
+        position: relative;
+        .number-text{
+            color: $medium-gray;
+            margin-top: -4px;
+        }
+        i{
+            transform: rotate(90deg);
+        }
+    }
+}

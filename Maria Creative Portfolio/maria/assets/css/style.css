@@ -1,0 +1,4574 @@
+/*===============================================
+Template Name: Maria-Creative Portfolio HTML5 Template
+Author:  https://templatemonster/user/drtheme
+Description: Description
+Version: 1.0.0
+Text Domain: maria
+Tags: agency, consulting, digital agency, digital marketing, digital marketing agency, marketing, marketing agency, media agency, portfolio, seo, seo agency, seo agency theme, seo marketing, smm, social media marketing agency.
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. maria Header Top Menu Area Css
+02. maria Nav Menu Area Css 
+03. maria Slider Area Css
+04. maria Section Title Css
+05. maria Service Area css
+06. maria About Area Css
+07. maria Counter Area Css
+08. maria Case Study Area Css
+09. maria Testimonial Area Css
+10. maria Process Area Css
+11. maria Team Area Css
+12. maria Faq Area Css
+13. maria Brand Section Css
+14. maria Call Do Section Css
+15. maria Form Box Css
+16. maria Skill Area Css
+17. maria Blog Area Css
+18. maria footer Area Css
+19. maria Subscribe Area Css
+20. maria Lines CSS
+21. maria Prossess Ber Css
+22. maria Scrollup Section
+23. maria Bounce Animation Css 
+24. maria Animation Dance
+25. maria Breadcumb Area Css
+26. maria abouts_areas Css
+27. maria Feture-Area Css
+28. maria Pricing Section Css
+29. maria Web Development Section CSS
+30. maria Contact  US Css
+31. maria Blog Sidber Widget CSS
+32. maria Case Study Details Css
+33. maria Search Box Css
+34. maria Loader Css
+=======================*/
+
+
+/*============================================
+<!-- Start maria header top area  -->
+==============================================*/
+.header-top-area {
+    padding: 10px 0;
+    background: #000;
+}
+
+.header-address-info ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-address-info ul li span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.header-address-info ul li i {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.header-top-right-social {
+    text-align: right;
+}
+
+.header-top-right-social ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-top-right-social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.header-top-right-social ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*================================
+<--  maria Nav Menu Area Css -->
+==================================*/
+.maria_nav_manu {
+
+}
+
+.maria_nav_manu .container-fluid {
+    padding: 0 60px;
+}
+
+.sticky .nav-btn.navSidebar-button a i {
+    color: #fff;
+}
+
+.sticky .header-main-button a {
+    color: #fff;
+    border: 1px solid#fff;
+}
+
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #000 !important;
+    transition: .5s !important;
+    z-index: 922;
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    animation-name: slideInDown;
+}
+
+.sticky .maria_menu>ul>li>a {
+    color:#fff;
+}
+
+.sticky.maria_nav_manu::before {
+    display: none;
+}
+
+.sticky .maria_menu>ul>li>a i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.sticky .maria_menu>ul>li>a i:hover{
+    color: #64cdf3;
+}
+
+.sticky .header-button a {
+}
+
+.sticky .header-button a i {
+    color: #fff;
+}
+
+/* maria Menu Css*/
+nav.maria_menu {
+    text-align: right;
+}
+
+.search-box-btn.search-box-outer {
+    text-align: right;
+}
+
+.maria_menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.maria_menu>ul>li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.maria_menu>ul>li>a {
+    font-size: 17px;
+    display: block;
+    margin: 30px 15px;
+    transition: .5s;
+    color: #101210;
+    font-weight: 600;
+}
+
+nav.maria_menu span {
+    font-size: 14px;
+    padding-left: 6px;
+    color: #181818;
+    transition: 0.5s;
+}
+
+/*menu button*/
+.header-main-button {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.header-main-button a{
+    color:#161617;
+    background: transparent;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 0;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 1px solid#161617;
+    position: relative;
+    z-index: 1;
+}
+
+.header-main-button a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    border-radius: 3px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.header-main-button a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.header-main-button a:hover::before {
+    width: 100%;
+}
+
+.header-main-button a:hover{
+    color: #fff;
+}
+
+/*** Sub Menu Style 
+==========================***/
+
+.maria_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    width: 270px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    padding: 0px 0;
+    z-index: 1;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    visibility: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    transform-origin: center top 0;
+    transition: all 0.4s ease-in-out;
+    border-top: 4px solid #161617;
+    border-bottom: 4px solid #161617;
+    opacity: 0;
+}
+
+.maria_menu ul li:hover>.sub-menu {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+.maria_menu ul .sub-menu li {
+    position: relative;
+}
+
+.maria_menu ul .sub-menu li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transition: .1s;
+    transition: .1s;
+    visibility: inherit !important;
+    color: #232323 !important;
+}
+
+.maria_menu ul .sub-menu li:hover>a,
+.maria_menu ul .sub-menu .sub-menu li:hover>a,
+.maria_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.maria_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+    background: #232323;
+    color: #fff !important;
+}
+
+/* sub menu 2 
+=================*/
+
+.maria_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.maria_menu ul .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 3 
+==================*/
+
+.maria_menu ul .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.maria_menu ul .sub-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.maria_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+ul.sub-menu li:hover a span{
+    background: rgba(255,255,255, 0.20);
+}
+
+/* sub menu 4 
+====================*/
+
+.maria_menu ul .sub-menu .sub-menu .sub-menu li {
+    position: relative;
+}
+
+
+.maria_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+.maria_menu li a:hover:before {
+    width: 101%;
+}
+
+.maria_nav_manu.sticky .logo_img {
+    display: none;
+}
+
+.main_sticky {
+    display: none;
+}
+
+.maria_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
+.mobile-menu.mean-container {
+    overflow: hidden;
+}
+
+/*========================================
+<--start maria light-theme Style Css -->
+==========================================*/
+.light-theme {
+    color: #303030 !important;
+}
+
+.dark-light span {
+    color: #000000;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.sticky .dark-light span{
+    color:#fff;
+}
+
+.dark-light {
+    display: inline-block;
+}
+
+.side-bar-button {
+    float: right;
+}
+
+
+/*
+<!-- ========================================-->
+<!-- Start maria hero Section Css -->
+<!-- ========================================-->*/
+
+.hero-section {
+    background: url(../images/slider/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title h1 {
+    font-family: Oswald;
+    color: rgb(15, 14, 17);
+    line-height: 90px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+
+.hero-title h2 {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    line-height: 85px;
+    -webkit-text-stroke: 1px rgba(15, 14, 17, 0.9);
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+
+.hero-title h2[data-hover] {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.hero-title h2::before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-text-stroke: 0;
+    -webkit-text-fill-color: #000;
+    color: #000;
+    transition: all .6s ease;
+    }
+
+.hero-title h2:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-title h3 {
+    position: absolute;
+    left: 42px;
+    top: -100px;
+    font-size: 200px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #eceded;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    color: rgb(93, 93, 93);
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    color: rgb(93, 93, 93);
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 74%;
+}
+
+.hero-button {
+    margin-top: 38px;
+}
+
+.hero-button a {
+    display: inline-block;
+    background-color: rgb(15, 14, 17);
+    font-family: Oswald;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px 52px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    border:1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.hero-button a:hover {
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+
+.slider-socail-icon {
+    position: absolute;
+    left: 50px;
+    bottom: 152px;
+}
+
+.slider-socail-icon a {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 50px 0 0 -12px;
+    color: #0F0E11;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Oswald';
+}
+
+/*Section title
+===================================*/
+.maria-section-title.text-left {
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.maria-section-title h5 {
+    color: #161617;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0 0 16px 38px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.about-us-area.style-two .maria-section-title h5 {
+    color: #cecece;
+    margin: 0 0 16px 0px;
+}
+
+.team-area.style-two .maria-section-title h5 {
+    font-size: 18px;
+    margin: 0 0 16px 0px;
+    color: #cecece;
+}
+
+.counter-area.style-two .maria-section-title h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    margin: 0 0 16px 0px;
+    color: #cecece;
+}
+
+.maria-section-title h5::before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 32px;
+    background: url(../images/resource/section-logo.png);
+    left: -39px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+}
+
+.maria-section-title.text-left h1 {
+    position: absolute;
+    left: 69px;
+    top: -117px;
+    font-size: 200px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #eceded;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.maria-section-title h3{
+    font-size: 46px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    margin-top: 0;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #161617;
+}
+
+.about-us-area.style-two .maria-section-title h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.counter-area.style-two .maria-section-title h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.work-area .maria-section-title h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px 0px 18px 0px;
+}
+
+.team-area.style-two .maria-section-title h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.maria-section-title h2{
+    font-size: 46px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    margin-top: 0;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #161617;
+}
+
+.about-us-area.style-two .maria-section-title h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.maria-section-title p {
+    color: #727272;
+    font-size: 16px;
+    width: 63%;
+    margin: 15px 0 12px;
+}
+
+.team-area.style-two .maria-section-title.text-center p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto 60px;
+    width: 50%;
+}
+
+.work-area .maria-section-title p {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 51%;
+    margin: 0 auto 0;
+}
+
+.section-bar {
+    position: relative;
+    margin: 23px 0 80px;
+}
+
+.section-bar:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #E8E8E8;
+}
+
+.about-us-area.style-two .section-bar:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.section-bar:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 40%;
+    background: #161617;
+    -webkit-animation: MOVE-BG1 2s linear infinite alternate;
+    -moz-animation: MOVE-BG1 2s linear infinite alternate;
+    -o-animation: MOVE-BG1 2s linear infinite alternate;
+    animation: MOVE-BG1 2s linear infinite alternate;
+}
+
+.about-us-area.style-two .section-bar:after {
+    background: #fff;
+}
+
+.section-bar-two {
+    position: relative;
+    margin: 23px 0 80px;
+}
+
+.team-area.style-two .section-bar-two {
+    margin: 23px 0 42px;
+}
+
+.section-bar-two:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 630px;
+    height: 2px;
+    width: 32%;
+    background: #E8E8E8;
+}
+
+.counter-area.style-two .section-bar-two:before {
+    background: rgba(255, 255, 255, 0.2);
+    right: 350px;
+    width: 40%;
+   
+}
+
+.team-area.style-two .section-bar-two:before {
+    background: rgba(255, 255, 255, 0.2);
+    right: 350px;
+    width: 40%;
+   
+}
+
+.section-bar-two:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 645px;
+    height: 2px;
+    width: 12%;
+    background: #161617;
+    -webkit-animation: MOVE-BG1 2s linear infinite alternate;
+    -moz-animation: MOVE-BG1 2s linear infinite alternate;
+    -o-animation: MOVE-BG1 2s linear infinite alternate;
+    animation: MOVE-BG1 2s linear infinite alternate;
+}
+
+.counter-area.style-two .section-bar-two:after {
+    background:#fff;
+    left: 430px;
+    width: 11%;
+   
+}
+
+.team-area.style-two .section-bar-two:after {
+    background:#fff;
+    left: 430px;
+    width: 11%;
+   
+}
+
+
+.section-bar-there {
+    position: relative;
+    margin: 23px 0 52px;
+}
+
+.section-bar-there:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #E8E8E8;
+}
+
+.section-bar-there:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 40%;
+    background: #161617;
+    -webkit-animation: MOVE-BG1 2s linear infinite alternate;
+    -moz-animation: MOVE-BG1 2s linear infinite alternate;
+    -o-animation: MOVE-BG1 2s linear infinite alternate;
+    animation: MOVE-BG1 2s linear infinite alternate;
+}
+
+
+
+@keyframes MOVE-BG1 {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(380px);
+      transform: translateX(380px);
+    }
+  }
+  
+  @keyframes MOVE-BG {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(88px);
+      transform: translateX(88px);
+    }
+  }
+
+/**
+======================================================
+<!-- Start maria feature area  -->
+======================================================**/
+.feature-area {
+    padding: 100px 0 95px 0;
+}
+
+.feature-box-title h2 {
+    font-size: 24px;
+    margin: 20px 0 17px;
+    position: relative;
+    color: #161617;
+    font-weight: 500;
+}
+
+.feature-box-description p {
+    color: #999999;
+    margin-bottom: 16px;
+    width: 90%;
+}
+
+span.number {
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+.feature-box-number {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box-number:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 14px;
+    left: 24px;
+    height: 1px;
+    width: 405px;
+    background: #161617;
+    opacity: 0.3;
+}
+
+/**
+======================================================
+<!-- start maria about area -->
+======================================================**/
+.about-area {
+    background: url(../images/resource/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.about-section-content {
+    padding-left: 54px;
+}
+
+.about-button a {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid#161617;
+    color: #161617;
+    padding: 14px 38px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    letter-spacing: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.about-button a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.about-button a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.about-button a:hover::before {
+    width: 100%;
+}
+
+.about-button a:hover{
+    color: #fff;
+}
+
+.about-button {
+    margin-top: 24px;
+}
+
+/**
+======================================================
+<!--start maria our case area -->
+======================================================**/
+.our-case-area {
+    padding: 100px 0 75px;
+}
+
+.row.portfolio-box {
+    margin-top: 30px;
+}
+
+.single-portfolio {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.single-portfolio::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+    background: rgba(79,80,82,0.90);
+    opacity: .8;
+    transition: .5s;
+}
+
+/*all hover*/
+.single-portfolio:hover::before{
+	height:100%;
+	left:0;
+}
+
+ .single-portfolio:hover .portfolio-case-title h2{
+	opacity:1;
+    transform: translateY(-60%);
+}
+
+.single-portfolio:hover .portfolio-case-title h2 a{
+    color: #fff;
+}
+
+.portfolio-thumb img {
+    width: 100%;
+}
+
+.portfolio-content-inner {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio-case-title h2 {
+    display: inline-block;
+    margin: 0;
+    font-size: 22px;
+    color: #000;
+    font-family: 'Oswald';
+    font-weight: 500;
+    opacity: 0;
+}
+
+
+/**
+======================================================
+	<!--start maria counter area -->
+======================================================**/
+.counter-area {
+    background: url(../images/resource/counter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 85px 0;
+}
+
+.counter-number h2 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 26px;
+    display: inline-block;
+}
+
+.counter-text span {
+    color: #CECECE;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/**
+======================================================
+<!--start maria our skill area -->
+======================================================**/
+.our-skill-area {
+    background: url(../images/resource/skills-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.barfiller {
+    width: 100%;
+    height: 4px;
+    position: relative;
+    margin-bottom: 27px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 10px 10px rgba(60,115,206,0.2));
+    background-color: #D0D0D1;
+    color: #161617;
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+}
+
+span.fill {
+    background: #161617 !important;
+    border-radius: 5px;
+}
+
+.prossess-ber-plugin span {
+    color: #161617;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.barfiller .tip {
+    font-size: 16px;
+    left: 0px;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 2;
+    top: -39px;
+    font-weight: 700;
+    color: #0E1317;
+}
+
+/**
+======================================================
+<!--start maria team area -->
+======================================================**/
+.team-area {
+    padding: 100px 0 100px;
+}
+
+.single-team-box {
+    position: relative;
+}
+
+.team-thumb img {
+    width: 100%;
+}
+
+.single-team-box:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #333;
+    opacity: 40%;
+    transition: .5s;
+}
+
+.single-team-box::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #333;
+    opacity: 40%;
+    transition: .5s;
+    border-radius:0 0 5px 5px ;
+}
+
+.single-team-box:hover:before,
+.single-team-box:hover::after {
+    height: 50%;
+}
+
+.team-member-content {
+    background: transparent;
+    border-bottom: 0;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+}
+
+.single-team-box:hover .team-member-content {
+	opacity:1;
+	top:75%;
+    transform: translateY(-60%);
+}
+
+.team-member-content h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin: 0 0 4px;
+    display: inline-block;
+}
+
+.team-member-content h2 a {
+    transition: 0.5s;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.team-member-content h2 a:hover{
+color:#fff;
+}
+
+.team-member-content h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.social-icon {
+    margin: 5px 0 0;
+}
+
+.social-icon a {
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    margin: 0 5px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+/**
+======================================================
+<!--start maria testimonial area -->
+======================================================**/
+.testimonial-area {
+    background: url(../images/resource/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.testimonial-thumb img {
+    width: 100%;
+}
+
+.single_testimonial {
+    padding: 100px 0 100px 45px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.single_testimonial:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    background: url(../images/resource/quote.png);
+    height: 55px;
+    width: 54px;
+}
+
+.testi_content {
+    padding: 0;
+    -webkit-box-shadow: 0 25px 40px 0 rgba(0,0,0,.1);
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 32px;
+}
+
+.testi_title h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #161617;
+    margin: 0;
+}
+
+.testi_title span {
+    color: #161617;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding: 13px 0 0;
+}
+
+.testi_text p {
+    width: 82%;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #161617;
+    font-family: 'Oswald';
+    line-height: 35px;
+}
+
+.testi_autor-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.testi_title {
+    padding-top: 15px;
+}
+
+/*owl-dots*/
+.testimonial-area .owl-dots {
+    position: absolute;
+    left: 108px;
+    bottom: 0;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.testimonial-area .owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    display: inline-block !important;
+    margin: 0 3px;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.testimonial-area .owl-dot.active {
+    background: #727272;
+    width: 35px;
+}
+
+/**
+======================================================
+<!--start maria blog area -->
+======================================================**/
+.blog-area {
+    padding: 95px 0 65px;
+}
+
+.row.blog-box {
+    margin-top: 35px;
+}
+
+.blog-thumb{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-thumb::before {
+    background:#161617;
+    content: "";
+    height: 200%;
+    left: 0;
+    opacity: 0.4;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: all 0.6s ease 0s;
+    width: 200%;
+    transform: skew(45deg) translateX(-100%);
+}
+
+.blog-thumb:hover::before{
+    transform: skew(45deg) translateX(0px);
+}
+
+.blog-thumb img {
+    width: 100%;
+}
+
+.blog-content {
+    overflow: hidden;
+    padding: 22px 4px 28px 0px;
+}
+
+.maria-blog-meta-left span{
+    display: inline-block;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #727272;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.blog-page-title h2{
+    font-size: 24px;
+    margin: 0 0 17px;
+    border-top: none;
+    padding-top: 11px;
+    color: #161617;
+    font-weight: 500;
+}
+
+.blog-page-title h2 a {
+    margin-bottom: 0;
+    text-transform: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+
+.blog-page-title h2 a:hover {
+    color: #2871FE;
+}
+
+.blog-text p {
+    margin: 16px 0 13px;
+    color: #727272;
+    width: 72%;
+}
+
+.blog-area.style-two .blog-text p {
+    margin: 16px 0 13px;
+    color: #727272;
+    width: 80%;
+}
+
+.maria-blog-button a{
+    color: #161617;
+    display: inline-block;
+    transition: all .5s ease 0s;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Oswald';
+    position: relative;
+}
+
+.maria-blog-button a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 68px;
+    background: #161617;
+    height: 1px;
+    transition: .3s;
+}
+
+.maria-blog-button a:hover{
+    color: #2871FE; 
+}
+
+/**
+======================================================
+<!--start maria contact area -->
+======================================================**/
+.contact-area {
+    background: url(../images/resource/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.contact-title h2 {
+    color: #FFFFFF;
+    font-family: "Oswald", Sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact-btn {
+    text-align: right;
+}
+
+.contact-btn a {
+    display: inline-block;
+    background: #444445;
+    color: #fff;
+    padding: 16px 42px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Oswald';
+    letter-spacing: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-btn a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.contact-btn a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.contact-btn a:hover{
+    color:#161617;
+}
+
+/**
+======================================================
+<!--start maria news letter area -->
+======================================================**/
+.newsletter-area {
+    padding: 95px 0 0;
+    background-color: #0E0E11;
+}
+
+.row.news-bg {
+    text-align: center;
+}
+
+.newsletter-title h2{
+    color: #FFFFFF;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+ 
+.newsletter-form input {
+    font-size: 16px;
+    height: 56px;
+    padding: 5px 21px;
+    position: relative;
+    width: 30%;
+    background: #fff;
+    margin: auto;
+    border: 0;
+    border-radius: 0;
+    color: #1d2124;
+}
+
+.newsletter-form {
+    position: relative;
+    z-index: 1;
+    margin-top: 32px;
+}
+
+.newsletter-form button {
+    transition: all 0.4s ease 0s;
+    background: #434343;
+    color: #fff;
+    font-weight: 500;
+    padding: 6px 33px;
+    position: absolute;
+    right: 24%;
+    top: 52%;
+    height: 60px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+/**
+======================================================
+<--  maria Footer Section Css -->
+======================================================**/
+.footer-area {
+    padding: 47px 0 20px;
+    background-color: #0E0E11;
+}
+
+.widget-title h2 {
+color: #FFFFFF;
+font-family: "Oswald", Sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+
+.footer-menu {
+    margin-top: 30px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.footer-menu ul li a {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.footer-menu ul li a:hover {
+    color: #727272;
+}
+
+.footer-widget-text p {
+    text-align: center;
+    color: #CECECE;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    width: 90%;
+}
+
+.footer-widget {
+    text-align: center;
+}
+
+.footer-widget-logo {
+    margin-bottom: 20px;
+}
+
+.footer-widget-social {
+    margin-top: 22px;
+}
+
+.footer-widget-social a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #434343;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: .5s;
+    margin-right: 5px;
+}
+
+.footer-widget-social a:hover {
+    background: #fff;
+    color: #161617;
+}
+
+.footer-widget-link {
+    text-align: right;
+}
+
+.coppy-right-text {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 42px;
+    margin-bottom: 0px;
+    padding: 35px 0px 0px 0px;
+}
+
+.coppy-right-text p {
+    text-align: center;
+    color:#ffffff;
+}
+
+/**==================================================
+<!-- start maria banner area Home two -->
+======================================================**/
+.banner-area {
+    background: url(../images/resource/home-2-light-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner-area .container-fluid {
+    padding: 0 190px 0 82px;
+}
+
+.banner-main-title h1 {
+    font-family: Poppins;
+    color: rgb(22, 22, 23);
+    line-height: 102px;
+    letter-spacing: 19px;
+    font-weight: 200;
+    font-size: 94px;
+}
+
+.banner-sub-title h2 {
+    font-family: Poppins;
+    color: rgb(22, 22, 23);
+    text-align: left;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 9px;
+}
+
+.banner-button {
+    margin-top: 55px;
+}
+
+.banner-button a {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: rgb(22, 22, 23);
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid rgb(22, 22, 23);
+    padding: 19px 45px;
+    transition: 0.5s;
+}
+
+.banner-button a:hover{
+    background: #161617;
+    color: #fff;
+    border: 1px solid #161617;
+}
+
+.banner-button a i {
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.banner-thumb img {
+    width: 100%;
+}
+
+/**==================================================
+<!-- start maria about-us area -->
+======================================================**/
+.about-us-area {
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 120px 0px 95px 0px;
+    position: relative;
+}
+
+.section-bar-title h2{
+    color: #161617;
+    margin: 41px 0px 0px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 2.8px;
+}
+
+.about-us-area.style-two .section-bar-title h2{
+    color: #fff;
+}
+
+.section-bar-title h3 {
+    color: #161617;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 2.8px;
+    margin: 0;
+}
+
+.about-us-area.style-two .section-bar-title h3{
+    color: #fff;
+}
+
+
+.section-bar-title p {
+    font-size: 16px;
+    width: 81%;
+    margin: 15px 0 12px;
+}
+
+.about-us-area.style-two .section-bar-title p{
+    color: #999999;
+}
+
+
+.about-box {
+    display: flex;
+    margin: 0 0 11px;
+}
+
+.about-box-title h2 {
+    font-size: 16px;
+    color: #161617;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    margin: 0;
+}
+
+.about-us-area.style-two .about-box-title h2{
+    color: #fff;
+}
+
+.about-box-icon {
+    margin-right: 20px;
+}
+
+.about-box-icon i{
+    color: #161617;
+    font-size: 13px;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #161617;
+    border-radius: 100%;
+}
+
+.about-us-area.style-two .about-box-icon i{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.about-us-button {
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.about-us-button a {
+    display: inline-block;
+    background: transparent;
+    color: #161617;
+    padding: 15px 35px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    border: 1px solid #161617;
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-button a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+/*all hover*/
+.about-us-button a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.about-us-button a:hover{
+    color: #fff;
+}
+
+.about-us-button a i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.about-us-thumb2 img {
+    max-width: 100%;
+}
+
+.about-us-thumb {
+    text-align: right;
+}
+
+.about-us-thumb2 {
+    float: right;
+}
+
+.about-us-shape {
+    position: absolute;
+    right: -40px;
+    top: 270px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+/*========================================
+<!--start maria Our Portfolio area -->
+==========================================*/
+.portfolio-area {
+    padding: 100px 0 170px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.prot-thumb {}
+
+.prot-thumb img {
+    width: 100%;
+}
+
+.single-protfolio-box{
+    position: relative;
+    z-index: 1;
+}
+
+.single-protfolio-box::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0%;
+    top: 0;
+    right: 0;
+    background: rgba(79,80,82,0.90);
+    opacity: .8;
+    transition: .5s;
+}
+
+/*all hover*/
+.single-protfolio-box:hover::before{
+	height:100%;
+	left:0;
+}
+
+.cases-study-content {
+    background: #2A2A2C;
+    width: 80%;
+    border-radius: 10px 10px 0 0;
+    padding: 24px 0 24px;
+    position: absolute;
+    left: 0;
+    bottom: -25%;
+    right: 0;
+    margin: auto;
+    transition: .5s;
+    text-align: center;
+    opacity: 0;
+}
+
+.cases-study-content:before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    background: #2A2A2C;
+    transform: rotate(45deg);
+}
+
+/*all hover*/
+.single-protfolio-box:hover .cases-study-content:before{
+    opacity: 1;
+}
+
+.single-protfolio-box:hover .cases-study-content{
+    bottom: 0;
+    opacity: 1;
+}
+
+
+.case_category span{
+    color:#fff;
+}
+
+.case-study-title h2 a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #fff;
+    margin: 0 0 0;
+    transition: 0.5s;
+}
+
+.case-study-title h2{
+    font-size: 18px;
+    margin: 0px 0 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+/*owl-dot*/
+
+.portfolio-area .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.portfolio-area .owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    display: inline-block !important;
+    margin: 0 3px;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.portfolio-area .owl-dot.active {
+    background: #161617;
+    width: 35px;
+}
+
+/*========================================
+<!-- start maria about-us area two-->
+==========================================*/
+.about-us-area-two {
+    padding: 90px 0 90px;
+}
+
+.about-us-button-two {
+    margin-top: 36px;
+}
+
+.about-us-button-two a {
+    display: inline-block;
+    background: transparent;
+    color: #161617;
+    padding: 15px 55px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    border: 1px solid #161617;
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-button-two a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+/*all hover*/
+.about-us-button-two a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.about-us-button-two a:hover{
+    color: #fff;
+}
+
+.about-us-button-two a i {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.about-us-thumb-two {
+    float: right;
+    animation: up-down 3s linear infinite;
+}
+
+.about-us-thumb-two img {
+    max-width: 100%;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*about tabs*/
+
+.best-work-tab {
+    border-radius: 50%;
+    border: 1.5px solid #161617;
+    width: 522px;
+    height: 522px;
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+
+.best-work-tab-btn ul li {
+    list-style: none;
+}
+
+.best-work-tab-btn li:nth-child(1) {
+    position: absolute;
+    top: 8rem;
+    left: -0.5rem;
+}
+
+.best-work-tab-btn li:nth-child(2) {
+    position: absolute;
+    top: -2rem;
+    left: 14.5rem;
+}
+
+.best-work-tab-btn li:nth-child(3) {
+    position: absolute;
+    top: 8rem;
+    right: -0.5rem;
+}
+
+.best-work-tab-btn li:nth-child(4) {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.best-work-tab-btn li:nth-child(5) {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+.best-work-tab-btn button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #161617;
+    border: none;
+}
+
+.best-work-tab-btn button:hover img {
+    transform: rotate(360deg);
+}
+
+section.best-work .best-work-tab-btn img {
+    filter: brightness(0);
+    transition: .5s;
+}
+
+.best-work-tab-btn button:hover img, .best-work-tab-btn button.active img {
+    filter: brightness(5);
+}
+
+.best-work-tab-content {
+    width: 340px;
+    height: 340px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    padding: 50px 30px;
+    text-align: center;
+    display: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -webkit-animation: move .4s ease-in;
+    animation: fadeIn  .5s ease-in;
+    border: 10px solid #161617;
+    border-radius: 100%;
+}
+
+.best-work-tab-content.active {
+    display: block;
+}
+
+.best-work-tab-title h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 28px;
+    color: #ffff;
+    font-weight: 400;
+    margin: 40px 0 18px;
+}
+
+.best-work-tab-desc p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: .8;
+    margin: 0;
+}
+
+section.best-work .adiracity-section-title h1 {
+    color: #ffffff;
+}
+
+.best-work-desc p {
+    opacity: 0.800;
+    color: #ffffff;
+}
+
+.best-work-desc {
+    margin: 24px 0 30px;
+}
+
+.best-work-link span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 6px;
+    transition: .5s;
+}
+
+.best-work-link a:hover span {
+    background: #161617;
+}
+
+.best-work-link a {
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.best-work-link a:hover {
+    color: #161617;
+}
+
+.best-work-link a:hover img{
+    filter: brightness(0) invert(1);
+    transition: .35s;
+}
+
+.best-work-tab-icon img {
+    filter: brightness(5);
+}
+
+.best-work-tab-btn button img, .best-work-tab-btn button img {
+    filter: brightness(0) invert(1);
+}
+
+.best-work-tab-content.active {
+    background: gray;
+}
+
+button.best-tab-btn.active {
+    background:grey;
+    border:1px solid grey;
+}
+
+/*========================================
+<!--start maria testimonial area two -->
+==========================================*/
+.testimonial-area-two {}
+
+.testimonial-thumb-two img {
+    width: 100%;
+}
+
+.row.testi-bg.align-items-center {
+    background-color: #F7F7F7;
+}
+
+.testimonial-area-two .owl-dots {
+    position: absolute;
+    left: 85px;
+    bottom: 0;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.testimonial-area-two .owl-dot.active {
+    background: #fff;
+    width: 35px;
+}
+
+.testimonial-area-two .owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    display: inline-block !important;
+    margin: 0 3px;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+/*===========================
+<-- maria brand-area -->
+=============================*/
+.brand-area {
+    padding: 100px 0 110px;
+}
+
+.brand-area .brand-thumb{
+    transition: 0.5s;
+}
+
+.brand-area .brand-thumb:hover {
+    filter: invert(100%) sepia(92%) saturate(8%) hue-rotate( 248deg) brightness(97%) contrast(141%);
+}
+
+/*===================================
+<!-- Start maria Pricing Area -->
+=====================================*/
+.pricing-area {
+    padding: 95px 0 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.single_pricing {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    overflow: hidden;
+    border: 1px solid#2A2A2C;
+    padding: 0 43px 16px;
+}
+
+.single_pricing:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    transition: .4s;
+    background: #2A2A2C;
+    z-index: -1;
+}
+
+/*all hover*/
+.single_pricing.active:before,
+.single_pricing:hover:before{
+	width: 100%;
+	left: 0;
+}
+
+.single_pricing.active,
+.single_pricing:hover {
+    transform: translate3d(0,-5px,0);
+}
+
+.single_pricing.active .pricing_title h3, 
+.single_pricing:hover .pricing_title h3 {
+    color: #fff !important;
+}
+
+.single_pricing.active .curencyp,
+.single_pricing:hover .curencyp{
+    color: #fff !important;
+ }
+
+ .single_pricing.active span.tk,
+ .single_pricing:hover span.tk{
+    color: #fff !important;
+ }
+
+ .single_pricing.active .order_now a,
+ .single_pricing:hover .order_now a {
+    color: #0F0E11;
+    background: #fff;
+}
+
+.single_pricing.active .order_now a:before,
+.single_pricing:hover .order_now a:before{
+	background: #0F0E11;
+}
+
+.pricing_top_bar {
+    padding: 25px 41px 5px;
+}
+
+.pricing_head {
+    padding: 0 0 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.pricing_title {
+    text-align: center;
+}
+
+.pricing_title h3 {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-size: 24px;
+    padding-bottom: 9px;
+    font-weight: 600;
+    color: #161617;
+    font-family: 'Poppins';
+}
+
+.pricing-description p {
+    color: #999999;
+    margin: 0 0 0;
+    text-align: center;
+}
+
+.price_item {
+    -webkit-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.price_item_inner_center {
+    text-align: center;
+}
+
+.curencyp {
+    font-size: 23px !important;
+    position: relative;
+    top: -18px;
+    font-weight: 600;
+    color: #161617;
+}
+
+span.tk {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #161617;
+    margin: 12px 9px 0 0;
+    display: inline-block;
+}
+
+.bootmp {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #999999!important;
+}
+
+.pricing_body {
+    padding: 0px 0 34px;
+    border-top: 1px solid#2A2A2C;
+}
+
+.featur {
+    border-top: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 0;
+}
+
+.featur ul {
+    padding: 20px 0 0;
+}
+
+.featur ul li {
+    display: block;
+    font-size: 15px;
+    padding: 7px 0;
+    text-transform: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.featur ul li i {
+    color: #fff;
+    font-size: 10px;
+    margin-right: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+.featur ul li i:after {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    background: #6B6B6D;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    transition: .5s;
+    left: -6px;
+    z-index: -1;
+    top: -6px;
+}
+
+.pricing_bottom {
+    padding: 0 0 21px;
+}
+
+.order_now {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-top: 26px;
+}
+
+.order_now a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 83px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    color: #fff;
+    background-color: #161617;
+    border: 1px solid#161617;
+    border-radius: 0;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+}
+
+.order_now a:before {
+    position: absolute;
+    content: "";
+    top: 26px;
+    right: 54px;
+    height: 1px;
+    width: 19px;
+    transition: .5s;
+    background: #fff;
+}
+
+/*=================================
+<!-- Start maria breadcumb-area  -->
+===================================*/
+.breadcumb-area {
+    background: url(../images/resource/breatcam-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 170px 0 145px;
+}
+
+.breadcumb-content {
+    text-align: center;
+}
+
+.breadcumb-title h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.breadcumb-content-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.breadcumb-content-menu ul li a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.breadcumb-content-menu span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.breadcumb-content-menu i {
+    display: inline-block;
+    margin: 0  6px  0 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*===========================================
+<!-- start maria about-us area style-two -->
+=============================================*/
+.about-us-area.style-two {
+    background-color: #161617;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
+    padding: 100px 0px 90px 0px;
+    position: relative;
+}
+
+.about-us-shape-two {
+    position: absolute;
+    right: -36px;
+    top: 140px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*===========================================
+<!--start maria counter area style two -->
+=============================================*/
+.counter-area.style-two {
+    padding: 100px 0 100px;
+    background: #161617;
+}
+
+/*===========================================
+<!--start maria work area -->
+=============================================*/
+.work-area {
+    padding: 100px 0 100px;
+    background-color: #161617;
+    background-image:url(../images/resource/work-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #494949;
+    border-bottom: 1px solid #494949;
+}
+
+.work-button {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.work-button a {
+    display: inline-block;
+    background: #444445;
+    color: #fff;
+    padding: 16px 42px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Oswald';
+    letter-spacing: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.work-button a::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+/*all hover*/
+.work-button a:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.work-button a:hover{
+    color: #161617;
+}
+
+/*===========================================
+<!--start maria team area style two -->
+=============================================*/
+.team-area.style-two {
+    background-color: #0E0E11;
+}
+
+/*===========================================
+<!--start maria testimonial area there -->
+=============================================*/
+.testimonial-area-there {
+    background-color: #0E0E11;
+}
+
+.testimonial-area-there .row.testi-bg.align-items-center {
+    background-color: #2A2A2C;
+}
+
+.testimonial-area-there .testi_text p {
+    font-family: "Poppins", Sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    width: 83%;
+}
+
+.testimonial-area-there .testi_title h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.testimonial-area-there .testi_title span {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.testimonial-area-there .owl-dots {
+    position: absolute;
+    left: 85px;
+    bottom: 0;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.testimonial-area-there .owl-dot.active {
+    background: #fff;
+    width: 35px;
+}
+
+.testimonial-area-there .owl-dot {
+    background: #bfcadc;
+    height: 5px;
+    width: 25px;
+    display: inline-block !important;
+    margin: 0 3px;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+/*========================================
+<!-- start maria brand-area style two -->
+==========================================*/
+.brand-area.style-two {
+    background-color: #0E0E11;
+    border-bottom: 1px solid #494949;
+}
+
+/*========================================
+<!-- Start maria feature area style two  -->
+==========================================*/
+.feature-area.style-two {
+    background-color: #C7CCCF26;
+}
+
+/*========================================
+<!-- Start maria service area  -->
+==========================================*/
+.service-area {
+    padding: 100px 0 70px;
+}
+
+.row.service-box {
+    margin-top: 45px;
+}
+
+.single-service-box {
+    border: 1px solid #f3f1ff;
+    border-radius: 5px;
+    padding: 40px 57px 40px 42px;
+    background: #fff;
+    transition: .3s;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-service-box:hover {
+    box-shadow: 0 0 60px rgba(0,0,0,0.1);
+    border-radius: 0;
+}
+
+.service-box-icon {
+    color: #333;
+    font-size: 40px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    display: inline-block;
+}
+
+.service-box-icon i{
+    margin-bottom: 32px;
+    display: inline-block;
+    color: #0E0E11;
+    background: transparent;
+    font-size: 35px;
+    height: 72px;
+    width: 72px;
+    line-height: 72px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid#0E0E11;
+    transition: 0.5s;
+}
+
+.single-service-box:hover .service-box-icon i{
+background-color: #161617;
+color:#fff;
+} 
+
+.service-box-title h2 {
+    margin: 0 0 17px 0;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+}
+
+ .service-box-title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    background: #1d2124;
+    width: 0;
+    transition: .3s;
+}
+
+.single-service-box:hover .service-box-title h2::before{
+width: 100%;
+} 
+
+.single-service-box:hover .service-box-title h2{
+    color:  #1d2124;
+}
+
+.service-box-desc p {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.service-btn {
+    margin-top: 25px;
+}
+
+.service-btn > a {
+    color: #161617;
+    display: inline-block;
+    transition: all .5s ease 0s;
+    position: relative;
+    font-weight: 500;
+}
+
+.single-service-box:hover:hover .service-btn a{
+color:#0C5ADA;
+
+}
+
+.single-service-box:hover:hover .service-btn a i{
+    right: -10px;
+} 
+
+.service-btn > a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 85px;
+    background: #161617;
+    height: 1px;
+    transition: .3s;
+}
+
+.service-btn a i {
+    right: 0;
+    margin-left: 7px;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+/*========================================
+<!-- Start maria service area style two -->
+==========================================*/
+.service-area.style-two {
+    background-color: #C7CCCF26;
+}
+
+.service-area.style-two .single-service-box {
+    text-align: center;
+}
+
+.service-area.style-two .service-btn >a {
+    color: #161617;
+    padding: 11px 42px;
+    border: 1px solid#161617;
+    border-radius: 4px;
+}
+
+.service-area.style-two .service-btn > a::before {
+   display: none;
+}
+
+/*========================================
+<!-- Start maria Pricing Area style two -->
+==========================================*/
+.pricing-area.style-two {
+    border-bottom: 0;
+}
+
+.pricing-area.style-two .maria-section-title.text-center {
+    margin-bottom: 60px;
+}
+
+/*========================================
+<!-- start maria brand-area style there -->
+==========================================*/
+.brand-area.style-there {
+    background-color: #C7CCCF26;
+}
+
+.brand-area.style-there {
+    background-color: #C7CCCF26;
+    padding: 95px 0 100px;
+}
+
+/*===============================================
+<!--start maria our case area style portfolio -->
+=================================================*/
+.our-case-area.style-portfolio {
+    background-color: #C7CCCF26;
+}
+
+/*===============================================
+<!--start maria team area style there-->
+=================================================*/
+.team-area.style-there {
+    background-color: #C7CCCF26;
+}
+
+.team-area.style-there .maria-section-title.text-center {
+    margin-bottom: 63px;
+}
+
+/*===============================================
+<!--start maria team area style four->
+=================================================*/
+.team-area.style-four {
+    padding: 100px 0 130px;
+}
+
+.team-area.style-four .maria-section-title.text-center {
+    margin-bottom: 63px;
+}
+
+.team-area.style-four .single-team-box{
+    position: relative;
+    overflow: inherit;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 22;
+    box-shadow: 0px 5px 30px 0px rgb(171 171 171 / 18%);
+}
+
+.team-area.style-four .single-team-box::after {
+    display: none;
+}
+
+.team-area.style-four .single-team-box:before {
+   display: none;
+}
+
+.team-area.style-four .team-thumb {
+    position: relative;
+}
+
+.team-area.style-four .team-thumb::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #333;
+    opacity: 40%;
+    transition: .5s;
+}
+
+.team-area.style-four .team-thumb::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #333;
+    opacity: 40%;
+    transition: .5s;
+    border-radius: 0 0 5px 5px;
+}
+
+.team-area.style-four .single-team-box:hover .team-thumb::before,
+.team-area.style-four .single-team-box:hover .team-thumb::after {
+    height: 50%;
+}
+
+.team-area.style-four .single-team-box:hover{
+    -webkit-box-shadow: 0px 10px 27px 0px rgb(44 130 237 / 20%);
+    box-shadow: 0px 10px 27px 0px rgb(44 130 237 / 20%);
+}
+
+.team-area.style-four .social-icon1 {
+    position: absolute;
+    right: 0;
+    width: 83%;
+    background: #fff;
+    padding: 12px 0;
+    opacity: 0;
+    visibility: visible;
+    transition: all 0.4s ease 0s;
+    top: inherit;
+    transform: inherit;
+    left: 0;
+    margin: auto;
+    bottom: -42px;
+    text-align: center;
+    z-index: 1;
+}
+
+.team-area.style-four .single-team-box:hover .social-icon1 {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}
+
+.team-area.style-four .team-member-content2 {
+    text-align: center;
+    padding: 20px 20px 25px;
+}
+
+.team-area.style-four .social-icon1 a {
+    color: #161617;
+    background: transparent;
+    text-align: center;
+    margin: 0 5px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.team-area.style-four .team-member-title h2 {
+    color: #161617;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+}
+
+.team-area.style-four .team-member-title h2 a {
+    transition: 0.5s;
+}
+
+.team-area.style-four .team-member-title h2 a:hover {
+   color:#2871FE;
+}
+
+.team-area.style-four .team-member-sub-title h5 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #999999;
+    float: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.pricing-area.style-there {
+    background-color: #C7CCCF26;
+    padding: 115px 0 105px;
+}
+
+/*===============================================
+<!--start maria team area style five->
+=================================================*/
+.team-area.style-five {
+    background-color: #C7CCCF26;
+}
+
+.team-area.style-five .maria-section-title.text-center {
+    margin-bottom: 63px;
+}
+
+.team-area.style-five .single-team-box {
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 60px rgba(0,0,0,0.1);
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.team-area.style-five .single-team-box:before {
+    display: none;
+}
+
+.team-area.style-five .single-team-box::after {
+    display: none;
+}
+
+.team-area.style-five .team-thumb {
+    position: relative;
+}
+
+.team-area.style-five .team-thumb::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background:#333;
+    opacity: 0.4;
+    border-radius: 0px;
+    transition: .5s;
+}
+
+.team-area.style-five .social-icon3 {
+    position: absolute;
+    right: -50px;
+    width: 50px;
+    background: #fff;
+    padding: 12px 0;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team-area.style-five .social-icon3 ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.team-area.style-five .team-member-content2 {
+    text-align: center;
+}
+
+.team-area.style-five .team-member-sub-title h5 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #999999;
+    float: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.team-area.style-five .team-member-content2 {
+    text-align: center;
+    padding: 20px 20px 25px;
+}
+
+.team-area.style-five .team-member-title h2 {
+    color: #161617;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+}
+
+.team-area.style-five .team-member-title h2 a {
+    transition: 0.5s;
+}
+
+.team-area.style-five .team-member-title h2 a:hover {
+   color:#2871FE;
+}
+
+/*all hover*/
+.team-area.style-five .single-team-box:hover .social-icon3{
+    right: 0;
+    width: 50px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-area.style-five .single-team-box:hover .team-thumb:before{
+	width:100%;
+}
+
+.team-area.style-five .single-team-box:hover{
+    -webkit-box-shadow: 0px 5px 30px 0px rgb(171 171 171 / 24%);
+    box-shadow: 0px 5px 30px 0px rgb(171 171 171 / 24%);
+}
+
+/*===============================================
+<!-- Start maria feature area style two  -->
+=================================================*/
+.feature-are.style-two {
+    background-color: #C7CCCF26;
+    padding: 100px 0 100px;
+}
+
+.feature-are.style-two .maria-section-title h5::before {
+    display: none;
+}
+
+.feature-are.style-two .maria-section-title.text-center p {
+    margin: 10px auto 55px;
+    width: 50%;
+}
+
+.feature-are.style-two .feature-box {
+    background: #ffffff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    border-bottom: 3px solid rgba(79,80,82,0.50);
+    border-radius: 6px;
+    padding: 30px 20px 25px 20px;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-are.style-two .feature-box::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(79,80,82,0.50);
+    border-radius: 6px 6px 0 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.feature-box-content {
+    transition: 0.5s;
+}
+
+.feature-are.style-two  .feature-box-icon {
+    margin-right: 20px;
+}
+
+.feature-are.style-two .feature-box-icon {
+    color: #333;
+    font-size: 40px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    display: inline-block;
+}
+
+.feature-are.style-two .feature-box-desc span {
+    display: block;
+}
+
+.feature-are.style-two .feature-box-icon i {
+    color: #161617;
+    background-color: #f7f9fa;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100% 100% 100% 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.feature-are.style-two .feature-box-title h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0 0 16px;
+}
+
+.feature-desc {
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*all hover*/
+.feature-are.style-two .feature-box:hover:before{
+    height: 100%;
+ }
+
+ .feature-are.style-two .feature-box:hover .feature-box-title h2,
+ .feature-are.style-two .feature-box:hover .feature-desc,
+ .feature-are.style-two .feature-box:hover .feature-box-desc span{
+    color: #fff;
+ }
+
+/*==========================================
+<!-- start maria contact section -->
+============================================*/
+.contact-section {
+    padding: 100px 0 80px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+.contact-section .maria-section-title h5::before {
+    display:none;
+    margin:0
+}
+
+.contact-section .maria-section-title h5 {
+    margin: 0 0 16px 0px; 
+}
+
+.form-box input {
+    display: block;
+    height: 54px;
+    width: 100%;
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    border: 1px solid #e6e6e6;
+    padding: 6px 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom:16px;
+}
+
+.form-box textarea {
+    width: 100%;
+    height: 134px;
+    padding: 6px 20px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 16px;
+}
+
+.submit-button button {
+    background: #000;
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 39px;
+    border-radius: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    color: #fff;
+    width: 100%;
+    border: 1px solid#161617;
+}
+
+.submit-button button:hover {
+    background: #fff;
+    color: #161617;
+    border: 1px solid #e6e6e6;
+}
+
+.contact-section .maria-section-title.text-left {
+    margin-left: 45px;
+}
+
+.contact-section .row.form {
+    margin-left: 45px;
+}
+
+/*==========================================
+<!-- start maria google map area-->
+============================================*/
+.google-maps iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/*==========================================
+<!--start maria blog area style two -->
+============================================*/
+.blog-area.style-two {
+    padding: 100px 0 130px;
+    background: #F6F6F6;
+}
+
+.single-blog {
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    background: #fff;
+}
+
+.blog-area.style-two .single-blog:hover{
+    -webkit-box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+    box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+    border-color: transparent;
+}
+
+.blog-area.style-two .blog-content {
+    overflow: hidden;
+    padding: 28px 36px 28px;
+}
+
+/*============================================
+<!-- start maria blog list area -->
+==============================================*/
+.sidebar-search-box {
+    margin-bottom: 40px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+}
+
+.search-form {
+    position: relative;
+    width: 100%;
+}
+
+.search-form input {
+    background: #fff none repeat scroll 0 0;
+    height: 60px;
+    position: relative;
+    width: 100%;
+    border: 1px solid #ced4da;
+    color: #616161;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.search-form button {
+    background: transparent none repeat scroll 0 0;
+    color: #616161;
+    font-size: 18px;
+    padding: 1px 15px;
+    top: 5px;
+    right: 0;
+    height: 53px;
+    width: 53px;
+    position: absolute;
+    display: inline-block;
+    border: none;
+    z-index: 1;
+}
+
+.widget-sidebar-box {
+    margin-bottom: 40px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+}
+
+.widget-recent-post {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 14px;
+}
+
+.rpost-title h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 16px;
+}
+
+.rpost-title h4 a {
+    color: #232323;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+}
+
+.rpost-title h4 a:hover{
+    color: #0c5adb;
+}
+
+.rpost-thumb {
+    margin-right: 27px;
+    overflow: hidden;
+}
+
+.rpost-thumb img {
+    border-radius: 5px;
+    transform: scale(1);
+    transition: 0.5s;
+    width: 100%;
+}
+
+.rpost-thumb img:hover {
+    transform: scale(1.2);
+}
+
+h4.sidebar-title.upp {
+    color: #232323;
+    display: block;
+    font-size: 21px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+
+h4.sidebar-title.upp::before {
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 88px;
+    height: 3px;
+    background: #aec6ef;
+    content: "";
+}
+
+h4.sidebar-title.upp::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #2871FE;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+@-webkit-keyframes MOVE-BG {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(88px);
+              transform: translateX(88px);
+    }
+  }
+
+  .sidebar-menu li {
+    list-style: none;
+}
+
+.sidebar-menu li a {
+    color: #616161;
+    font-weight: 400;
+}
+
+.sidebar-menu li a {
+    color: #616161;
+    font-weight: 400;
+}
+
+.cate-item-one {
+    border-top: 1px solid #E8E8E8;
+    padding: 16px 0;
+}
+
+.cate-item {
+    border-top: 1px solid #E8E8E8;
+    padding: 16px 0;
+}
+
+.cate-item-two {
+    border-top: 1px solid #E8E8E8;
+    padding: 16px 0 16px;
+}
+
+.sidebar-title.upp h3 {
+    color: #232323;
+    display: block;
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding-bottom: 35px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #1f1f1f21;
+    position: relative;
+}
+
+.sidebar-title.upp h3::before {
+    position: absolute;
+    left: 0;
+    bottom: 24px;
+    width: 88px;
+    height: 3px;
+    background: #aec6ef;
+    content: "";
+}
+
+.sidebar-title.upp h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #2871FE;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+.cloud-tag li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.cloud-tag li a {
+    padding: 10px 22px;
+    border: 1px solid#232323;
+    border-radius: 4px;
+    transition: .4s;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    color: #232323;
+}
+
+.cloud-tag li a::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 0%;
+    height: 100%;
+    background-color: #0c5adb;
+    transition: .4s;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.cloud-tag li a:hover{
+    color:#fff;
+}
+
+.cloud-tag li a:hover::before { 
+    width: 100%;
+    left: 0;
+    filter: hue-rotate(360deg);
+}
+
+
+.Calender-details-box {
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    padding: 35px 10px 35px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.title h3 {
+    color: #232323;
+    display: block;
+    font-size: 21px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.title h3::before {
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 88px;
+    height: 3px;
+    background: #aec6ef;
+    content: "";
+}
+
+.title h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #2871FE;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+/*============================================
+<!-- start maria blog details area -->
+==============================================*/
+.details-thumb img {
+    width: 100%;
+}
+
+.blog-details-content {
+    padding: 38px 45px 45px;
+    box-shadow: 0 3px 19px rgba(0,0,0,.08);
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.blog-area.style-two .maria-blog-meta-left a, .maria-blog-meta-left span {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 24px;
+    color: #616161;
+    position: relative;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+
+/*all hover*/
+.maria-blog-meta-left a:hover{
+    color: #0c5adb;
+} 
+
+.maria-blog-meta-left span:hover{
+    color: #0c5adb;
+}
+
+.maria-blog-meta-left p:hover{
+    color: #0c5adb;
+}
+
+.blog-area.style-two .maria-blog-meta-left a::before {
+    content: "";
+    background: #616161;
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    right: -15px;
+    top: 5px;
+}
+
+.blog-area.style-two .maria-blog-meta-left span::before {
+   display: none;
+}
+
+.blog-area.style-two .maria-blog-meta-left p {
+    transition: .3s;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #616161;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+}
+
+.blog-details-content-text p, .blog-details-content-text-inner p {
+    margin-bottom: 21px;
+}
+
+.single-blog-thumb img {
+    width: 100%;
+}
+
+.blog-details-content-text-inner2 p {
+    margin: 16px 0 21px;
+}
+
+.blog-content-title h3 {
+    font-size: 28px;
+}
+
+.single-blog-content ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    list-style: square;
+}
+
+.maria-blog-social {
+    padding-top: 40px;
+    text-align: left;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 40px;
+}
+
+.single-blog-content ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    list-style: square;
+}
+
+.maria-single-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.maria-single-icon ul li a {
+    border: 1px solid #e6e6e6;
+    color: #565872;
+    display: inline-block;
+    height: 40px;
+    line-height: 41px;
+    margin: 0 9px 0 0;
+    text-align: center;
+    width: 40px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.maria-single-icon ul li a::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #161617;
+    border-radius: 4px;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+}
+
+.maria-single-icon ul li a:hover::before{
+    transform: scale(1);
+}
+
+.maria-single-icon ul li a:hover{
+    color:#fff;
+} 
+
+.maria-single-icon ul li a i {
+    font-size: 15px;
+}
+
+.contact_title {
+    padding-top: 14px;
+}
+
+.contact_title h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.contact_title h1::before {
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    width: 88px;
+    height: 3px;
+    background: #aec6ef;
+    content: "";
+}
+
+.contact_title h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #2871FE;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+.form_box input {
+    height: 56px;
+    border-color: transparent;
+    transition: .5s;
+    border: 1px solid #F5F9FF;
+    padding: 6px 20px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #495057;
+}
+
+.contact_from .form_box textarea {
+    border-color: transparent;
+    transition: .5s;
+    border: 1px solid #F5F9FF;
+    padding: 6px 20px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.blog-details-section textarea#message {
+    height: 160px;
+}
+
+.detalis-form button {
+    width: 100%;
+    background: #275efe;
+    padding: 13px 32px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: 0.5px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.detalis-form button::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    transform: scale(0.0, 1);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.detalis-form button:hover::before{
+    transform: scale(1);
+}
+
+.detalis-form button i {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+
+/*<!--=========================================-->
+<!--start maria potfolio-details-section -->
+<!--===========================================-->*/
+
+section.potfolio-details-section {
+    padding: 120px 0;
+    background: #f8f8f8;
+}
+
+.portfolio-info {
+    background: #fff;
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+    padding: 68px 60px;
+}
+
+.portfolio-info-title h2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #232323;
+    font-weight: 400;
+    margin: 0;
+}
+
+.portfolio-info-details {
+    margin-top: 26px;
+}
+
+.portfolio-info-details h6 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #232323;
+    font-weight: 400;
+}
+
+.portfolio-info-details span {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.portfolio-info-shere-title h5 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    color: #232323;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.portfolio-info-share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.portfolio-info-share ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.portfolio-info-share ul li a {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #161617;
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.portfolio-info-share ul li a:hover {
+    color: #fff;
+}
+
+.portfolio-info-share ul li a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c5adb;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.portfolio-info-share ul li a:hover::before {
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+}
+
+.portfolio-info-thumb {
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+}
+
+.portfolio-info-thumb img {
+    width: 100%;
+}
+
+.portfolio-strategy {
+    margin: 60px 0 120px;
+    padding: 50px 60px;
+    background: #fff;
+    filter: drop-shadow(0px 3px 30px rgba(189,189,189,0.26));
+}
+
+.portfolio-strategy-title h2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #232323;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.portfolio-strategy-desc p {
+    margin: 0;
+}
+
+.portfolio-related-title h2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: #232323;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.portfolio-related-btn a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #232323;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    border-radius:4px;
+    background-color: #e4e4e4;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 20px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio-related-btn a:hover {
+    color: #fff;
+}
+
+.portfolio-related-btn a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background:#0c5adb;
+    border-radius:4px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.portfolio-related-btn a:hover:before {
+    width: 100%;
+    filter: hue-rotate(360deg);
+    left: 0;
+}
+
+.portfolio-related-thumb {
+    position: relative;
+    text-align: center;
+}
+
+.portfolio-related-thumb:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #232323;
+    opacity: .7;
+    transition: .5s;
+}
+
+.portfolio-related-thumb:hover:before {
+    height: 100%;
+    top: 0;
+}
+
+.portfolio-related-thumb img {
+    width: 100%;
+}
+
+.related-thumb-content {
+	position: absolute;
+	bottom: -10%;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+	opacity: 0;
+    transition: .5s;
+}
+
+.portfolio-related-thumb:hover .related-thumb-content {
+    bottom: 7%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.related-thumb-content a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 44px 10px 24px;
+    background-color:#0c5adb;
+    transition: .5s;
+    position: relative;
+}
+
+.related-thumb-content a:hover {
+    background-color: #161617;
+}
+
+.related-thumb-content a i {
+    transition: .5s;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+}
+
+.related-thumb-content a:hover i {
+    right: 14px;
+}
+
+/*<!--=======================================-->
+<!--End maria potfolio-details-section -->
+<!--=========================================-->*/
+
+
+/*===========================
+<-- maria Loader Css -->
+=============================*/
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    justify-content: center;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!--Scrollup Button Section -->
+<!-- ============================================================== -->*/
+
+/*------back-to-top------------*/
+
+.prgoress_indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgba(187, 247, 55, 0.2);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(15px) !important;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) !important;
+}
+
+.prgoress_indicator::after {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color:#abd6f6;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    z-index: 1;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator::before {
+  position: absolute;
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  font-weight: 900;
+  opacity: 0;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator:hover ::after {
+  color: #fff;
+}
+
+.prgoress_indicator:hover ::before {
+  opacity: 1;
+}
+
+.prgoress_indicator svg path {
+  fill: none;
+}
+
+.prgoress_indicator svg.progress-circle path {
+    stroke: #abd6f6;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear !important;
+}
+
+
+/*=====================================
+<--sidebar Search Box Css -->
+=======================================*/
+/*nav button*/
+.search-box-btn.search-box-outer {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.nav-btn.navSidebar-button {
+    display: inline-block;
+}
+
+.nav-btn.navSidebar-btn a i {
+    display: inline-block;
+    color: #232323;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.xs-sidebar-group .xs-overlay {
+    left: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 101;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in 0.8s;
+    -o-transition: all 0.4s ease-in 0.8s;
+    transition: all 0.4s ease-in 0.8s;
+}
+
+.xs-sidebar-group .widget-heading {
+    position: absolute;
+    top: 23px;
+    right: 0;
+    padding: 25px;
+}
+
+.xs-sidebar-widget {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    -o-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.xs-sidebar-group.isActive .xs-overlay {
+    opacity: 0.7;
+    visibility: visible;
+    -webkit-transition: all 0.8s ease-out 0s;
+    -o-transition: all 0.8s ease-out 0s;
+    transition: all 0.8s ease-out 0s;
+    left: 0;
+}
+
+.xs-sidebar-group.isActive .xs-sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+    -webkit-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    -o-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+    transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.close-side-widget i {
+    color: #161617;
+    opacity: .9;
+    font-size: 28px;
+    display: block;
+    transition: 0.5s;
+}
+
+.close-side-widget i:hover {
+    color: #f00;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in 0.3s;
+    -o-transition: all 0.3s ease-in 0.3s;
+    transition: all 0.3s ease-in 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 1s ease-out 1.2s;
+    -o-transition: all 1s ease-out 1.2s;
+    transition: all 1s ease-out 1.2s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.xs-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.xs-bg-black {
+    background: rgb(22,22,23,0.5)!important;
+}
+
+/*html css*/
+.nav-logo {
+    margin: 0 0 50px;
+}
+
+.content-box h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.content-box p {
+    display: inline-block;
+    color: #000;
+    padding: 15px 0 0;
+}
+
+a.theme-btn.btn-style-two span {
+    color: #000;
+    font-size: 20px;
+}
+
+a.theme-btn.btn-style-two i {
+    color: #f00;
+}
+
+.contact-info h2 {
+    color: #232323;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+ul.list-style-one li {
+    display: block;
+    list-style: none;
+    color: #000;
+    padding: 16px 0 0;
+    overflow: hidden;
+}
+
+ul.list-style-one li span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 10px 0 0px;
+}
+
+ul.social-box {
+    margin: 30px 0 0;
+}
+
+ul.social-box li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px 0 0;
+}
+
+ul.social-box li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    transition: .5s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+ul.social-box li a:hover {
+    background: #f00;
+}
+
+
+
+
+

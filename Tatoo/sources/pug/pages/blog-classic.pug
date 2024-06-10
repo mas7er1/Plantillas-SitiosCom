@@ -1,0 +1,81 @@
+extends  ../_skeleton
+
+//- Includes
+include ../components/_ui-post-corporate
+	
+	
+block variables
+	- var activeCategory = 'blog'
+	- var pageName = 'Blog Classic'
+
+block page
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	include ../sections/_header-classic
+
+		
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+		
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	section.section.section-lg.bg-transparent
+		.container
+			.row.row-50
+				.col-lg-8
+					.row.row-50
+						.col-lg-11
+							+post-corporate({
+								img: 'post-corporate-1-735x400',
+								tags: [
+									'Tattoo',
+									'Salon'
+								],
+								title: 'Looking for an Artist to Join Our Team! ',
+								time: 'Jun 06, 2018',
+								author: 'Michael Wells'
+							})
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum nisl. Etiam a quam pellentesque interdum vel at risus. Curabitur tempor porttitor egestas. 
+							+post-corporate({
+								img: 'post-corporate-2-735x400',
+								tags: [
+									'Tattoo',
+									'Salon'
+								],
+								title: 'Berlin Tattoo Convention 2018',
+								time: 'Jun 06, 2018',
+								author: 'Michael Wells'
+							})
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum nisl. Etiam a quam pellentesque interdum vel at risus. Curabitur tempor porttitor egestas.
+							+post-corporate({
+								img: 'post-corporate-3-735x400',
+								tags: [
+									'Tattoo',
+									'Salon'
+								],
+								title: 'South Florida Tattoo Expo',
+								time: 'Jun 06, 2018',
+								author: 'Michael Wells'
+							})
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum nisl. Etiam a quam pellentesque interdum vel at risus. Curabitur tempor porttitor egestas.
+						.col-12
+							ul.pagination
+								li.page-item.page-item-control: a.page-link(href='#' aria-label="Previous") prev
+								li.page-item.active: span.page-link 1
+								li.page-item: a.page-link(href='#') 2
+								li.page-item: a.page-link(href='#') 3
+								li.page-item: a.page-link(href='#') 4
+								li.page-item.page-item-control: a.page-link(href='#' aria-label="Next") next
+				.col-lg-4
+					include ../includes/_blog-aside
+	// Page Footer
+	include ../sections/_footer-with-map

@@ -1,0 +1,150 @@
+header.section.page-header
+	// RD Navbar
+	.rd-navbar-wrap
+		nav.rd-navbar.rd-navbar-classic.rd-navbar-classic-center(
+		data-layout=                'rd-navbar-fixed'
+		data-sm-layout=             'rd-navbar-fixed'
+		data-md-layout=             'rd-navbar-fixed'
+		data-md-device-layout=      'rd-navbar-fixed'
+		data-lg-layout=             'rd-navbar-static'
+		data-lg-device-layout=      'rd-navbar-static'
+		data-xl-layout=             'rd-navbar-static'
+		data-xl-device-layout=      'rd-navbar-static'
+		data-lg-stick-up-offset=    '46px'
+		data-xl-stick-up-offset=    '46px'
+		data-xxl-stick-up-offset=   '46px'
+		data-lg-stick-up=           'true'
+		data-xl-stick-up=           'true'
+		data-xxl-stick-up=          'true')
+			.rd-navbar-collapse-toggle.rd-navbar-fixed-element-1(data-rd-navbar-toggle='.rd-navbar-collapse'): span
+			.rd-navbar-aside-outer.rd-navbar-collapse
+				.rd-navbar-aside
+					.header-info
+						ul.list-inline.list-inline-md
+							li: .unit.unit-spacing-xs.align-items-center
+								.unit-left.font-weight-bold Free Call:
+								.unit-body: a(href='tel:#') (073) 123-12-12
+	
+							li: .unit.unit-spacing-xs.align-items-center
+								.unit-left.font-weight-bold Opening Hours:
+								.unit-body  Mn-Fr: 10 am-8 pm
+					.social-block
+						ul.list-inline
+							li: a(href='#').icon.fa-facebook
+							li: a(href='#').icon.fa-twitter
+							li: a(href='#').icon.fa-google-plus
+							li: a(href='#').icon.fa-vimeo
+							li: a(href='#').icon.fa-youtube
+							li: a(href='#').icon.fa-pinterest-p
+
+			.rd-navbar-main-outer
+				.rd-navbar-main
+					// RD Navbar Panel
+					.rd-navbar-panel
+						// RD Navbar Toggle
+						button.rd-navbar-toggle(data-rd-navbar-toggle='.rd-navbar-nav-wrap'): span
+
+						// RD Navbar Brand
+						.rd-navbar-brand
+							a(href='index.html')
+								+png(logo.default)
+
+					.rd-navbar-main-element
+						.rd-navbar-nav-wrap
+							ul.rd-navbar-nav
+								li.rd-nav-item.active
+									a.rd-nav-link(href='index.html') Home
+									
+								li.rd-nav-item
+									a.rd-nav-link(href='#') About
+									ul.rd-menu.rd-navbar-dropdown
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='#') Our Team
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='about-us.html') Overview
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='testimonials.html') Testimonials
+										
+								li.rd-nav-item 
+									a.rd-nav-link(href='services.html') Services
+								li.rd-nav-brand
+									a(href='index.html')
+										+png(logo.default)
+								li.rd-nav-item
+									a.rd-nav-link(href='#') Blog
+									// RD Navbar Dropdown
+									ul.rd-menu.rd-navbar-dropdown
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='blog-post.html') Blog post
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='blog-without-sidebar.html') Blog Without Sidebar
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='blog-classic.html') Blog Classic
+										li.rd-dropdown-item
+											a.rd-dropdown-link(href='blog-modern.html') Blog Modern
+								li.rd-nav-item
+									a.rd-nav-link(href='#') Pages
+									ul.rd-menu.rd-navbar-megamenu.rd-navbar-open-right
+										li.rd-megamenu-item
+											h6.rd-megamenu-title Pages 1
+											ul.rd-megamenu-list
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='typography.html') Typography
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='buttons.html') Buttons
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='forms.html') Forms
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='tabs-and-accordions.html') Tabs and accordions
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='progress-bars.html') Progress bars
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='grid-system.html') Grid system
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='tables.html') Tables
+										li.rd-megamenu-item
+											h6.rd-megamenu-title Pages 2
+											ul.rd-megamenu-list
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='appointment.html') Appointment
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='privacy-policy.html') Privacy policy
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='careers.html') Careers
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='faq.html') FAQ
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='#') Team Member Profile
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='pricing.html') Pricing
+										li.rd-megamenu-item
+											h6.rd-megamenu-title Pages 3
+											ul.rd-megamenu-list
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='under-construction.html') Under Construction
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='maintenance.html') Maintenance
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='login/register.html') Login/Register
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='coming-soon.html') Coming Soon
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='404.html') 404
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='503.html') 503
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='search-results.html') Search results
+										li.rd-megamenu-item
+											h6.rd-megamenu-title Gallery
+											ul.rd-megamenu-list
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='gallery.html') Grid Gallery
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='cobbles-gallery.html') Cobbles Gallery
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='masonry-gallery.html') Masonry Gallery
+												li.rd-megamenu-list-item
+													a.rd-megamenu-list-link(href='gallery-without-padding.html') Gallery without padding
+								li.rd-nav-item
+									a.rd-nav-link(href='contacts.html') Contacts
+									

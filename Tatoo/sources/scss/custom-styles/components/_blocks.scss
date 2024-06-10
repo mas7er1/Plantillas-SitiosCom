@@ -1,0 +1,167 @@
+/*
+*
+* Blocks
+*/
+
+%block-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// The block element can be centered horizontally
+//
+.block-center {
+	@extend %block-center;
+}
+
+// Limits block width and block element can be centered horizontally
+//
+
+
+.block-xs {
+	max-width: 500px;
+}
+.block-sm {
+	@extend %block-center;
+	max-width: 560px;
+}
+
+
+.block-lg {
+	@extend %block-center;
+	max-width: 768px;
+}
+
+// Block center
+.block-center {
+	padding: 10px;
+	&:hover {
+		.block-center-header {
+			background-color: $primary;
+		}
+	}
+}
+
+.block-center-inner {
+}
+
+.block-center-inner-aside {
+}
+
+.block-center-inner-main {
+}
+
+.block-center-title {
+	background-color: $white;
+}
+
+@include media-breakpoint-down(xl) {
+	.block-center {
+		padding: 20px;
+		&:hover {
+			.block-center-header {
+				background-color: $white;
+			}
+		}
+	}
+
+	.block-center-header {
+		background-color: $primary;
+	}
+}
+
+ 
+
+// block image aside
+.block-img-aside {
+	overflow: hidden;
+	@include media-breakpoint-up(lg) {
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+		background: url('../images/home-3-1-974x626.jpg');
+		background-size: cover;
+		img {
+			display: none;
+		}
+	}
+	
+}
+
+
+
+.block-decorate {
+	position: relative;
+	max-width: 660px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	overflow: hidden;
+	font-size: 120px;
+	font-family: $font-family-sec;
+	font-weight: 700;
+	color: $primary;
+	line-height: 1;
+	
+	
+	@include media-breakpoint-up(sm) {
+		font-size: 170px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		font-size: 260px;
+	}
+
+	@include media-breakpoint-up(xl) {
+		font-size: 320px;
+	}
+
+	.text-image {
+		background: url(../images/text-bg.jpg) no-repeat center center;
+		background-size: cover;
+		-webkit-text-fill-color: transparent; 
+		-webkit-background-clip: text;
+	}
+}
+* + .block-decorate {
+	margin-top: 25px;
+}
+
+.block-line-primary-horizontal {
+	position: relative;
+	display: none;
+	
+	@include media-breakpoint-up(lg) {
+		display: block;
+	}
+	
+	span {
+		position: absolute;
+		display: block;
+		bottom: -5px;
+		width: 35px;
+		border-bottom: 1px solid $primary;
+	}
+	
+	&.offset-left {
+		span {
+			left: 26%;
+		}
+	}
+	&.offset-left-big {
+		span {
+			left: 63%;
+		}
+	}
+	&.offset-left-medium {
+		span {
+			left: 48%;
+		}
+	}
+	&.offset-top-big {
+		span {
+			bottom: -150px;
+		}
+	}
+}

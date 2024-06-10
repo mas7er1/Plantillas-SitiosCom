@@ -1,0 +1,65 @@
+.blog-aside-list
+	.blog-aside-list-item
+		h4.blog-aside-list-item-title Search
+		// RD Search
+		form.rd-search(action="search-results.html", method="GET", data-search-live="rd-search-results-live")
+			.form-wrap
+				label(for="rd-search-form-input" class="form-label") Search...
+				input(class="form-input" id="rd-search-form-input" type="text" name="s" autocomplete="off")
+				button.icon.mdi.mdi-magnify(type='submit')
+	.blog-aside-list-item
+		h4.blog-aside-list-item-title Archive
+		ul.list-marked.list-two-column
+			li: a(href='#') Jun 2018
+			li: a(href='#') Jul 2018
+			li: a(href='#') Aug 2018
+			li: a(href='#') Sep 2018
+			li: a(href='#') Oct 2018
+			li: a(href='#') Nov 2018
+			li: a(href='#') Dec 2018
+			li: a(href='#') Jan 2018
+			li: a(href='#') Feb 2018
+			li: a(href='#') Mar 2018
+	.blog-aside-list-item
+		h4.blog-aside-list-item-title Gallery
+		.blog-aside-gallery(data-lightgallery='group')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-1-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-1-180x140')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-2-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-2-180x140')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-3-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-3-180x140')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-4-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-4-180x140')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-5-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-5-180x140')
+			.blog-aside-gallery-item
+				a.gallery-item(href='images/gallery-aside-6-180x140_original.jpg' data-lightgallery='item')
+					+jpg('gallery-aside-6-180x140')
+			
+						
+	.blog-aside-list-item
+		h4.blog-aside-list-item-title Recent Blog Posts
+		.blog-aside-post
+			h5: a(href='blog-post.html') We are going to South Florida Tattoo Expo 2018
+			p 2 days ago
+		.blog-aside-post
+			h5: a(href='blog-post.html') Award – Best Place to Get Pierced 2018
+			p 2 days ago
+		.blog-aside-post
+			h5: a(href='blog-post.html') Tattoos and piercings of the week !
+			p 2 days ago
+	.blog-aside-list-item
+		h4.blog-aside-list-item-title Categories
+		ul.list-marked.list-primary
+			li: a(href='#') Tattoo
+			li: a(href='#') Piercing
+			li: a(href='#') Permanent Makeup
+			li: a(href='#') Design
+			li: a(href='#') Cover Up
+			

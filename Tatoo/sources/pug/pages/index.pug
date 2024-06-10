@@ -1,0 +1,274 @@
+extends  ../_skeleton
+
+//- Includes
+include ../components/_ui-pagination
+include ../components/_ui-post-classic
+include ../components/_ui-gallery-item
+include ../components/_ui-quote-modern
+include ../components/_ui-team-corporate
+include ../components/_ui-inline-subscribe-form
+
+block variables
+	
+	- var activeCategory = 'home'
+	- var pageName = 'Tattoo Salon'
+
+block page
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+				
+						
+	// Page Header
+	include ../sections/_header-sidebar
+	
+	// Swiper
+	section.section.swiper-container.swiper-slider.swiper-slider-2.slider-scale-effect.swiper-slider-with-info(data-loop='false' data-autoplay='false' data-simulate-touch="false" data-slide-effect='fade' )
+		.swiper-wrapper.text-center.text-md-left 
+			.swiper-slide
+				.slide-bg(style='background-image: url("images/slide-5-1-1920x880.jpg")' )
+				.section-line.d-none.d-lg-block
+					.container
+						.row
+							.col-md-7
+								.block-line
+				.swiper-slide-caption.section-lg
+					
+					.container
+						.row.justify-content-center.justify-content-md-start 
+							.col-sm-10.col-md-6
+								.text-accent
+									p Dark
+									span.heading-1 ink
+								h1( data-caption-animate='fadeInUp', data-caption-delay='100' ) tattoo salon
+								
+								p.lead.block-lg( data-caption-animate='fadeInUp', data-caption-delay='250' ) Our tattooists use 100% safe technology to create stunning artworks. They use certified equipment, which guarantees the best possible results.
+								a.button.button-primary( href='#', data-caption-animate='fadeInUp', data-caption-delay='450') Read more
+
+								
+		
+		.swiper-block-info
+			.swiper-block-info-item
+				span.text-primary.font-weight-bold Free Call: 
+				a(href='tel:#') (073) 123-12-12
+			.swiper-block-info-item
+				span.text-primary.font-weight-bold Opening Hours:
+				span 10 am-8 pm, Mn-Fr
+		
+
+	section.section.section-lg
+		.container
+			.block-line-primary-horizontal.offset-left
+				span
+			.row.row-50.align-items-lg-center.justify-content-lg-between
+				.col-lg-6
+					.box-images-classic
+						.row.row-30
+							.col-6
+								.box-image-item(data-parallax-scroll='{"y": -40,   "smoothness": 30 }')
+									+jpg('home-5-1-270x389')
+
+							.col-6
+								.box-image-item(data-parallax-scroll='{"y": 40,   "smoothness": 30 }')
+									+jpg('home-5-2-270x389')
+						.box-image-text
+							p our gallery
+				.col-lg-5.col-xl-5
+					.block-xs
+						h2.decorate-heading About
+							br.d-none.d-sm-inline
+							| salon 
+						
+						p.big.text-white We have been numerously recognized as #1 tattoo salon in Los Angeles. We aim to deliver the best tattooing services.
+						p Our staff consistently upgrades their ability and knowledge through training and seminars to ensure your tattoo or piercing is performed using the latest industry standards.
+						.text-block.text-right
+							+png('home-1-148x61')
+							
+
+	section.section.section-lg
+		.container
+			.row.justify-content-center.justify-content-lg-start.align-items-lg-center.block-offset-left-lg-30
+				.col-sm-10.col-lg-7
+					h2.decorate-heading What We Do
+					.row.row-50.justify-content-lg-end.pl-lg-5
+						.col-sm-6
+							.box-icon-minimal
+								.box-icon-minimal-header
+									include ../includes/_svg-icon-14
+									p.box-icon-minimal-title: a(href='services.html') Tattooing
+								.box-icon-minimal-text
+									p For a premium result, at our tattoo salon we combine modern techniques with traditional ones. 
+						.col-sm-6
+							.box-icon-minimal
+								.box-icon-minimal-header
+									include ../includes/_svg-icon-15
+									p.box-icon-minimal-title: a(href='services.html') Piercing
+								.box-icon-minimal-text
+									p Want some extra holes in your body? Our piercing masters will make some for you.
+						.col-sm-6
+							.box-icon-minimal
+								.box-icon-minimal-header
+									include ../includes/_svg-icon-16
+									p.box-icon-minimal-title: a(href='services.html') Tattoo Cover Up
+								.box-icon-minimal-text
+									p Got some old tattoos that you don’t find pretty? Our talented artists will cover them up for you.
+						.col-sm-6
+							.box-icon-minimal
+								.box-icon-minimal-header
+									include ../includes/_svg-icon-17
+									p.box-icon-minimal-title: a(href='services.html') Tattoo Design
+								.box-icon-minimal-text
+									p Nothing can beat the challenge of creating a design that initially is only in your imagination.
+	
+				.col-lg-5.d-none.d-lg-block
+					.wrap-image-absolute.wow.fadeIn
+						+png('home-1-475x858')
+						
+	section.section.section-lg.bg-transparent.pb-0
+		.container
+			.d-sm-flex.justify-content-between.text-center.text-sm-left.block-offset-left-lg-30
+				h2.decorate-heading Our Staff
+				.mt-3.mt-sm-0
+					a.button.button-primary(href='#') View all team
+			.block-line-primary-horizontal.offset-left-big
+				span
+			.row.row-50
+				.col-12
+					// Owl Carousel
+					.owl-carousel.carousel-creative(data-items='1' data-sm-items='2', data-lg-items='3' data-dots='true' data-nav='false' data-stage-padding='0', data-loop='true', data-autoplay='true'  data-margin='30', data-mouse-drag="false")
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-1-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Charles Wade
+								p Tattoo Master, Founder
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-2-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Henry Richard
+								p Tattoo Master
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-3-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Walter Evans
+								p Junior Tattoo Master
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+									
+	
+	section.section-lg.bg-transparent
+		.container
+			.block-offset-left-lg-30
+				h2.decorate-heading Testimonials
+				
+	
+				// Owl Carousel
+				.owl-carousel(data-items='1', data-md-items='2' data-dots='true' data-nav='false' data-stage-padding='0', data-loop='true', data-autoplay='true' data-margin='30', data-mouse-drag="false")
+					+quote-modern({
+						img: 'user-5-90x90',
+						title: 'Edwin Smith',
+						subTitle: 'Client'
+					})
+						p I visited Dark Ink about a month ago to get a tattoo. It has a very laid-back atmosphere while also staying very professional. Everyone was very nice and welcoming. Walter is not just an awesome artist, but a pretty cool guy to hang out with.
+					+quote-modern({
+						img: 'user-2-90x90',
+						title: 'Sam Williams',
+						subTitle: 'Client'
+					})
+						p Dark Ink is a place where you can get a high-quality tattoo, and even order a custom design based on your wishes and expectations. This is exactly what I received during my first visit to the salon, and I will certainly come here again.
+				
+					
+	
+	section.section
+		.container
+			.row.align-items-center.block-offset-left-lg-30
+				.col-sm-6
+					h2.decorate-heading Gallery
+					
+				.col-sm-6
+					p.text-right
+						a.button-link.button-link-icon(href='gallery.html') View All gallery 
+							span.icon.fa-arrow-right.icon-primary
+				
+			.block-line-primary-horizontal.offset-left-medium
+				span
+		// Owl Carousel
+		.owl-carousel.carousel-arrow.owl-outer-padding-none(data-items='1', data-sm-items='2', data-md-items='3' data-dots='false' data-nav='true' data-stage-padding='0', data-loop='false' data-autoplay='true', data-margin='0', data-mouse-drag="false" data-lightgallery='group')
+			.carousel-img
+				a(data-lightgallery='item' href='images/home-5-6-640x380.jpg')
+					+jpg('home-5-6-640x380')
+			.carousel-img
+				a(data-lightgallery='item' href='images/home-5-7-640x380.jpg')
+					+jpg('home-5-7-640x380')
+			.carousel-img
+				a(data-lightgallery='item' href='images/home-5-8-640x380.jpg')
+					+jpg('home-5-8-640x380')
+			.carousel-img
+				a(data-lightgallery='item' href='images/home-5-9-640x380.jpg')
+					+jpg('home-5-9-640x380')
+			.carousel-img
+				a(data-lightgallery='item' href='images/home-5-10-640x380.jpg')
+					+jpg('home-5-10-640x380')
+	
+					
+	section.section.bg-transparent
+		.container
+			.block-line-primary-horizontal.offset-top-big
+				span
+			.row.align-items-lg-end.justify-content-lg-between
+				.col-lg-6.d-none.d-lg-block
+					
+					.wow.fadeIn(data-wow-delay="1.4s")
+						+png('home-5-5-596x893')
+				.col-lg-5.col-xl-5
+					.section-md
+						h2.decorate-heading Get In Touch
+						
+						p Have any questions? Feel free to use the contact form below to get in touch with us. We will answer you as soon as possible!
+						form.rd-form.rd-mailform.rd-form-icon(data-form-output='form-output-global', data-form-type='contact', method='post', action='bat/rd-mailform.php')
+	
+							.form-wrap
+								input#contact-name.form-input(type='text' name='name' data-constraints='@Required')
+								label.form-label(for='contact-name') Your Name
+								span.icon.mercury-icon-user.input-icon
+							.form-wrap
+								input#contact-email.form-input(type='email' name='email' data-constraints='@Email @Required')
+								label.form-label(for='contact-email') Your Email
+								span.icon.mercury-icon-e-mail.input-icon
+							.form-wrap
+								input#contact-phone.form-input(type='text' name='phone' data-constraints='@Numeric')
+								label.form-label(for='contact-phone') Your Phone
+								span.icon.mercury-icon-phone.input-icon
+	
+							.form-wrap.textarea-wrap
+								label.form-label(for='contact-message') Your Message
+								textarea#contact-message.form-input(name='message' data-constraints='@Required')
+								span.icon.mercury-icon-pencil.input-icon
+	
+							.button-block
+								button.button.button-primary(type='submit') Send message
+								
+				
+					
+	include ../sections/_footer-with-map

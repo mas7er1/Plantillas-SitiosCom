@@ -1,0 +1,29 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = '404 Page'
+
+block page 
+	// Page content
+	section.section.section-single.bg-transparent
+		.section-single-inner
+			.section-single-header: .container
+				// Brand
+				a.brand( href='index.html' )
+					+png( logo.default, 'brand-logo-dark' )
+
+			.section-single-main: .container
+				h2 Page Not Found
+				
+
+				.block-decorate
+					p 404 
+
+				p.big
+					| The requested page  couldn't be found - this could be due to a spelling error in the URL or a removed page.
+
+				a.button.button-primary(href='index.html') Back to home page
+
+			.section-single-footer: .container
+				+rights

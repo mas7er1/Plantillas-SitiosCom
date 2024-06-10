@@ -1,0 +1,115 @@
+/*
+*
+* Text styling
+*/
+
+// Text styles
+.text-italic {
+	font-style: italic;
+}
+
+.text-normal {
+	font-style: normal;
+}
+
+// Text decoration
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-strike {
+	text-decoration: line-through;
+}
+
+// Text weight
+.font-weight-thin {
+	font-weight: 100;
+}
+
+.font-weight-light {
+	font-weight: 300;
+}
+
+.font-weight-regular {
+	font-weight: 400;
+}
+
+.font-weight-medium {
+	font-weight: 500;
+}
+
+.font-weight-sbold {
+	font-weight: 600;
+}
+.font-weight-bold {
+	font-weight: 700;
+}
+
+.font-weight-ubold {
+	font-weight: 900;
+}
+
+// Text spacing
+.text-spacing-0 {
+	letter-spacing: 0;
+}
+
+.text-spacing-50 {
+	letter-spacing: 0.05em;
+}
+
+.text-spacing-60 {
+	letter-spacing: 0.06em;
+}
+
+
+// Text color
+.text-primary {
+	color: $primary !important;
+}
+.text-gray-700 {
+	color: $gray-700;
+}
+
+.text-gray-800 {
+	color: $gray-800;
+}
+
+// img shadow
+.img-shadow {
+	box-shadow: 0 0 22px rgba($black, .1);
+}
+
+
+.text-accent {
+	display: flex;
+	justify-content: center;
+	font-family: $font-family-sec;
+	p {
+		font-size: 70px;
+		line-height: 1;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $primary;
+		padding-left: 25px;
+		padding-right: 15px;
+	}
+	span {
+		transform: rotate(-90deg);
+		line-height: 1;
+	}
+	@include media-breakpoint-up(md) {
+		justify-content: flex-start; 
+		p {
+			padding-left: 0;
+		}
+	}
+	@include media-breakpoint-up(xl) {
+		
+		p {
+			font-size: 150px;
+			margin-left: -15px;
+			padding-right: 22px;
+		}
+	}
+}

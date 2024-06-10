@@ -1,0 +1,145 @@
+extends  ../_skeleton
+
+//- Includes
+
+include ../components/_ui-inline-subscribe-form
+
+block variables
+	- var activeCategory = 'about'
+	- var pageName = 'About Us'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+		
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+		
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+	
+	section.section.section-lg.bg-image.section-filter-dark(style='background-image: url("images/bg-images-1.png")')
+		.container
+			.row.row-50.align-items-lg-center.justify-content-lg-end
+				
+				
+				.col-lg-6
+					.block-xs
+						h2.decorate-heading Who We Are
+						
+
+						p.big.text-white Cras ut vestibulum tortor. In in nisi sit amet metus varius pulvinar in vitae ipsum nec mi sollicitudin Fusce turpis massa,
+						p In ante sapien, dapibus luctus aliquet a, accumsan sit amet dolor. Mauris id facilisis dolor. Donec malesuada, est eu dignissim eleifend, est nulla dignissim nisl. Fusce turpis massa, mattis sit.
+					.row.row-30
+						.col-md-6
+							.box-contact-info-with-icon
+								span.icon.mdi.mdi-clock.icon-primary
+								h5.text-white Opening Hours
+								ul.list-xs
+									li
+										span.text-white Monday-Friday: 
+										=' '
+										| 8:00am–8:00pm
+									li
+										span.text-white Saturday:
+										=' '
+										| 8:00am–6:00pm
+									li
+										span.text-white Sunday: 
+										=' '
+										| Closed
+						.col-md-6
+							.box-contact-info-with-icon
+								span.icon.mdi.mdi-clock.icon-primary
+								h5.text-white Our Location
+								ul.list-xs
+									li
+										span.text-white Address: 
+										=' '
+										| Washington, USA 6036 Richmond hwy.,  VA, 2230
+									li
+										span.text-white Offices: 
+										=' '
+										| 284-290
+
+
+
+	+parallax({
+		img: 'images/parallax-04-1920x1320.jpg',
+		innerClass: 'section-lg text-center'
+	})
+		.container
+			h2 Video Presentation 
+			.divider-lg 
+			p.block-lg.text-white Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum bibendum elit cursus dapibus maximus. Maecenas sapien urna, cursus ut turpis non, gravida vehicula nisl. 
+		.container
+			.box-video-button(data-lightgallery="group")
+				a.button-play(data-lightgallery="item" href="https://www.youtube.com/watch?v=l-yTQ7W1tRA")
+					span.icon.fa-play 
+					
+					
+	section.section.section-lg.bg-transparent
+		.container
+			.d-sm-flex.justify-content-between.text-center.text-sm-left.block-offset-left-lg-30
+				h2.decorate-heading Our Staff
+				.mt-3.mt-sm-0
+					a.button.button-primary(href='appointment.html') make an appointment
+			.block-line-primary-horizontal.offset-left-big
+				span
+			.row.row-50
+				.col-12
+					// Owl Carousel
+					.owl-carousel.carousel-creative(data-items='1' data-sm-items='2', data-lg-items='3' data-dots='true' data-nav='false' data-stage-padding='0', data-loop='true', data-autoplay='true'  data-margin='30', data-mouse-drag="false")
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-1-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Charles Wade
+								p Tattoo Master, Founder
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-2-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Henry Richard
+								p Tattoo Master
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+						.box-team-creative
+							figure.box-team-creative-img
+								a(href='#')
+									+jpg('team-creative-3-370x480')
+							.box-team-creative-caption
+								h4.box-team-creative-title: a(href='#')  Walter Evans
+								p Junior Tattoo Master
+								ul.list-inline.social-list
+									li: a.icon.fa-facebook(href='#')
+									li: a.icon.fa-twitter(href='#')
+									li: a.icon.fa-instagram(href='#')
+									li: a.icon.fa-pinterest-p(href='#')
+
+
+	include ../sections/_newsletter-form
+	// Page Footer
+	include ../sections/_footer-with-map

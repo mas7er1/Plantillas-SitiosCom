@@ -1,0 +1,143 @@
+extends  ../_skeleton
+
+//- Includes
+block variables
+	- var activeCategory = 'blog'
+	- var pageName = 'Blog Post'
+
+block page
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	include ../sections/_header-classic
+
+		
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+		
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	section.section.section-lg.bg-transparent
+		.container
+			.row.row-50
+				.col-lg-8
+					.single-post-content
+						h4 Looking for an Artist to Join Our Team! 
+						ul.post-meta-list
+							li.time Jun 06, 2018
+							li by
+								=' '
+								a(href='#') Michael Wells
+						+jpg('single-post-1-735x404')
+						p.big.text-white Cras ut vestibulum tortor. In in nisi sit amet metus varius pulvinar in vitae ipsum necmi Nulla purus nibh, ornare malesuada. Ut volutpat sit amet tortor sed euismod. Curabitur finibus, orci nec finibus dignissim, dui ante aliquam metus.
+						p Donec posuere pellentesque accumsan. Quisque cursus in ex id mollis. Suspendisse potenti. Praesent fermentum fringilla erat ac porta. Praesent congue justo efficitur libero dapibus, et eleifend tellus viverra. Vivamus fermentum eleifend mi, at scelerisque erat lacinia quis. Nulla accumsan malesuada hendrerit. Mauris id luctus mauris. Vestibulum orci turpis, condimentum vitae leo et.
+						.quote-bordered
+							.quote-caption
+								svg(version='1.1' xmlns='http://www.w3.org/2000/svg', x='0px', y='0px', width="88.34px" height="65.34px",viewBox="0 0 88.34 65.34" enable-background="new 0 0 88.34 65.34" overflow='scroll', xml:space='preserve', preserveAspectRatio='none')
+									path(d='M49.394,65.34v-4.131c12.318-7.088,19.924-16.074,22.811-26.965c-3.125,2.032-5.968,3.051-8.526,3.051\
+																													c-4.265,0-7.864-1.721-10.803-5.168c-2.937-3.444-4.407-7.654-4.407-12.64c0-5.511,1.932-10.142,5.791-13.878\
+																													C58.123,1.873,62.873,0,68.51,0c5.639,0,10.354,2.379,14.143,7.137c3.793,4.757,5.688,10.678,5.688,17.758\
+																													c0,9.977-3.814,18.912-11.443,26.818C69.268,59.613,60.101,64.156,49.394,65.34z M0.923,65.34v-4.131\
+																													c12.321-7.088,19.926-16.074,22.813-26.965c-3.126,2.032-5.993,3.051-8.598,3.051c-4.219,0-7.794-1.721-10.734-5.168\
+																													C1.467,28.683,0,24.473,0,19.487C0,13.976,1.919,9.346,5.757,5.609C9.595,1.873,14.334,0,19.971,0\
+																													c5.685,0,10.41,2.379,14.178,7.137c3.767,4.757,5.652,10.678,5.652,17.758c0,9.977-3.805,18.912-11.409,26.818\
+																													C20.787,59.613,11.632,64.156,0.923,65.34z')
+								h3.quote-text All of our artists are knowledgeable and skilled, as well as courteous.
+
+
+
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum nisl:
+						ul.list-marked.list-marked-primary
+							li Lorem ipsum
+							li Dolor sit amet
+							li Consectetur adipiscing
+							li Donec sit amet
+
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet bibendum nisl. Etiam a quam pellentesque interdum vel at risus. 
+						+jpg('single-post-2-735x404')
+						p Donec posuere pellentesque accumsan. Quisque cursus in ex id mollis. Suspendisse potenti. Praesent fermentum fringilla erat ac porta. Praesent congue justo efficitur libero dapibus, et eleifend tellus viverra. Vivamus fermentum eleifend mi, at scelerisque erat lacinia quis. Nulla accumsan malesuada hendrerit. Mauris id luctus mauris. Vestibulum orci turpis, condimentum vitae leo et.
+						.single-post-share-block
+							p.big.text-white Share:
+							ul.list-inline.social-list
+								li: a.icon.icon-circle.icon-circle-sm.icon-circle-gray.fa-facebook(href='#')
+								li: a.icon.icon-circle.icon-circle-sm.icon-circle-gray.fa-twitter(href='#')
+								li: a.icon.icon-circle.icon-circle-sm.icon-circle-gray.fa-google-plus(href='#')
+								
+					.single-post-author
+						.single-post-author-img
+							+jpg('user-5-115x115')
+							h5 Michael Wells
+						.single-post-author-content
+							h5.text-white About the Author
+							p Donec posuere pellentesque accumsan. Quisque cursus in ex id mollis. Suspendisse potenti. Praesent fermentum fringilla erat ac porta. Praesent congue justo efficitur libero dapibus, et eleifend tellus. Fermentum fringilla erat ac porta. Praesent congue justo efficitur.
+					.post-comment-block
+						h4 Comments
+						.post-comment-item
+							.post-comment-item-img
+								+jpg('user-4-90x90')
+							.post-comment-item-content
+								.post-comment-item-header
+									ul.list-inline
+										li: a(href='#') Janice Brown
+										li June 20, 2018 at 10:15am
+								.post-comment-item-text
+									p Thanks to the author for such a useful article. It is really important for me to be informed about the news of your salon.
+								.post-comment-item-footer
+									a(href='#')
+										span.icon.mdi.mdi-reply 
+										| Reply
+						.post-comment-item.post-comment-item-reply
+							.post-comment-item-img
+								+jpg('user-3-90x90')
+							.post-comment-item-content
+								.post-comment-item-header
+									ul.list-inline
+										li: a(href='#') Betty Riley
+										li June 20, 2018 at 10:30am
+								.post-comment-item-text
+									p Thank you!
+								.post-comment-item-footer
+									a(href='#')
+										span.icon.mdi.mdi-reply
+										| Reply
+					.form-comment
+						h4 Leave a Comment
+						// RD Mailform
+						form.rd-mailform.text-left.rd-form(data-form-output="form-output-global", data-form-type='contact', method='post', action='bat/rd-mailform.php')
+							.row.row-15
+								.col-sm-6
+									.form-wrap
+										label.form-label(for="contact-name") First name
+										input#contact-name.form-input(type="text" name="name" data-constraints='@Required')
+								.col-sm-6
+									.form-wrap
+										label.form-label(for="contact-sec-name") Last name
+										input#contact-sec-name.form-input(type="text" name="sec-name" data-constraints='@Required')
+								.col-sm-6
+									.form-wrap
+										label.form-label(for="contact-phone") Phone
+										input#contact-phone.form-input(type="text" name="phone" data-constraints="@Numeric @Required")
+								.col-sm-6
+									.form-wrap
+										label.form-label(for="contact-email") E-Mail
+										input#contact-email.form-input(type="email" name="email" data-constraints="@Email @Required")
+								.col-12
+									.form-wrap
+										label.form-label(for="contact-message") Message
+										textarea#contact-message.form-input(name="message" data-constraints="@Required")
+
+							.form-button.group-sm.text-left
+								button(type="submit").button.button-primary Submit
+				.col-lg-4
+					include ../includes/_blog-aside
+	// Page Footer
+	include ../sections/_footer-with-map

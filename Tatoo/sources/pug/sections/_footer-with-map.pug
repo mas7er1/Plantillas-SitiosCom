@@ -1,0 +1,29 @@
+// RD Google Map
+section.section.rd-google-map(class="rd-google-map__model", data-marker="images/gmap_marker.png", data-marker-active="images/gmap_marker_active.png" data-styles='[{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]', data-zoom='14', data-x='-73.9874068', data-y='40.643180')
+	ul.map_locations
+		li(data-y='40.643180', data-x='-73.9874068')
+			p 9870 St Vincent Place, Glasgow, DC 45 Fr 45.
+
+footer.section.section-xs-type-1.footer-minimal.context-dark
+	.container
+		.row.row-30.align-items-lg-center.justify-content-lg-between
+			.col-lg-3
+				.footer-brand
+					a(href='index.html')
+						+png('logo-181x25')
+			.col-lg-9
+				.footer-nav
+					ul.rd-navbar-nav
+						each item in menu
+							li.rd-nav-item(class={active: activeCategory === item.category})
+								a.rd-nav-link(href=item.link ? item.link : genLink(item.title))=item.title
+
+section.bg-dark-img.section-xs.text-center
+	.container
+		p.rights&attributes( attributes )
+			span &copy;&nbsp; 
+			span.copyright-year
+			span &nbsp;
+			span All Rights Reserved
+			span &nbsp;
+			a( href='privacy-policy.html' ) Privacy Policy

@@ -1,0 +1,29 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = '503 Page'
+
+block page 
+	// Page content
+	section.section.section-single.bg-transparent
+		.section-single-inner
+			.section-single-header: .container
+				// Brand
+				a.brand( href='index.html' )
+					+png( logo.default, 'brand-logo-dark' )
+
+			.section-single-main: .container
+				h2 Service Is Temporary Unavailable
+				
+
+				.block-decorate
+					p 503
+
+				p.block-sm.big
+					| Sorry, we're offline right now to make our site even better. Please, come back later and check what we've been up to.
+
+				a.button.button-primary(href='index.html') Back to home page
+
+			.section-single-footer: .container
+				+rights

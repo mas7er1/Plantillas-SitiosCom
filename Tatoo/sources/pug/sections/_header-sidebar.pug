@@ -1,0 +1,32 @@
+header.section.page-header.header-sidebar
+	// RD Navbar
+	.rd-navbar-wrap
+		nav.rd-navbar(data-layout=                'rd-navbar-fixed'
+		data-sm-layout=             'rd-navbar-fixed'
+		data-md-layout=             'rd-navbar-fixed'
+		data-md-device-layout=      'rd-navbar-fixed'
+		data-lg-layout=             'rd-navbar-sidebar'
+		data-lg-device-layout=      'rd-navbar-fixed'
+		data-xl-layout=             'rd-navbar-sidebar'
+		data-xxl-layout=             'rd-navbar-sidebar'
+		data-xl-device-layout=      'rd-navbar-sidebar'  data-md-stick-up-offset="80px" data-lg-stick-up-offset="46px" data-md-stick-up='true' data-lg-stick-up='true')
+			.rd-navbar-main-outer
+				.rd-navbar-main
+					// RD Navbar Panel
+					.rd-navbar-panel
+						// RD Navbar Toggle
+						button.rd-navbar-toggle.rd-navbar-toggle-modern(data-rd-navbar-toggle='.rd-navbar-nav-wrap')
+							span.button-line
+							
+
+						// RD Navbar Brand 
+						.rd-navbar-brand
+							.rd-navbar-brand-name
+								a(href='index.html') 
+									img(src="images/logo-181x25.png",  alt="")
+									
+
+					.rd-navbar-main-element
+						.rd-navbar-nav-wrap
+							include ../includes/_navigation
+								

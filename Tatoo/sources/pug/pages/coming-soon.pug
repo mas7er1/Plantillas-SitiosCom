@@ -1,0 +1,32 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = 'Coming Soon'
+
+block page 
+	// Page content
+	section.section.section-single.bg-transparent
+		.section-single-inner
+			.section-single-header: .container
+				// Brand
+				a.brand( href='index.html' )
+					+png( logo.default, 'brand-logo-dark' )
+
+			.section-single-main: .container
+				h2 Website is Coming Soon
+				
+
+				.countdown-wrap
+					.DateCountdown(data-type='until' data-date='2018-12-31 00:00:00' data-format='wdhms' data-color=colors.primary data-bg='rgba(255, 255, 255, 0.15)' data-width='0.03')
+
+				p
+					span(style='max-width: 840px;') Sign up and we`ll notify you of our launch. We`ll also throw in a freebie for you.
+				
+					
+				a(href='contacts.html').button.button-primary Subscribe
+					
+					
+				
+			.section-single-footer: .container
+				+rights

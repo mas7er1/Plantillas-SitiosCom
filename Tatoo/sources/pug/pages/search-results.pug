@@ -1,0 +1,44 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = 'Search Results'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	// Search results
+	section.section-md
+		.container
+			.row
+				.col-lg-9
+					// RD Search
+					form.rd-form.rd-search.rd-form-inline(action='search-results.html' method='GET')
+						.form-wrap
+							label.form-label(for='rd-search-form-input') Search
+							input.form-input(id='rd-search-form-input' type='text' name='s' autocomplete='off')
+						.form-button
+							button.button.button-primary(type='submit') Search
+
+					.rd-search-results
+
+	// Page Footer
+	include ../sections/_footer-with-map

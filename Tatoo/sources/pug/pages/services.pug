@@ -1,0 +1,114 @@
+extends  ../_skeleton
+
+//- Includes
+include ../components/_ui-box-icon-modern
+
+
+block variables
+	- var activeCategory = 'services'
+	- var pageName = 'Services'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	
+	section.section.section-lg.pb-0
+		.container
+			.block-line-primary-horizontal.offset-left
+				span
+			.row.row-50.align-items-lg-center.justify-content-lg-between
+				.col-lg-6
+					.box-images-classic
+						.row.row-30
+							.col-6
+								.box-image-item(data-parallax-scroll='{"y": -40,   "smoothness": 30 }')
+									+jpg('services-1-270x389')
+
+							.col-6
+								.box-image-item(data-parallax-scroll='{"y": 40,   "smoothness": 30 }')
+									+jpg('services-2-270x389')
+				.col-lg-5.col-xl-5
+					.block-xs
+						h2.decorate-heading Why Choose Us
+
+						p.big.text-white Cras ut vestibulum tortor. In in nisi sit amet metus varius pulvinar in vitae ipsum nec mi sollicitudin Fusce turpis massa.
+						p In ante sapien, dapibus luctus aliquet a, accumsan sit amet dolor. Mauris id facilisis dolor. Donec malesuada, est eu dignissim eleifend, est nulla dignissim nisl. 
+						p Velit facilisis odio. Ut felis elit, facilisis at venenatis in, luctus vitae lectus. Morbi ornare eros vitae ante porta feugiat. 
+						a.button.button-primary(href='#') Book Now
+
+
+	section.section.section-lg.pb-0
+		.container
+			.block-offset-left-lg-30
+				
+				h2.decorate-heading What We Do
+				.row.row-50.justify-content-lg-end.pl-lg-5
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-14
+								p.box-icon-minimal-title: a(href='services.html') Tattooing
+							.box-icon-minimal-text
+								p For a premium result, at our tattoo salon we combine modern techniques with traditional ones. 
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-15
+								p.box-icon-minimal-title: a(href='services.html') Piercing
+							.box-icon-minimal-text
+								p Want some extra holes in your body? Our piercing masters will make some for you.
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-18 
+								p.box-icon-minimal-title: a(href='services.html') PERMANENT MAKE-UP
+							.box-icon-minimal-text
+								p Permanent makeup is a cosmetic technique which employs tattoos as a means of producing designs.
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-16
+								p.box-icon-minimal-title: a(href='services.html') Tattoo Cover Up
+							.box-icon-minimal-text
+								p Got some old tattoos that you don’t find pretty? Our talented artists will cover them up for you.
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-17
+								p.box-icon-minimal-title: a(href='services.html') Tattoo Design
+							.box-icon-minimal-text
+								p Nothing can beat the challenge of creating a design that initially is only in your imagination.
+					.col-sm-6.col-lg-4
+						.box-icon-minimal
+							.box-icon-minimal-header
+								include ../includes/_svg-icon-19
+								p.box-icon-minimal-title: a(href='services.html') Laser Removal
+							.box-icon-minimal-text
+								p Laser Tattoo Removal offers an effective solution to your unwanted tattoos as a simple outpatient procedure.
+
+				
+
+
+
+	include ../sections/_pricing-modern
+							
+	// Page Footer
+	include ../sections/_footer-with-map

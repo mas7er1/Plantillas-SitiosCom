@@ -1,0 +1,38 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = 'Pricing'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	// Search results
+	
+
+	include ../sections/_pricing-classic
+		
+	include ../sections/_section-partners
+		
+	include ../sections/_pricing-modern
+		
+	// Page Footer
+	include ../sections/_footer-with-map

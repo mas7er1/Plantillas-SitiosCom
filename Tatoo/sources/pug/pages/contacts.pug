@@ -1,0 +1,95 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'contacts'
+	- var pageName = 'Contacts'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+
+	// Mailform
+	section.section.section-md
+		.container
+			.row.row-50
+				.col-lg-8
+					h2.decorate-heading.decorate-heading-offset Contact us
+					
+					p You can contact us any way that is convenient for you. We are available 24/7 via fax or email. 
+						br.d-none.d-lg-inline
+						| You can also use a quick contact form below or visit our salon personally.
+					// RD Mailform
+					form.rd-mailform.text-left.rd-form(data-form-output="form-output-global", data-form-type='contact', method='post', action='bat/rd-mailform.php')
+						.row.row-15
+							.col-sm-6
+								.form-wrap
+									label.form-label(for="contact-name") First name
+									input#contact-name.form-input(type="text" name="name" data-constraints='@Required')
+							.col-sm-6
+								.form-wrap
+									label.form-label(for="contact-sec-name") Last name
+									input#contact-sec-name.form-input(type="text" name="sec-name" data-constraints='@Required')
+							.col-sm-6
+								.form-wrap
+									label.form-label(for="contact-phone") Phone
+									input#contact-phone.form-input(type="text" name="phone" data-constraints="@Numeric @Required")
+							.col-sm-6
+								.form-wrap
+									label.form-label(for="contact-email") E-Mail
+									input#contact-email.form-input(type="email" name="email" data-constraints="@Email @Required")
+							.col-12
+								.form-wrap
+									label.form-label(for="contact-message") Message
+									textarea#contact-message.form-input(name="message" data-constraints="@Required")
+						
+						.form-button.group-sm.text-left
+							button(type="submit").button.button-primary Send message
+				.col-lg-4
+					ul.contact-list
+						li 
+							p.contact-list-title Address
+							.contact-list-content
+								span.icon.mdi.mdi-map-marker.icon-primary
+								a(href='#') Washington, USA 6036 Richmond hwy., Alexandria, VA, 2230 
+						li
+							p.contact-list-title Phones
+							.contact-list-content
+								span.icon.mdi.mdi-phone.icon-primary
+								a(href='tel:#') +1 (409) 987–5874
+								span , 
+								a(href='tel:#') +1(409) 987–5884 
+						li
+							p.contact-list-title E-mail
+							.contact-list-content
+								span.icon.mdi.mdi-email-outline.icon-primary
+								a(href='mailto:#') info@demolink.org
+						li
+							p.contact-list-title Opening Hours
+							.contact-list-content
+								span.icon.mdi.mdi-clock.icon-primary
+								ul.list-xs
+									li Mon-Fri: 9 am – 6 pm
+									li Saturday: 9 am – 4 pm
+									li Sunday: Closed
+								
+	
+
+	// Page Footer
+	include ../sections/_footer-with-map

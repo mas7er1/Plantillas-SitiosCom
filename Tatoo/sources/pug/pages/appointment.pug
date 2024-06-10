@@ -1,0 +1,86 @@
+extends  ../_skeleton
+
+block variables
+	- var activeCategory = 'pages'
+	- var pageName = 'Make an Appointment'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+	
+	
+	section.section.section-lg.bg-image.section-filter-dark(style='background-image: url("images/bg-image-2.png")')
+		.container
+			
+	
+			.row.row-50.justify-content-center.justify-content-lg-end
+				.col-md-10.col-lg-8
+					h2.decorate-heading.decorate-heading-offset Make an Appointment
+						
+					p.block-lg The best way to enjoy a treatment at our salon is to book an appointment with the desired tattoo master. Fill in the form below and we will contact you to discuss your appointment.
+				.col-md-10.col-lg-8
+					// RD Mailform
+					form.rd-mailform.text-left(data-form-output="form-output-global", data-form-type='contact', method='post', action='bat/rd-mailform.php')
+						.row.row-20.justify-content-center
+							.col-lg-6
+								.form-wrap
+									label.form-label(for="contact-name") Your Name
+									input#contact-name.form-input(type="text" name="name" data-constraints='@Required')
+							.col-lg-6
+								.form-wrap
+									label.form-label(for="contact-email") Your E-mail
+									input#contact-email.form-input(type="email" name="email" data-constraints="@Email @Required")
+							.col-lg-6
+								.form-wrap
+									label.form-label(for="contact-phone") Your Phone
+									input#contact-phone.form-input(type="text" name="phone" data-constraints="@Numeric @Required")
+							.col-lg-6
+								//Select 2
+								select.form-input.select-filter(data-placeholder="Select a service..", data-minimum-results-for-search="Infinity", data-minimum-results-search="-1" data-constraints="@Required")
+									option(label='1')
+									option(value="2") Tattooing
+									option(value="3") Piercing
+									option(value="4") Tattoo Cover Up
+									option(value="5") Laser Removal
+	
+							.col-lg-6
+								.form-wrap
+									label.form-label(for="date") Date
+									input#date.form-input(type="text" name="date" data-time-picker='date' data-constraints="@Required")
+							.col-lg-6
+								select.form-input.select-filter(data-placeholder="Select a Tattoo Master…", data-minimum-results-for-search="Infinity", data-minimum-results-search="-1" data-constraints="@Required")
+									option(label='1')
+									option(value="2") Charles Wade
+									option(value="3") Henry Richard
+									option(value="4") Walter Evans
+									option(value="5") Oliver Nelson
+							.col-lg-12
+								.form-wrap
+									label.form-label(for="contact-message") Your comment
+									textarea#contact-message.form-input(name="message" data-constraints="@Required")
+	
+						.form-button
+							button(type="submit").button.button-primary make an appointment
+
+
+
+
+	// Page Footer
+	include ../sections/_footer-with-map

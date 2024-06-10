@@ -1,0 +1,118 @@
+extends  ../_skeleton
+
+//- Includes
+include ../components/_ui-gallery-item
+
+block variables
+	- var activeCategory = 'gallery'
+	- var pageName = 'Gallery'
+
+block page 
+
+	.section-line.d-none.d-lg-block
+		.container
+			.row
+				.col-md-7
+					.block-line
+	
+	// Page Header
+	include ../sections/_header-classic
+
+		
+	+page-title({
+		bgImage: 'page-title-1-1920x305',
+		title: pageName
+	})
+		
+	+breadcrumbs({
+		category: activeCategory,
+		path: [pageName]
+	})
+	
+	
+	section.section.section-lg.bg-transparent
+		.container
+			h2.decorate-heading.decorate-heading-offset Gallery 
+			
+		.container-fluid
+			.row.row-50
+				// Isotope Filters
+				
+
+				// Isotope Content
+				.col-lg-12
+					.isotope.row.no-gutters.row-condensed.cobbles-gallery(data-isotope-layout='masonry', data-isotope-group='gallery' data-lightgallery="group" data-column-class='.col-sm-6.col-lg-4')
+						.col-sm-6.col-lg-4.isotope-item(data-filter='other')
+							+gallery-item({
+								imgOriginal: 'images/gallery-aside-1-180x140_original.jpg',
+								img: 'cobbles-gallery-1-384x450',
+								title: 'Image #1'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/gallery-aside-3-180x140_original.jpg',
+								img: 'cobbles-gallery-2-384x290',
+								title: 'Image #2'
+							})
+
+						.col-sm-6.col-lg-4.isotope-item(data-filter='makeup')
+							+gallery-item({
+								imgOriginal: 'images/gallery-aside-4-180x140_original.jpg',
+								img: 'cobbles-gallery-3-384x450',
+								title: 'Image #3'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='makeup')
+							+gallery-item({
+								imgOriginal: 'images/gallery-aside-2-180x140_original.jpg',
+								img: 'cobbles-gallery-4-384x290',
+								title: 'Image #4'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='Hair')
+							+gallery-item({
+								imgOriginal: 'images/gallery-aside-5-180x140_original.jpg',
+								img: 'cobbles-gallery-5-384x450',
+								title: 'Image #5'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/cobbles-gallery-7-384x450_original.jpg',
+								img: 'cobbles-gallery-7-384x450',
+								title: 'Image #7'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/cobbles-gallery-9-384x450_original.jpg',
+								img: 'cobbles-gallery-9-384x450',
+								title: 'Image #9'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/cobbles-gallery-6-384x290_original.jpg',
+								img: 'cobbles-gallery-6-384x290',
+								title: 'Image #6'
+							})
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/cobbles-gallery-8-384x290_original.jpg',
+								img: 'cobbles-gallery-8-384x290',
+								title: 'Image #8'
+							})
+						
+						
+						.col-sm-6.col-lg-4.isotope-item(data-filter='manicure')
+							+gallery-item({
+								imgOriginal: 'images/cobbles-gallery-10-384x290_original.jpg',
+								img: 'cobbles-gallery-10-384x290',
+								title: 'Image #10'
+							})
+						
+
+
+
+
+
+				.col-12.text-center
+					a.button.button-primary(href='#') show more
+				
+	// Page Footer
+	include ../sections/_footer-with-map
